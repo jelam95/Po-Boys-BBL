@@ -1,0 +1,8 @@
+#Ignore secrets and sensitive files
+secrets.json
+
+#Python virtual environment and cache
+.venv/
+__pychache__/
+*.pyc
+.DS_Store

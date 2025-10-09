@@ -1,0 +1,5810 @@
+[
+  {
+    "player_id": "5352",
+    "name": "Nikola Jokić",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10094",
+    "name": "Victor Wembanyama",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5185",
+    "name": "Giannis Antetokounmpo",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6022",
+    "name": "Shai Gilgeous-Alexander",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6014",
+    "name": "Luka Dončić",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6512",
+    "name": "Cade Cunningham",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5007",
+    "name": "Anthony Davis",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5432",
+    "name": "Karl-Anthony Towns",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6355",
+    "name": "Anthony Edwards",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5473",
+    "name": "Devin Booker",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6016",
+    "name": "Trae Young",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "4563",
+    "name": "James Harden",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5642",
+    "name": "Domantas Sabonis",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "4244",
+    "name": "Kevin Durant",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5826",
+    "name": "Donovan Mitchell",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4612",
+    "name": "Stephen Curry",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6514",
+    "name": "Evan Mobley",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6413",
+    "name": "Tyrese Maxey",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10108",
+    "name": "Amen Thompson",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PG",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6044",
+    "name": "Jalen Brunson",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6702",
+    "name": "Jalen Williams",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6558",
+    "name": "Alperen Sengun",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6692",
+    "name": "Chet Holmgren",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6562",
+    "name": "Jalen Johnson",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "3704",
+    "name": "LeBron James",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6395",
+    "name": "LaMelo Ball",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6515",
+    "name": "Scottie Barnes",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PF",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5602",
+    "name": "Jaylen Brown",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6548",
+    "name": "Josh Giddey",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5658",
+    "name": "Pascal Siakam",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5638",
+    "name": "Jamal Murray",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5827",
+    "name": "Bam Adebayo",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5842",
+    "name": "Derrick White",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6550",
+    "name": "Franz Wagner",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5663",
+    "name": "Ivica Zubac",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5767",
+    "name": "De'Aaron Fox",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6422",
+    "name": "Desmond Bane",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6559",
+    "name": "Trey Murphy III",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6015",
+    "name": "Jaren Jackson Jr.",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6691",
+    "name": "Paolo Banchero",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "4896",
+    "name": "Kawhi Leonard",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6698",
+    "name": "Dyson Daniels",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PG",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6401",
+    "name": "Deni Avdija",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4912",
+    "name": "Jimmy Butler III",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6164",
+    "name": "Ja Morant",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6163",
+    "name": "Zion Williamson",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5471",
+    "name": "Myles Turner",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5464",
+    "name": "Kristaps Porziņģis",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5294",
+    "name": "Joel Embiid",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10104",
+    "name": "Brandon Miller",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6606",
+    "name": "Austin Reaves",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5769",
+    "name": "Lauri Markkanen",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10468",
+    "name": "Cooper Flagg",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6023",
+    "name": "Miles Bridges",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4897",
+    "name": "Nikola Vučević",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "4614",
+    "name": "DeMar DeRozan",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5843",
+    "name": "Josh Hart",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6703",
+    "name": "Jalen Duren",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6712",
+    "name": "Walker Kessler",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5835",
+    "name": "Jarrett Allen",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5324",
+    "name": "Zach LaVine",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6167",
+    "name": "Darius Garland",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6169",
+    "name": "Coby White",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4725",
+    "name": "Paul George",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PF",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6418",
+    "name": "Payton Pritchard",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "5836",
+    "name": "OG Anunoby",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5601",
+    "name": "Brandon Ingram",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PF",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5856",
+    "name": "Isaiah Hartenstein",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5958",
+    "name": "Deandre Ayton",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5197",
+    "name": "Rudy Gobert",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6417",
+    "name": "Immanuel Quickley",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6721",
+    "name": "Andrew Nembhard",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6216",
+    "name": "Jordan Poole",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6175",
+    "name": "Tyler Herro",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5318",
+    "name": "Julius Randle",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6025",
+    "name": "Michael Porter Jr.",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10096",
+    "name": "Ausar Thompson",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5506",
+    "name": "Norman Powell",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6035",
+    "name": "Anfernee Simons",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5009",
+    "name": "Bradley Beal",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4622",
+    "name": "Jrue Holiday",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6516",
+    "name": "Jalen Suggs",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6513",
+    "name": "Jalen Green",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5640",
+    "name": "Jakob Poeltl",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6569",
+    "name": "Cam Thomas",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6711",
+    "name": "Christian Braun",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10285",
+    "name": "Donovan Clingan",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10265",
+    "name": "Matas Buzelis",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6705",
+    "name": "Mark Williams",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6696",
+    "name": "Bennedict Mathurin",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6173",
+    "name": "Cameron Johnson",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5832",
+    "name": "John Collins",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6165",
+    "name": "RJ Barrett",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10274",
+    "name": "Kel'el Ware",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6398",
+    "name": "Onyeka Okongwu",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6697",
+    "name": "Shaedon Sharpe",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6021",
+    "name": "Mikal Bridges",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6403",
+    "name": "Devin Vassell",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6572",
+    "name": "Santi Aldama",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5433",
+    "name": "D'Angelo Russell",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "4901",
+    "name": "Tobias Harris",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6577",
+    "name": "Herbert Jones",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5292",
+    "name": "Andrew Wiggins",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6219",
+    "name": "Nic Claxton",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10294",
+    "name": "Alex Sarr",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5161",
+    "name": "CJ McCollum",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6253",
+    "name": "Naz Reid",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5069",
+    "name": "Draymond Green",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6695",
+    "name": "Jaden Ivey",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6205",
+    "name": "Nickeil Alexander-Walker",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6028",
+    "name": "Donte DiVincenzo",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5187",
+    "name": "Dennis Schröder",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10100",
+    "name": "Keyonte George",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10097",
+    "name": "Dereck Lively II",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6218",
+    "name": "Kevin Porter Jr.",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6694",
+    "name": "Keegan Murray",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6420",
+    "name": "Jaden McDaniels",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10340",
+    "name": "Jaylen Wells",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5764",
+    "name": "Lonzo Ball",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6567",
+    "name": "Quentin Grimes",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10115",
+    "name": "Brandin Podziemski",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10288",
+    "name": "Reed Sheppard",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10065",
+    "name": "Toumani Camara",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10287",
+    "name": "Zach Edey",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5295",
+    "name": "Aaron Gordon",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "4892",
+    "name": "Klay Thompson",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5824",
+    "name": "Malik Monk",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6549",
+    "name": "Jonathan Kuminga",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10107",
+    "name": "Cason Wallace",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10290",
+    "name": "Stephon Castle",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6018",
+    "name": "Wendell Carter Jr.",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "3930",
+    "name": "Chris Paul",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6699",
+    "name": "Jeremy Sochan",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6406",
+    "name": "Aaron Nesmith",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5482",
+    "name": "Bobby Portis",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6693",
+    "name": "Jabari Smith Jr.",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6551",
+    "name": "Davion Mitchell",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10272",
+    "name": "Kyshawn George",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6212",
+    "name": "Ty Jerome",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10289",
+    "name": "Yves Missi",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6707",
+    "name": "Tari Eason",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5840",
+    "name": "Kyle Kuzma",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4472",
+    "name": "Brook Lopez",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6226",
+    "name": "Daniel Gafford",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6174",
+    "name": "P.J. Washington",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10315",
+    "name": "Kyle Filipowski",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10282",
+    "name": "Isaiah Collier",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10296",
+    "name": "Zaccharie Risacher",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5582",
+    "name": "T.J. McConnell",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10048",
+    "name": "Scoot Henderson",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10462",
+    "name": "Ace Bailey",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10454",
+    "name": "VJ Edgecombe",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5660",
+    "name": "Dejounte Murray",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6617",
+    "name": "Jay Huff",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6407",
+    "name": "Cole Anthony",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10099",
+    "name": "Bilal Coulibaly",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10273",
+    "name": "Bub Carrington",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10276",
+    "name": "Jared McCain",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6580",
+    "name": "Ayo Dosunmu",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5350",
+    "name": "Jerami Grant",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4840",
+    "name": "Kyrie Irving",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10467",
+    "name": "Dylan Harper",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6757",
+    "name": "Scotty Pippen Jr.",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10118",
+    "name": "Cam Whitmore",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6019",
+    "name": "Collin Sexton",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6166",
+    "name": "De'Andre Hunter",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10110",
+    "name": "Taylor Hendricks",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10464",
+    "name": "Yang Hansen",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5484",
+    "name": "Tyus Jones",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10450",
+    "name": "Kon Knueppel",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10095",
+    "name": "Anthony Black",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6753",
+    "name": "Keon Ellis",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6619",
+    "name": "Sam Hauser",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4390",
+    "name": "Russell Westbrook",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10448",
+    "name": "Tre Johnson",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10101",
+    "name": "Gradey Dick",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5858",
+    "name": "Dillon Brooks",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5754",
+    "name": "Alex Caruso",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6254",
+    "name": "Luguentz Dort",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5357",
+    "name": "Jordan Clarkson",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6048",
+    "name": "Gary Trent Jr.",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10445",
+    "name": "Egor Dëmin",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6400",
+    "name": "Obi Toppin",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6597",
+    "name": "Aaron Wiggins",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5475",
+    "name": "Kelly Oubre Jr.",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5073",
+    "name": "Khris Middleton",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5651",
+    "name": "Caris LeVert",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6581",
+    "name": "Neemias Queta",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6720",
+    "name": "Peyton Watson",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10121",
+    "name": "Noah Clowney",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6556",
+    "name": "Moses Moody",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5637",
+    "name": "Buddy Hield",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10447",
+    "name": "Khaman Maluach",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10476",
+    "name": "Ryan Kalkbrenner",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6267",
+    "name": "Max Strus",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5905",
+    "name": "Royce O'Neale",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6210",
+    "name": "Grant Williams",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10092",
+    "name": "Jaime Jaquez Jr.",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6171",
+    "name": "Rui Hachimura",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6404",
+    "name": "Tyrese Haliburton",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5765",
+    "name": "Jayson Tatum",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5012",
+    "name": "Damian Lillard",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "5727",
+    "name": "Fred VanVleet",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "4886",
+    "name": "Jonas Valančiūnas",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5159",
+    "name": "Kentavious Caldwell-Pope",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4246",
+    "name": "Mike Conley",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "5650",
+    "name": "Malik Beasley",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5013",
+    "name": "Harrison Barnes",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6754",
+    "name": "Julian Champagnie",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5636",
+    "name": "Kris Dunn",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4245",
+    "name": "Al Horford",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6032",
+    "name": "Grayson Allen",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5643",
+    "name": "Taurean Prince",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6217",
+    "name": "Keldon Johnson",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6206",
+    "name": "Goga Bitadze",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5349",
+    "name": "Spencer Dinwiddie",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6499",
+    "name": "Naji Marshall",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5903",
+    "name": "Luke Kornet",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6441",
+    "name": "Isaiah Joe",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5747",
+    "name": "Derrick Jones Jr.",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6408",
+    "name": "Isaiah Stewart",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6073",
+    "name": "Duncan Robinson",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6155",
+    "name": "Haywood Highsmith",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6030",
+    "name": "Kevin Huerter",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6704",
+    "name": "Ochai Agbaji",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5194",
+    "name": "Tim Hardaway Jr.",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6725",
+    "name": "Max Christie",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5338",
+    "name": "Bogdan Bogdanović",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6578",
+    "name": "Miles McBride",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5693",
+    "name": "Dorian Finney-Smith",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5768",
+    "name": "Jonathan Isaac",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5681",
+    "name": "Georges Niang",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "4487",
+    "name": "Nicolas Batum",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5825",
+    "name": "Luke Kennard",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5336",
+    "name": "Clint Capela",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5647",
+    "name": "Guerschon Yabusele",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6632",
+    "name": "Justin Champagnie",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6402",
+    "name": "Jalen Smith",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6315",
+    "name": "Amir Coffey",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6552",
+    "name": "Ziaire Williams",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6452",
+    "name": "Sam Merrill",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6613",
+    "name": "Jose Alvarado",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "5476",
+    "name": "Terry Rozier",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6434",
+    "name": "Nick Richards",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6557",
+    "name": "Corey Kispert",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6433",
+    "name": "Tre Jones",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5823",
+    "name": "Zach Collins",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6563",
+    "name": "Keon Johnson",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6209",
+    "name": "Brandon Clarke",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6236",
+    "name": "Terance Mann",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10122",
+    "name": "Brice Sensabaugh",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5341",
+    "name": "Kyle Anderson",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5474",
+    "name": "Cameron Payne",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5855",
+    "name": "Thomas Bryant",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5327",
+    "name": "Jusuf Nurkić",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6410",
+    "name": "Josh Green",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6571",
+    "name": "Day'Ron Sharpe",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5490",
+    "name": "Kevon Looney",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6755",
+    "name": "AJ Green",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6412",
+    "name": "Precious Achiuwa",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5164",
+    "name": "Kelly Olynyk",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6076",
+    "name": "Kenrich Williams",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5739",
+    "name": "Gary Payton II",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5472",
+    "name": "Trey Lyles",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6256",
+    "name": "Dean Wade",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5192",
+    "name": "Mason Plumlee",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6396",
+    "name": "Patrick Williams",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6717",
+    "name": "Nikola Jović",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6724",
+    "name": "Jaylin Williams",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10077",
+    "name": "Jalen Wilson",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6170",
+    "name": "Jaxson Hayes",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6709",
+    "name": "Jake LaRavia",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6429",
+    "name": "Vít Krejčí",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5894",
+    "name": "Chris Boucher",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6269",
+    "name": "Javonte Green",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6450",
+    "name": "Paul Reed",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6766",
+    "name": "Simone Fontecchio",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6762",
+    "name": "Johnny Juzang",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10103",
+    "name": "Jarace Walker",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6224",
+    "name": "Cody Martin",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10113",
+    "name": "Ben Sheppard",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6582",
+    "name": "Jared Butler",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10291",
+    "name": "Dalton Knecht",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6397",
+    "name": "Isaac Okoro",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6574",
+    "name": "Jeremiah Robinson-Earl",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10080",
+    "name": "Trayce Jackson-Davis",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10292",
+    "name": "Ryan Dunn",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10330",
+    "name": "Jonathan Mogbo",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10112",
+    "name": "Julian Strawther",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6733",
+    "name": "Moussa Diabaté",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10275",
+    "name": "Tristan da Silva",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6053",
+    "name": "Bruce Brown",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10114",
+    "name": "Marcus Sasser",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10098",
+    "name": "Jordan Hawkins",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5600",
+    "name": "Ben Simmons",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "C",
+      "PG"
+    ]
+  },
+  {
+    "player_id": "4893",
+    "name": "Alec Burks",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6353",
+    "name": "Gabe Vincent",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5245",
+    "name": "Seth Curry",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10335",
+    "name": "Adem Bona",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6588",
+    "name": "Dalano Banton",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10333",
+    "name": "Jamal Shead",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6747",
+    "name": "Jabari Walker",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6109",
+    "name": "Drew Eubanks",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6596",
+    "name": "Sandro Mamukelashvili",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6255",
+    "name": "John Konchar",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6036",
+    "name": "Moritz Wagner",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6742",
+    "name": "Karlo Matković",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5015",
+    "name": "Andre Drummond",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "4469",
+    "name": "Eric Gordon",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6034",
+    "name": "Aaron Holiday",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6275",
+    "name": "Caleb Martin",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6259",
+    "name": "Garrison Mathews",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10083",
+    "name": "Julian Phillips",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4152",
+    "name": "Kyle Lowry",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "5487",
+    "name": "Larry Nance Jr.",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6734",
+    "name": "Ryan Rollins",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10263",
+    "name": "Ronald Holland II",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6593",
+    "name": "Brandon Boston",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6031",
+    "name": "Josh Okogie",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6741",
+    "name": "Tyrese Martin",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PG",
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10310",
+    "name": "Justin Edwards",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6208",
+    "name": "Matisse Thybulle",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10391",
+    "name": "Jamison Battle",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10125",
+    "name": "Ricky Council IV",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10278",
+    "name": "Ja'Kobe Walter",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5497",
+    "name": "Richaun Holmes",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6708",
+    "name": "Dalen Terry",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10120",
+    "name": "Nick Smith Jr.",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6616",
+    "name": "Jordan Goodwin",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6444",
+    "name": "KJ Martin",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6604",
+    "name": "Trendon Watford",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10164",
+    "name": "Duop Reath",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5667",
+    "name": "Malcolm Brogdon",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6234",
+    "name": "Talen Horton-Tucker",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5501",
+    "name": "Pat Connaughton",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10308",
+    "name": "Quinten Post",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10313",
+    "name": "Oso Ighodaro",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6232",
+    "name": "Bol Bol",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10069",
+    "name": "Mouhamed Gueye",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6722",
+    "name": "Caleb Houstan",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6276",
+    "name": "DaQuan Jeffries",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5317",
+    "name": "Marcus Smart",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6017",
+    "name": "Mo Bamba",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10082",
+    "name": "Andre Jackson Jr.",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6414",
+    "name": "Zeke Nnaji",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6687",
+    "name": "Lindy Waters III",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6065",
+    "name": "Shake Milton",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6586",
+    "name": "Kessler Edwards",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5330",
+    "name": "Gary Harris",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5480",
+    "name": "Delon Wright",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6037",
+    "name": "Landry Shamet",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5356",
+    "name": "Dwight Powell",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6636",
+    "name": "Jeff Dowtin Jr.",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6561",
+    "name": "Kai Jones",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6737",
+    "name": "Vince Williams Jr.",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6802",
+    "name": "Orlando Robinson",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6463",
+    "name": "Jae'Sean Tate",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6038",
+    "name": "Robert Williams III",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6052",
+    "name": "Jarred Vanderbilt",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10078",
+    "name": "Tristan Vukcevic",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6745",
+    "name": "Gui Santos",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10119",
+    "name": "Kris Murray",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6614",
+    "name": "Jock Landale",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5864",
+    "name": "Monté Morris",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6751",
+    "name": "Collin Gillespie",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6029",
+    "name": "Lonnie Walker IV",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6727",
+    "name": "Jaden Hardy",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4906",
+    "name": "Reggie Jackson",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6595",
+    "name": "Charles Bassey",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10145",
+    "name": "Craig Porter Jr.",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6047",
+    "name": "Mitchell Robinson",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6058",
+    "name": "Svi Mykhailiuk",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4247",
+    "name": "Jeff Green",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6679",
+    "name": "Brandon Williams",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6600",
+    "name": "Jericho Sims",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10295",
+    "name": "Tidjane Salaün",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "4911",
+    "name": "Cory Joseph",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6655",
+    "name": "Micah Potter",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10074",
+    "name": "Jalen Pickett",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5893",
+    "name": "Torrey Craig",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4391",
+    "name": "Kevin Love",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6710",
+    "name": "Malaki Branham",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10304",
+    "name": "Ajay Mitchell",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10086",
+    "name": "Jaylen Clark",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4497",
+    "name": "DeAndre Jordan",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10338",
+    "name": "Antonio Reeves",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4888",
+    "name": "Bismack Biyombo",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5316",
+    "name": "Danté Exum",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10199",
+    "name": "Tosan Evbuomwan",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6713",
+    "name": "David Roddy",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10312",
+    "name": "Pelle Larsson",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6560",
+    "name": "Tre Mann",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10053",
+    "name": "Keaton Wallace",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5959",
+    "name": "Marvin Bagley III",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6043",
+    "name": "Jevon Carter",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6500",
+    "name": "Trevelin Queen",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5892",
+    "name": "Maxi Kleber",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10323",
+    "name": "KJ Simpson",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6133",
+    "name": "Jordan McLaughlin",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6715",
+    "name": "Blake Wesley",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10087",
+    "name": "Colby Jones",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10070",
+    "name": "GG Jackson",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6791",
+    "name": "Dominick Barlow",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6568",
+    "name": "Bones Hyland",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6735",
+    "name": "Josh Minott",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6701",
+    "name": "Ousmane Dieng",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6716",
+    "name": "Wendell Moore Jr.",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6570",
+    "name": "Jaden Springer",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5363",
+    "name": "Vasilije Micić",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6801",
+    "name": "Jamal Cain",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6057",
+    "name": "De'Anthony Melton",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6411",
+    "name": "Saddiq Bey",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6776",
+    "name": "Quenton Jackson",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5156",
+    "name": "Alex Len",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5163",
+    "name": "Steven Adams",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5323",
+    "name": "Dario Šarić",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5322",
+    "name": "Doug McDermott",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6652",
+    "name": "Dru Smith",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10342",
+    "name": "Branden Carlson",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10305",
+    "name": "Johnny Furphy",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6564",
+    "name": "Isaiah Jackson",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10116",
+    "name": "Olivier-Maxence Prosper",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6603",
+    "name": "A.J. Lawson",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6723",
+    "name": "Christian Koloko",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10106",
+    "name": "Jett Howard",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10283",
+    "name": "Cody Williams",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10127",
+    "name": "Oscar Tshiebwe",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "4631",
+    "name": "Taj Gibson",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10279",
+    "name": "Jaylon Tyson",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5321",
+    "name": "Elfrid Payton",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "4660",
+    "name": "Patty Mills",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10332",
+    "name": "Reece Beekman",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6803",
+    "name": "Jared Rhoden",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6399",
+    "name": "Killian Hayes",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6427",
+    "name": "Xavier Tillman",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5500",
+    "name": "Josh Richardson",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5763",
+    "name": "Markelle Fultz",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10147",
+    "name": "Colin Castleton",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10277",
+    "name": "Baylor Scheierman",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10300",
+    "name": "AJ Johnson",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10064",
+    "name": "Rayan Rupert",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10327",
+    "name": "Cam Spencer",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10409",
+    "name": "Keion Brooks Jr.",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6579",
+    "name": "JT Thor",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10084",
+    "name": "Jordan Miller",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10413",
+    "name": "Alex Reese",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5822",
+    "name": "Dennis Smith Jr.",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6459",
+    "name": "Lamar Stevens",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10281",
+    "name": "Rob Dillingham",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10117",
+    "name": "Kobe Brown",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10284",
+    "name": "Dillon Jones",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4682",
+    "name": "Garrett Temple",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10067",
+    "name": "Hunter Tyson",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5393",
+    "name": "Joe Ingles",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5068",
+    "name": "Jae Crowder",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6204",
+    "name": "Chuma Okeke",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10280",
+    "name": "Terrence Shannon Jr.",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10075",
+    "name": "Jordan Walsh",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6471",
+    "name": "Anthony Gill",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10220",
+    "name": "Trey Jemison III",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10079",
+    "name": "Maxwell Lewis",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6718",
+    "name": "Patrick Baldwin Jr.",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6772",
+    "name": "Pat Spencer",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6356",
+    "name": "James Wiseman",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10314",
+    "name": "Tyler Kolek",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10293",
+    "name": "Devin Carter",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10341",
+    "name": "Isaac Jones",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6020",
+    "name": "Kevin Knox II",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6594",
+    "name": "Luka Garza",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6714",
+    "name": "MarJon Beauchamp",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10213",
+    "name": "Damion Baugh",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6289",
+    "name": "Moses Brown",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10111",
+    "name": "Dariq Whitehead",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10134",
+    "name": "Jaylen Martin",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10109",
+    "name": "Jalen Hood-Schifino",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6750",
+    "name": "Lester Quinones",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10206",
+    "name": "Drew Peterson",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "5841",
+    "name": "Tony Bradley",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10262",
+    "name": "Tyler Smith",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5733",
+    "name": "Damion Lee",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6730",
+    "name": "Bryce McGowens",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6782",
+    "name": "Stanley Umude",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10141",
+    "name": "Drew Timme",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "4163",
+    "name": "P.J. Tucker",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10343",
+    "name": "Alex Ducas",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10311",
+    "name": "Keshad Johnson",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "4894",
+    "name": "Markieff Morris",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10317",
+    "name": "Ariel Hukporti",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10416",
+    "name": "RayJ Dennis",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6806",
+    "name": "Nate Williams",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10339",
+    "name": "Bronny James",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6654",
+    "name": "Matt Ryan",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10423",
+    "name": "Elijah Harkless",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10328",
+    "name": "N'Faly Dante",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10329",
+    "name": "PJ Hall",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10061",
+    "name": "Justin Minaya",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10168",
+    "name": "Pete Nance",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10393",
+    "name": "Spencer Jones",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10244",
+    "name": "Adam Flagler",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10105",
+    "name": "Kobe Bufkin",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6786",
+    "name": "Daeqwon Plowden",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10050",
+    "name": "Leonard Miller",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5862",
+    "name": "Vlatko Čančar",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10088",
+    "name": "Chris Livingston",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6731",
+    "name": "E.J. Liddell",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10129",
+    "name": "Jacob Toppin",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10415",
+    "name": "Yuki Kawamura",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6240",
+    "name": "Jalen McDaniels",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6785",
+    "name": "Tyson Etienne",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10324",
+    "name": "Enrique Freeman",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10066",
+    "name": "Emoni Bates",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6566",
+    "name": "Josh Christopher",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10297",
+    "name": "Pacôme Dadiet",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10331",
+    "name": "Bobi Klintman",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6453",
+    "name": "Mason Jones",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6584",
+    "name": "Isaiah Livers",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6743",
+    "name": "JD Davison",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10358",
+    "name": "Jackson Rowe",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6800",
+    "name": "Jamaree Bouyea",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10336",
+    "name": "Harrison Ingram",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4884",
+    "name": "Tristan Thompson",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10337",
+    "name": "Cam Christie",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6821",
+    "name": "Ibou Badji",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6326",
+    "name": "Marques Bolden",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6624",
+    "name": "David Duke Jr.",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10410",
+    "name": "Emanuel Miller",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10402",
+    "name": "Jahmir Young",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10303",
+    "name": "Kevin McCullar Jr.",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10397",
+    "name": "Nae'Qwan Tomlin",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6719",
+    "name": "TyTy Washington Jr.",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10385",
+    "name": "Trey Alexander",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10148",
+    "name": "Miles Norris",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6783",
+    "name": "Jules Bernard",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10320",
+    "name": "Isaiah Crawford",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10051",
+    "name": "Sidy Cissoko",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6673",
+    "name": "Olivier Sarr",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10389",
+    "name": "Jack McVeigh",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "5362",
+    "name": "Thanasis Antetokounmpo",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10223",
+    "name": "Jazian Gortman",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6575",
+    "name": "Jason Preston",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6773",
+    "name": "Mouhamadou Gueye",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10418",
+    "name": "Tolu Smith",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "5659",
+    "name": "Skal Labissière",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "C",
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6749",
+    "name": "Alondes Williams",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6746",
+    "name": "Luke Travers",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "4621",
+    "name": "James Johnson",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10321",
+    "name": "Anton Watson",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10395",
+    "name": "Trentyn Flowers",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10089",
+    "name": "Jalen Slawson",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10383",
+    "name": "Isaiah Stevens",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6761",
+    "name": "Ron Harper Jr.",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10325",
+    "name": "Ulrich Chomche",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10155",
+    "name": "Dexter Dennis",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10387",
+    "name": "Jesse Edwards",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "6767",
+    "name": "Kevon Harris",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6628",
+    "name": "Mac McClung",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PG",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10367",
+    "name": "Riley Minix",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10456",
+    "name": "Danny Wolf",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10486",
+    "name": "Chaz Lanier",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10441",
+    "name": "Yanic Konan Niederhäuser",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10210",
+    "name": "Charles Bediako",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10421",
+    "name": "Miller Kopp",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10301",
+    "name": "Nikola Topić",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10520",
+    "name": "RJ Davis",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10461",
+    "name": "Walter Clayton Jr.",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10541",
+    "name": "Fanbo Zeng",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10526",
+    "name": "Norchad Omier",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10507",
+    "name": "Eric Dixon",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10480",
+    "name": "Rocco Zikarsky",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10494",
+    "name": "Javon Small",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10466",
+    "name": "Carter Bryant",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10511",
+    "name": "Ryan Nembhard",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10539",
+    "name": "Christian Shumate",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10513",
+    "name": "Cameron Matthews",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10225",
+    "name": "Taevion Kinsey",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10495",
+    "name": "Rasheer Fleming",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10286",
+    "name": "DaRon Holmes II",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10546",
+    "name": "Saint Thomas",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10400",
+    "name": "Gabe McGlothan",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10479",
+    "name": "Noah Penda",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10530",
+    "name": "Keshon Gilbert",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6637",
+    "name": "Ethan Thompson",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10531",
+    "name": "Jonathan Pierre",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10509",
+    "name": "Tamar Bates",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10442",
+    "name": "Noa Essengue",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10542",
+    "name": "Dawson Garcia",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10474",
+    "name": "Johni Broome",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10455",
+    "name": "Nolan Traore",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10491",
+    "name": "Jahmai Mashack",
+    "nba_team": "HOU",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10475",
+    "name": "Koby Brea",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10525",
+    "name": "Matthew Cleveland",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10392",
+    "name": "Tristan Enaruna",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10527",
+    "name": "Chaney Johnson",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10444",
+    "name": "Derik Queen",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10449",
+    "name": "Will Riley",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10510",
+    "name": "Dylan Cardwell",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10460",
+    "name": "Joan Beringer",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10538",
+    "name": "Zack Austin",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10485",
+    "name": "Will Richard",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10532",
+    "name": "John Poulakidas",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10505",
+    "name": "Vladislav Goldin",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10503",
+    "name": "RJ Luis Jr.",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10478",
+    "name": "Brooks Barnhizer",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10458",
+    "name": "Ben Saraf",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10515",
+    "name": "Curtis Jones",
+    "nba_team": "DEN",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10492",
+    "name": "Taelon Peter",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10471",
+    "name": "Mohamed Diawara",
+    "nba_team": "NYK",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10493",
+    "name": "John Tonje",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10537",
+    "name": "Igor Milicic Jr.",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10440",
+    "name": "Jeremiah Fears",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10533",
+    "name": "Jahmyl Telfort",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10463",
+    "name": "Thomas Sorber",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10508",
+    "name": "Caleb Love",
+    "nba_team": "POR",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10516",
+    "name": "Chris Mañon",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10457",
+    "name": "Drake Powell",
+    "nba_team": "BKN",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10544",
+    "name": "LJ Cryer",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10518",
+    "name": "Augustas Marciulionis",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6590",
+    "name": "Sharife Cooper",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10524",
+    "name": "Moussa Cisse",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10504",
+    "name": "Miles Kelly",
+    "nba_team": "DAL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10470",
+    "name": "Kobe Sanders",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10472",
+    "name": "Tyrese Proctor",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10322",
+    "name": "Nikola Đurišić",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10453",
+    "name": "Jase Richardson",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10512",
+    "name": "CJ Huntley",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10501",
+    "name": "Hunter Dickinson",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10435",
+    "name": "Taran Armstrong",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10488",
+    "name": "Adou Thiero",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10543",
+    "name": "Brice Williams",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10483",
+    "name": "Max Shulga",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "5908",
+    "name": "Nigel Hayes-Davis",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10452",
+    "name": "Kasparas Jakučionis",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10169",
+    "name": "Alex Morales",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6660",
+    "name": "Malcolm Hill",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10528",
+    "name": "Lawson Lovering",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10535",
+    "name": "Steven Crowl",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10484",
+    "name": "Alex Toohey",
+    "nba_team": "GSW",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10473",
+    "name": "Amari Williams",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10412",
+    "name": "Cormac Ryan",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6732",
+    "name": "Trevor Keels",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10506",
+    "name": "Chucky Hepburn",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10459",
+    "name": "Hugo González",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10529",
+    "name": "Tyler Burton",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10547",
+    "name": "Johnell Davis",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10499",
+    "name": "Hunter Sallis",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10451",
+    "name": "Asa Newell",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10536",
+    "name": "Chris Youngblood",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10465",
+    "name": "Cedric Coward",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10489",
+    "name": "Jamir Watkins",
+    "nba_team": "WAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10490",
+    "name": "Alijah Martin",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10545",
+    "name": "Dain Dainja",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10498",
+    "name": "Sion James",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10522",
+    "name": "Garrison Brooks",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10502",
+    "name": "Eli John Ndiaye",
+    "nba_team": "ATL",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6061",
+    "name": "Alize Johnson",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10469",
+    "name": "Nique Clifford",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10519",
+    "name": "Arthur Kaluma",
+    "nba_team": "LAL",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10446",
+    "name": "Liam McNeeley",
+    "nba_team": "CHA",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10443",
+    "name": "Collin Murray-Boyles",
+    "nba_team": "TOR",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10523",
+    "name": "Tyrese Samuel",
+    "nba_team": "PHX",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10497",
+    "name": "Micah Peavy",
+    "nba_team": "NOP",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10487",
+    "name": "Kam Jones",
+    "nba_team": "IND",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10500",
+    "name": "Mark Sears",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10496",
+    "name": "Maxime Raynaud",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "C"
+    ]
+  },
+  {
+    "player_id": "10517",
+    "name": "Myron Gardner",
+    "nba_team": "MIA",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10477",
+    "name": "Bogoljub Marković",
+    "nba_team": "MIL",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "10372",
+    "name": "David Jones Garcia",
+    "nba_team": "SAS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10540",
+    "name": "Matthew Murrell",
+    "nba_team": "UTA",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10482",
+    "name": "Lachlan Olbrich",
+    "nba_team": "CHI",
+    "eligible_positions": [
+      "PF"
+    ]
+  },
+  {
+    "player_id": "6728",
+    "name": "Kennedy Chandler",
+    "nba_team": "PHI",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10481",
+    "name": "Saliou Niang",
+    "nba_team": "CLE",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6738",
+    "name": "Kendall Brown",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "6661",
+    "name": "Jalen Crutcher",
+    "nba_team": "ORL",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "10073",
+    "name": "Seth Lundy",
+    "nba_team": "LAC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10318",
+    "name": "Tristen Newton",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "PG"
+    ]
+  },
+  {
+    "player_id": "6280",
+    "name": "Terence Davis",
+    "nba_team": "SAC",
+    "eligible_positions": [
+      "SF",
+      "SG"
+    ]
+  },
+  {
+    "player_id": "10344",
+    "name": "Zyon Pullin",
+    "nba_team": "MIN",
+    "eligible_positions": [
+      "SG"
+    ]
+  },
+  {
+    "player_id": "6686",
+    "name": "Braxton Key",
+    "nba_team": "MEM",
+    "eligible_positions": [
+      "PF",
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10309",
+    "name": "Jalen Bridges",
+    "nba_team": "BOS",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10411",
+    "name": "Malevy Leons",
+    "nba_team": "OKC",
+    "eligible_positions": [
+      "SF"
+    ]
+  },
+  {
+    "player_id": "10316",
+    "name": "Daniss Jenkins",
+    "nba_team": "DET",
+    "eligible_positions": [
+      "PG"
+    ]
+  }
+]
