@@ -6,3 +6,4 @@ secrets.json
 __pychache__/
 *.pyc
 .DS_Store
+./obsidian
