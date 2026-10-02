@@ -1,10 +1,1 @@
-#Ignore secrets and sensitive files
-secrets.json
-scripts/yahoo_auth_bootstrap.py
 
-#Python virtual environment and cache
-.venv/
-__pychache__/
-*.pyc
-.DS_Store
-.obsidian/
