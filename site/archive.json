@@ -3591,7 +3591,7 @@
    ]
   }
  },
- "imported_at": "2026-10-09T23:29:38Z",
+ "imported_at": "2026-10-09T23:35:30Z",
  "keepers": [
   {
    "cost": 34,
@@ -13315,7 +13315,7 @@
   }
  ],
  "suggestions": {
-  "form_url": null,
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLScDpOysIZSiWoAjpDcOfp_qQypsdL8twks5Z1MyXiPANxxncA/viewform",
   "intro": "Have an idea for a rule change before the 2026-27 season? Send it to the commissioner. Suggestions are private and reviewed before the season.",
   "season": "2026-27",
   "title": "Suggest a rule change"
