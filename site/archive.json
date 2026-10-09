@@ -1,7 +1,9 @@
 {
  "drafts": [
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-001",
    "kept": false,
    "nba_team": "BKN",
@@ -21,7 +23,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-002",
    "kept": false,
    "nba_team": "LAL",
@@ -42,7 +46,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-003",
    "kept": false,
    "nba_team": "MIA",
@@ -63,7 +69,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-004",
    "kept": false,
    "nba_team": "MIN",
@@ -84,7 +92,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-005",
    "kept": false,
    "nba_team": "PHX",
@@ -105,7 +115,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-006",
    "kept": false,
    "nba_team": "WAS",
@@ -126,7 +138,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-007",
    "kept": false,
    "nba_team": "NOP",
@@ -147,7 +161,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-008",
    "kept": false,
    "nba_team": "GSW",
@@ -167,7 +183,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-009",
    "kept": false,
    "nba_team": "PHI",
@@ -187,7 +205,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-010",
    "kept": false,
    "nba_team": "DAL",
@@ -209,7 +229,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-011",
    "kept": false,
    "nba_team": "WAS",
@@ -229,7 +251,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-012",
    "kept": false,
    "nba_team": "UTA",
@@ -250,7 +274,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-013",
    "kept": false,
    "nba_team": "LAL",
@@ -272,7 +298,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-014",
    "kept": false,
    "nba_team": "TOR",
@@ -294,7 +322,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-015",
    "kept": false,
    "nba_team": "IND",
@@ -315,7 +345,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-016",
    "kept": false,
    "nba_team": "CLE",
@@ -336,7 +368,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-017",
    "kept": false,
    "nba_team": "PHI",
@@ -358,7 +392,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-018",
    "kept": false,
    "nba_team": "POR",
@@ -378,7 +414,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-019",
    "kept": false,
    "nba_team": "PHI",
@@ -398,7 +436,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-020",
    "kept": false,
    "nba_team": "NYK",
@@ -419,7 +459,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-021",
    "kept": false,
    "nba_team": "PHI",
@@ -440,7 +482,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-022",
    "kept": false,
    "nba_team": "SAS",
@@ -460,7 +504,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-023",
    "kept": false,
    "nba_team": "MIN",
@@ -480,7 +526,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-024",
    "kept": false,
    "nba_team": "OKC",
@@ -500,7 +548,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-025",
    "kept": false,
    "nba_team": "SAS",
@@ -521,7 +571,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-026",
    "kept": false,
    "nba_team": "POR",
@@ -542,7 +594,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-027",
    "kept": false,
    "nba_team": "POR",
@@ -564,7 +618,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-028",
    "kept": false,
    "nba_team": "ORL",
@@ -585,7 +641,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-029",
    "kept": false,
    "nba_team": "SAC",
@@ -606,7 +664,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-030",
    "kept": false,
    "nba_team": "MIA",
@@ -627,7 +687,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-031",
    "kept": false,
    "nba_team": "ORL",
@@ -648,7 +710,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-032",
    "kept": false,
    "nba_team": "MIL",
@@ -668,7 +732,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-033",
    "kept": false,
    "nba_team": "ORL",
@@ -688,7 +754,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-034",
    "kept": false,
    "nba_team": "CLE",
@@ -708,7 +776,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-035",
    "kept": false,
    "nba_team": "GSW",
@@ -729,7 +799,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-036",
    "kept": false,
    "nba_team": "TOR",
@@ -751,7 +823,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-037",
    "kept": false,
    "nba_team": "UTA",
@@ -772,7 +846,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-038",
    "kept": false,
    "nba_team": "CHA",
@@ -793,7 +869,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-039",
    "kept": false,
    "nba_team": "POR",
@@ -813,7 +891,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-040",
    "kept": false,
    "nba_team": "LAC",
@@ -835,7 +915,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-041",
    "kept": false,
    "nba_team": "UTA",
@@ -856,7 +938,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-042",
    "kept": false,
    "nba_team": "PHX",
@@ -876,7 +960,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-043",
    "kept": false,
    "nba_team": "DEN",
@@ -897,7 +983,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-044",
    "kept": false,
    "nba_team": "WAS",
@@ -917,7 +1005,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-045",
    "kept": false,
    "nba_team": "TOR",
@@ -938,7 +1028,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-046",
    "kept": false,
    "nba_team": "DET",
@@ -958,7 +1050,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-047",
    "kept": false,
    "nba_team": "CHA",
@@ -979,7 +1073,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-048",
    "kept": false,
    "nba_team": "LAL",
@@ -999,7 +1095,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-049",
    "kept": false,
    "nba_team": "MIN",
@@ -1019,7 +1117,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-050",
    "kept": false,
    "nba_team": "DAL",
@@ -1039,7 +1139,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-051",
    "kept": false,
    "nba_team": "BKN",
@@ -1060,7 +1162,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-052",
    "kept": false,
    "nba_team": "MIL",
@@ -1081,7 +1185,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-053",
    "kept": false,
    "nba_team": "DET",
@@ -1103,7 +1209,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-054",
    "kept": false,
    "nba_team": "LAC",
@@ -1123,7 +1231,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-055",
    "kept": false,
    "nba_team": "MIL",
@@ -1144,7 +1254,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-056",
    "kept": false,
    "nba_team": "NYK",
@@ -1165,7 +1277,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-057",
    "kept": false,
    "nba_team": "NYK",
@@ -1186,7 +1300,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-058",
    "kept": false,
    "nba_team": "BOS",
@@ -1207,7 +1323,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-059",
    "kept": false,
    "nba_team": "DEN",
@@ -1229,7 +1347,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-060",
    "kept": false,
    "nba_team": "LAC",
@@ -1250,7 +1370,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-061",
    "kept": false,
    "nba_team": "TOR",
@@ -1270,7 +1392,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-062",
    "kept": false,
    "nba_team": "DEN",
@@ -1291,7 +1415,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-063",
    "kept": false,
    "nba_team": "DAL",
@@ -1311,7 +1437,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-064",
    "kept": false,
    "nba_team": "IND",
@@ -1332,7 +1460,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-065",
    "kept": false,
    "nba_team": "BOS",
@@ -1353,7 +1483,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-066",
    "kept": false,
    "nba_team": "CHI",
@@ -1374,7 +1506,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-067",
    "kept": false,
    "nba_team": "PHX",
@@ -1394,7 +1528,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-068",
    "kept": false,
    "nba_team": "NOP",
@@ -1415,7 +1551,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-069",
    "kept": false,
    "nba_team": "PHX",
@@ -1436,7 +1574,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-070",
    "kept": false,
    "nba_team": "DET",
@@ -1457,7 +1597,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-071",
    "kept": false,
    "nba_team": "NYK",
@@ -1478,7 +1620,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-072",
    "kept": false,
    "nba_team": "MEM",
@@ -1499,7 +1643,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-073",
    "kept": false,
    "nba_team": "WAS",
@@ -1519,7 +1665,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-074",
    "kept": false,
    "nba_team": "MIN",
@@ -1539,7 +1687,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-075",
    "kept": false,
    "nba_team": "CHI",
@@ -1560,7 +1710,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-076",
    "kept": false,
    "nba_team": "ATL",
@@ -1581,7 +1733,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-077",
    "kept": false,
    "nba_team": "PHI",
@@ -1602,7 +1756,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-078",
    "kept": false,
    "nba_team": "SAS",
@@ -1623,7 +1779,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-079",
    "kept": false,
    "nba_team": "DAL",
@@ -1643,7 +1801,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-080",
    "kept": false,
    "nba_team": "GSW",
@@ -1664,7 +1824,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-081",
    "kept": false,
    "nba_team": "MIA",
@@ -1686,7 +1848,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-082",
    "kept": false,
    "nba_team": "MIL",
@@ -1706,7 +1870,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-083",
    "kept": false,
    "nba_team": "ORL",
@@ -1727,7 +1893,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-084",
    "kept": false,
    "nba_team": "HOU",
@@ -1748,7 +1916,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-085",
    "kept": false,
    "nba_team": "HOU",
@@ -1770,7 +1940,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-086",
    "kept": false,
    "nba_team": "OKC",
@@ -1792,7 +1964,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-087",
    "kept": false,
    "nba_team": "SAC",
@@ -1813,7 +1987,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-088",
    "kept": false,
    "nba_team": "ATL",
@@ -1833,7 +2009,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-089",
    "kept": false,
    "nba_team": "SAS",
@@ -1854,7 +2032,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-090",
    "kept": false,
    "nba_team": "MIL",
@@ -1875,7 +2055,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-091",
    "kept": false,
    "nba_team": "MEM",
@@ -1895,7 +2077,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-092",
    "kept": false,
    "nba_team": "SAS",
@@ -1915,7 +2099,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-093",
    "kept": false,
    "nba_team": "TOR",
@@ -1937,7 +2123,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-094",
    "kept": false,
    "nba_team": "POR",
@@ -1958,7 +2146,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-095",
    "kept": false,
    "nba_team": "CHI",
@@ -1978,7 +2168,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-096",
    "kept": false,
    "nba_team": "NOP",
@@ -1999,7 +2191,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-097",
    "kept": false,
    "nba_team": "BOS",
@@ -2019,7 +2213,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-098",
    "kept": false,
    "nba_team": "UTA",
@@ -2040,7 +2236,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-099",
    "kept": false,
    "nba_team": "BKN",
@@ -2061,7 +2259,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-100",
    "kept": false,
    "nba_team": "CLE",
@@ -2082,7 +2282,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-101",
    "kept": false,
    "nba_team": "MIA",
@@ -2103,7 +2305,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-102",
    "kept": false,
    "nba_team": "POR",
@@ -2124,7 +2328,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-103",
    "kept": false,
    "nba_team": "MIA",
@@ -2145,7 +2351,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-104",
    "kept": false,
    "nba_team": "MIN",
@@ -2166,7 +2374,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-105",
    "kept": false,
    "nba_team": "DEN",
@@ -2187,7 +2397,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-106",
    "kept": false,
    "nba_team": "WAS",
@@ -2209,7 +2421,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-107",
    "kept": false,
    "nba_team": "ATL",
@@ -2230,7 +2444,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-108",
    "kept": false,
    "nba_team": "CHA",
@@ -2251,7 +2467,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-109",
    "kept": false,
    "nba_team": "CHA",
@@ -2272,7 +2490,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-110",
    "kept": false,
    "nba_team": "BOS",
@@ -2293,7 +2513,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-111",
    "kept": false,
    "nba_team": "LAL",
@@ -2314,7 +2536,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-112",
    "kept": false,
    "nba_team": "WAS",
@@ -2335,7 +2559,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-113",
    "kept": false,
    "nba_team": "HOU",
@@ -2356,7 +2582,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-114",
    "kept": false,
    "nba_team": "MEM",
@@ -2377,7 +2605,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-115",
    "kept": false,
    "nba_team": "GSW",
@@ -2398,7 +2628,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-116",
    "kept": false,
    "nba_team": "DEN",
@@ -2418,7 +2650,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-117",
    "kept": false,
    "nba_team": "DAL",
@@ -2439,7 +2673,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-118",
    "kept": false,
    "nba_team": "IND",
@@ -2460,7 +2696,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-119",
    "kept": false,
    "nba_team": "DAL",
@@ -2481,7 +2719,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-120",
    "kept": false,
    "nba_team": "UTA",
@@ -2502,7 +2742,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-121",
    "kept": false,
    "nba_team": "PHI",
@@ -2523,7 +2765,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-122",
    "kept": false,
    "nba_team": "MIN",
@@ -2544,7 +2788,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-123",
    "kept": false,
    "nba_team": "BOS",
@@ -2564,7 +2810,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-124",
    "kept": false,
    "nba_team": "OKC",
@@ -2585,7 +2833,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-125",
    "kept": false,
    "nba_team": "OKC",
@@ -2606,7 +2856,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "First time keeper fee",
+   "fee_key": "first",
+   "fee_short": "1st-year",
+   "fee_type": "1st-year keeper: +$5 or 10%",
    "id": "d-2025-26-126",
    "kept": false,
    "nba_team": "SAS",
@@ -2626,7 +2878,9 @@
    "team": "Bayonne Dealers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-127",
    "kept": false,
    "nba_team": "MIN",
@@ -2647,7 +2901,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Drafted for Sub $10 fee",
+   "fee_key": "under10",
+   "fee_short": "Under $10",
+   "fee_type": "Under $10: raised to $10, +$5",
    "id": "d-2025-26-128",
    "kept": false,
    "nba_team": "SAC",
@@ -2668,7 +2924,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-129",
    "kept": true,
    "nba_team": "CHA",
@@ -2689,7 +2947,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-130",
    "kept": true,
    "nba_team": "DEN",
@@ -2709,7 +2969,9 @@
    "team": "Bubba Gump Schrempf Co."
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-131",
    "kept": true,
    "nba_team": "IND",
@@ -2729,7 +2991,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-132",
    "kept": true,
    "nba_team": "HOU",
@@ -2750,7 +3014,9 @@
    "team": "Vlade’s Dance"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-133",
    "kept": true,
    "nba_team": "GSW",
@@ -2770,7 +3036,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-134",
    "kept": true,
    "nba_team": "DEN",
@@ -2790,7 +3058,9 @@
    "team": "Vegas Mirotićs"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-135",
    "kept": true,
    "nba_team": "BOS",
@@ -2811,7 +3081,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-136",
    "kept": true,
    "nba_team": "CHI",
@@ -2832,7 +3104,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-137",
    "kept": true,
    "nba_team": "DET",
@@ -2853,7 +3127,9 @@
    "team": "San Q'tin Stallions"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-138",
    "kept": true,
    "nba_team": "SAC",
@@ -2874,7 +3150,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-139",
    "kept": true,
    "nba_team": "NOP",
@@ -2895,7 +3173,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "Can't Be Kept (CBK)",
+   "fee_key": "cbk",
+   "fee_short": "Can't keep",
+   "fee_type": "Can't be kept",
    "id": "d-2025-26-140",
    "kept": true,
    "nba_team": "NYK",
@@ -2915,7 +3195,9 @@
    "team": "Rockaway Rangers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-141",
    "kept": true,
    "nba_team": "POR",
@@ -2935,7 +3217,9 @@
    "team": "Jesus Shuttlesworth"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-142",
    "kept": true,
    "nba_team": "ATL",
@@ -2956,7 +3240,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "Can't Be Kept (CBK)",
+   "fee_key": "cbk",
+   "fee_short": "Can't keep",
+   "fee_type": "Can't be kept",
    "id": "d-2025-26-143",
    "kept": true,
    "nba_team": "OKC",
@@ -2977,7 +3263,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-144",
    "kept": true,
    "nba_team": "CLE",
@@ -2998,7 +3286,9 @@
    "team": "Jersey City Jreamers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-145",
    "kept": true,
    "nba_team": "POR",
@@ -3019,7 +3309,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-146",
    "kept": true,
    "nba_team": "NOP",
@@ -3040,7 +3332,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-147",
    "kept": true,
    "nba_team": "OKC",
@@ -3061,7 +3355,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Can't Be Kept (CBK)",
+   "fee_key": "cbk",
+   "fee_short": "Can't keep",
+   "fee_type": "Can't be kept",
    "id": "d-2025-26-148",
    "kept": true,
    "nba_team": "HOU",
@@ -3082,7 +3378,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-149",
    "kept": true,
    "nba_team": "HOU",
@@ -3104,7 +3402,9 @@
    "team": "Paulus Hookers"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-150",
    "kept": true,
    "nba_team": "ATL",
@@ -3125,7 +3425,9 @@
    "team": "Kings Park Blogsmen"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-151",
    "kept": true,
    "nba_team": "BOS",
@@ -3145,7 +3447,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-152",
    "kept": true,
    "nba_team": "SAC",
@@ -3167,7 +3471,9 @@
    "team": "Branchburg Bedwetters"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-153",
    "kept": true,
    "nba_team": "ORL",
@@ -3187,7 +3493,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-154",
    "kept": true,
    "nba_team": "CLE",
@@ -3208,7 +3516,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "Can't Be Kept (CBK)",
+   "fee_key": "cbk",
+   "fee_short": "Can't keep",
+   "fee_type": "Can't be kept",
    "id": "d-2025-26-155",
    "kept": true,
    "nba_team": "OKC",
@@ -3228,7 +3538,9 @@
    "team": "Alec's Team"
   },
   {
-   "fee_type": "Consecutive Year Keeper Fee",
+   "fee_key": "repeat",
+   "fee_short": "Repeat",
+   "fee_type": "Repeat keeper: +$7 or 10%",
    "id": "d-2025-26-156",
    "kept": true,
    "nba_team": "SAS",
@@ -3252,14 +3564,34 @@
   "2025-26": {
    "applies_to": "2026-27",
    "labels": [
-    "Can't Be Kept (CBK)",
-    "Consecutive Year Keeper Fee",
-    "Drafted for Sub $10 fee",
-    "First time keeper fee"
+    {
+     "key": "cbk",
+     "label": "Can't be kept",
+     "short": "Can't keep",
+     "source": "Can't Be Kept (CBK)"
+    },
+    {
+     "key": "repeat",
+     "label": "Repeat keeper: +$7 or 10%",
+     "short": "Repeat",
+     "source": "Consecutive Year Keeper Fee"
+    },
+    {
+     "key": "under10",
+     "label": "Under $10: raised to $10, +$5",
+     "short": "Under $10",
+     "source": "Drafted for Sub $10 fee"
+    },
+    {
+     "key": "first",
+     "label": "1st-year keeper: +$5 or 10%",
+     "short": "1st-year",
+     "source": "First time keeper fee"
+    }
    ]
   }
  },
- "imported_at": "2026-10-09T22:46:21Z",
+ "imported_at": "2026-10-09T23:13:25Z",
  "keepers": [
   {
    "cost": 34,
@@ -10175,6 +10507,9 @@
     {
      "draft_pick": 73,
      "drafted_by": "Alec's Team",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 16,
      "keeper_price_display": "$16",
      "keeper_price_note": null,
@@ -10186,6 +10521,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10197,6 +10535,9 @@
     {
      "draft_pick": 78,
      "drafted_by": "Alec's Team",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 17,
      "keeper_price_display": "$17",
      "keeper_price_note": null,
@@ -10208,6 +10549,9 @@
     {
      "draft_pick": 39,
      "drafted_by": "Alec's Team",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 16,
      "keeper_price_display": "$16",
      "keeper_price_note": null,
@@ -10219,6 +10563,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10230,6 +10577,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10241,6 +10591,9 @@
     {
      "draft_pick": 61,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10252,6 +10605,9 @@
     {
      "draft_pick": 107,
      "drafted_by": "Alec's Team",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10263,6 +10619,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10274,6 +10633,9 @@
     {
      "draft_pick": 153,
      "drafted_by": "Alec's Team",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 33,
      "keeper_price_display": "$33",
      "keeper_price_note": null,
@@ -10285,6 +10647,9 @@
     {
      "draft_pick": 15,
      "drafted_by": "Alec's Team",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 30,
      "keeper_price_display": "$30",
      "keeper_price_note": null,
@@ -10296,6 +10661,9 @@
     {
      "draft_pick": 155,
      "drafted_by": "Alec's Team",
+     "fee_key": "cbk",
+     "fee_short": "Can't keep",
+     "fee_type": "Can't be kept",
      "keeper_price": null,
      "keeper_price_display": "CBK",
      "keeper_price_note": "Can't Be Kept",
@@ -10307,6 +10675,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10318,6 +10689,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10329,6 +10703,9 @@
     {
      "draft_pick": 64,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 19,
      "keeper_price_display": "$19",
      "keeper_price_note": null,
@@ -10340,6 +10717,9 @@
     {
      "draft_pick": 59,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 18,
      "keeper_price_display": "$18",
      "keeper_price_note": null,
@@ -10351,6 +10731,9 @@
     {
      "draft_pick": 16,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 40,
      "keeper_price_display": "$40",
      "keeper_price_note": null,
@@ -10362,6 +10745,9 @@
     {
      "draft_pick": 96,
      "drafted_by": "Alec's Team",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10373,6 +10759,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10384,6 +10773,9 @@
     {
      "draft_pick": 36,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -10395,6 +10787,9 @@
     {
      "draft_pick": 106,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10406,6 +10801,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10417,6 +10815,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10428,6 +10829,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10439,6 +10843,9 @@
     {
      "draft_pick": 26,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 19,
      "keeper_price_display": "$19",
      "keeper_price_note": null,
@@ -10450,6 +10857,9 @@
     {
      "draft_pick": 9,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 40,
      "keeper_price_display": "$40",
      "keeper_price_note": null,
@@ -10461,6 +10871,9 @@
     {
      "draft_pick": 156,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 64,
      "keeper_price_display": "$64",
      "keeper_price_note": null,
@@ -10472,6 +10885,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10483,6 +10899,9 @@
     {
      "draft_pick": 76,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10494,6 +10913,9 @@
     {
      "draft_pick": 10,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 36,
      "keeper_price_display": "$36",
      "keeper_price_note": null,
@@ -10505,6 +10927,9 @@
     {
      "draft_pick": 43,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 21,
      "keeper_price_display": "$21",
      "keeper_price_note": null,
@@ -10516,6 +10941,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10527,6 +10955,9 @@
     {
      "draft_pick": 34,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 20,
      "keeper_price_display": "$20",
      "keeper_price_note": null,
@@ -10538,6 +10969,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10549,6 +10983,9 @@
     {
      "draft_pick": 79,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10560,6 +10997,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10571,6 +11011,9 @@
     {
      "draft_pick": 151,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -10582,6 +11025,9 @@
     {
      "draft_pick": 8,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 46,
      "keeper_price_display": "$46",
      "keeper_price_note": null,
@@ -10593,6 +11039,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10604,6 +11053,9 @@
     {
      "draft_pick": 11,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 35,
      "keeper_price_display": "$35",
      "keeper_price_note": null,
@@ -10615,6 +11067,9 @@
     {
      "draft_pick": 55,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -10626,6 +11081,9 @@
     {
      "draft_pick": 91,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10637,6 +11095,9 @@
     {
      "draft_pick": 105,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10648,6 +11109,9 @@
     {
      "draft_pick": 118,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10659,6 +11123,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10670,6 +11137,9 @@
     {
      "draft_pick": 44,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 18,
      "keeper_price_display": "$18",
      "keeper_price_note": null,
@@ -10681,6 +11151,9 @@
     {
      "draft_pick": 113,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10692,6 +11165,9 @@
     {
      "draft_pick": 130,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 35,
      "keeper_price_display": "$35",
      "keeper_price_note": null,
@@ -10703,6 +11179,9 @@
     {
      "draft_pick": 17,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 33,
      "keeper_price_display": "$33",
      "keeper_price_note": null,
@@ -10714,6 +11193,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10725,6 +11207,9 @@
     {
      "draft_pick": 98,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10736,6 +11221,9 @@
     {
      "draft_pick": 41,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 26,
      "keeper_price_display": "$26",
      "keeper_price_note": null,
@@ -10747,6 +11235,9 @@
     {
      "draft_pick": 129,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 23,
      "keeper_price_display": "$23",
      "keeper_price_note": null,
@@ -10758,6 +11249,9 @@
     {
      "draft_pick": 89,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10769,6 +11263,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10780,6 +11277,9 @@
     {
      "draft_pick": 81,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10791,6 +11291,9 @@
     {
      "draft_pick": 38,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 23,
      "keeper_price_display": "$23",
      "keeper_price_note": null,
@@ -10802,6 +11305,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10813,6 +11319,9 @@
     {
      "draft_pick": 154,
      "drafted_by": "Alec's Team",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 41,
      "keeper_price_display": "$41",
      "keeper_price_note": null,
@@ -10824,6 +11333,9 @@
     {
      "draft_pick": 143,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "cbk",
+     "fee_short": "Can't keep",
+     "fee_type": "Can't be kept",
      "keeper_price": null,
      "keeper_price_display": "CBK",
      "keeper_price_note": "Can't Be Kept",
@@ -10835,6 +11347,9 @@
     {
      "draft_pick": 144,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 38,
      "keeper_price_display": "$38",
      "keeper_price_note": null,
@@ -10846,6 +11361,9 @@
     {
      "draft_pick": 19,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 29,
      "keeper_price_display": "$29",
      "keeper_price_note": null,
@@ -10857,6 +11375,9 @@
     {
      "draft_pick": 2,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 59,
      "keeper_price_display": "$59",
      "keeper_price_note": null,
@@ -10868,6 +11389,9 @@
     {
      "draft_pick": 87,
      "drafted_by": "Alec's Team",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10879,6 +11403,9 @@
     {
      "draft_pick": 123,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10890,6 +11417,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10901,6 +11431,9 @@
     {
      "draft_pick": 85,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -10912,6 +11445,9 @@
     {
      "draft_pick": 7,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 24,
      "keeper_price_display": "$24",
      "keeper_price_note": null,
@@ -10923,6 +11459,9 @@
     {
      "draft_pick": 115,
      "drafted_by": "Alec's Team",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10934,6 +11473,9 @@
     {
      "draft_pick": 40,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 19,
      "keeper_price_display": "$19",
      "keeper_price_note": null,
@@ -10945,6 +11487,9 @@
     {
      "draft_pick": 111,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10956,6 +11501,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -10967,6 +11515,9 @@
     {
      "draft_pick": 31,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 30,
      "keeper_price_display": "$30",
      "keeper_price_note": null,
@@ -10978,6 +11529,9 @@
     {
      "draft_pick": 141,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 29,
      "keeper_price_display": "$29",
      "keeper_price_note": null,
@@ -10989,6 +11543,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11000,6 +11557,9 @@
     {
      "draft_pick": 20,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 38,
      "keeper_price_display": "$38",
      "keeper_price_note": null,
@@ -11011,6 +11571,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11022,6 +11585,9 @@
     {
      "draft_pick": 23,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 37,
      "keeper_price_display": "$37",
      "keeper_price_note": null,
@@ -11033,6 +11599,9 @@
     {
      "draft_pick": 88,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 18,
      "keeper_price_display": "$18",
      "keeper_price_note": null,
@@ -11044,6 +11613,9 @@
     {
      "draft_pick": 58,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11055,6 +11627,9 @@
     {
      "draft_pick": 93,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 16,
      "keeper_price_display": "$16",
      "keeper_price_note": null,
@@ -11066,6 +11641,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11077,6 +11655,9 @@
     {
      "draft_pick": 121,
      "drafted_by": "Jesus Shuttlesworth",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 16,
      "keeper_price_display": "$16",
      "keeper_price_note": null,
@@ -11088,6 +11669,9 @@
     {
      "draft_pick": 53,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11099,6 +11683,9 @@
     {
      "draft_pick": 86,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11110,6 +11697,9 @@
     {
      "draft_pick": 104,
      "drafted_by": "Bayonne Dealers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11121,6 +11711,9 @@
     {
      "draft_pick": 142,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11132,6 +11725,9 @@
     {
      "draft_pick": 24,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11143,6 +11739,9 @@
     {
      "draft_pick": 140,
      "drafted_by": "Rockaway Rangers",
+     "fee_key": "cbk",
+     "fee_short": "Can't keep",
+     "fee_type": "Can't be kept",
      "keeper_price": null,
      "keeper_price_display": "CBK",
      "keeper_price_note": "Can't Be Kept",
@@ -11154,6 +11753,9 @@
     {
      "draft_pick": 150,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 29,
      "keeper_price_display": "$29",
      "keeper_price_note": null,
@@ -11165,6 +11767,9 @@
     {
      "draft_pick": 71,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 19,
      "keeper_price_display": "$19",
      "keeper_price_note": null,
@@ -11176,6 +11781,9 @@
     {
      "draft_pick": 1,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11187,6 +11795,9 @@
     {
      "draft_pick": 51,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 18,
      "keeper_price_display": "$18",
      "keeper_price_note": null,
@@ -11198,6 +11809,9 @@
     {
      "draft_pick": 84,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 26,
      "keeper_price_display": "$26",
      "keeper_price_note": null,
@@ -11209,6 +11823,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11220,6 +11837,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11231,6 +11851,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11242,6 +11865,9 @@
     {
      "draft_pick": 48,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 20,
      "keeper_price_display": "$20",
      "keeper_price_note": null,
@@ -11253,6 +11879,9 @@
     {
      "draft_pick": 148,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "cbk",
+     "fee_short": "Can't keep",
+     "fee_type": "Can't be kept",
      "keeper_price": null,
      "keeper_price_display": "CBK",
      "keeper_price_note": "Can't Be Kept",
@@ -11264,6 +11893,9 @@
     {
      "draft_pick": 4,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 46,
      "keeper_price_display": "$46",
      "keeper_price_note": null,
@@ -11275,6 +11907,9 @@
     {
      "draft_pick": 68,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 17,
      "keeper_price_display": "$17",
      "keeper_price_note": null,
@@ -11286,6 +11921,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11297,6 +11935,9 @@
     {
      "draft_pick": 147,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 43,
      "keeper_price_display": "$43",
      "keeper_price_note": null,
@@ -11308,6 +11949,9 @@
     {
      "draft_pick": 47,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11319,6 +11963,9 @@
     {
      "draft_pick": 83,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11330,6 +11977,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11341,6 +11991,9 @@
     {
      "draft_pick": 149,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 48,
      "keeper_price_display": "$48",
      "keeper_price_note": null,
@@ -11352,6 +12005,9 @@
     {
      "draft_pick": 32,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 26,
      "keeper_price_display": "$26",
      "keeper_price_note": null,
@@ -11363,6 +12019,9 @@
     {
      "draft_pick": 117,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11374,6 +12033,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11385,6 +12047,9 @@
     {
      "draft_pick": 145,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11396,6 +12061,9 @@
     {
      "draft_pick": 92,
      "drafted_by": "Rockaway Rangers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11407,6 +12075,9 @@
     {
      "draft_pick": 146,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 27,
      "keeper_price_display": "$27",
      "keeper_price_note": null,
@@ -11418,6 +12089,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11429,6 +12103,9 @@
     {
      "draft_pick": 122,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11440,6 +12117,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11451,6 +12131,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11462,6 +12145,9 @@
     {
      "draft_pick": 27,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 24,
      "keeper_price_display": "$24",
      "keeper_price_note": null,
@@ -11473,6 +12159,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11484,6 +12173,9 @@
     {
      "draft_pick": 29,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 34,
      "keeper_price_display": "$34",
      "keeper_price_note": null,
@@ -11495,6 +12187,9 @@
     {
      "draft_pick": 80,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11506,6 +12201,9 @@
     {
      "draft_pick": 120,
      "drafted_by": "Rockaway Rangers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11517,6 +12215,9 @@
     {
      "draft_pick": 69,
      "drafted_by": "Rockaway Rangers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 19,
      "keeper_price_display": "$19",
      "keeper_price_note": null,
@@ -11528,6 +12229,9 @@
     {
      "draft_pick": 12,
      "drafted_by": "Rockaway Rangers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 35,
      "keeper_price_display": "$35",
      "keeper_price_note": null,
@@ -11539,6 +12243,9 @@
     {
      "draft_pick": 108,
      "drafted_by": "Rockaway Rangers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11550,6 +12257,9 @@
     {
      "draft_pick": 133,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11561,6 +12271,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11572,6 +12285,9 @@
     {
      "draft_pick": 66,
      "drafted_by": "Rockaway Rangers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11583,6 +12299,9 @@
     {
      "draft_pick": 13,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11594,6 +12313,9 @@
     {
      "draft_pick": 137,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 32,
      "keeper_price_display": "$32",
      "keeper_price_note": null,
@@ -11605,6 +12327,9 @@
     {
      "draft_pick": 22,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11616,6 +12341,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11627,6 +12355,9 @@
     {
      "draft_pick": 46,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 20,
      "keeper_price_display": "$20",
      "keeper_price_note": null,
@@ -11638,6 +12369,9 @@
     {
      "draft_pick": 65,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11649,6 +12383,9 @@
     {
      "draft_pick": 35,
      "drafted_by": "Branchburg Bedwetters",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 26,
      "keeper_price_display": "$26",
      "keeper_price_note": null,
@@ -11660,6 +12397,9 @@
     {
      "draft_pick": 136,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11671,6 +12411,9 @@
     {
      "draft_pick": 94,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11682,6 +12425,9 @@
     {
      "draft_pick": 82,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11693,6 +12439,9 @@
     {
      "draft_pick": 56,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 18,
      "keeper_price_display": "$18",
      "keeper_price_note": null,
@@ -11704,6 +12453,9 @@
     {
      "draft_pick": 42,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 17,
      "keeper_price_display": "$17",
      "keeper_price_note": null,
@@ -11715,6 +12467,9 @@
     {
      "draft_pick": 33,
      "drafted_by": "Jersey City Jreamers",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 24,
      "keeper_price_display": "$24",
      "keeper_price_note": null,
@@ -11726,6 +12481,9 @@
     {
      "draft_pick": 57,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 23,
      "keeper_price_display": "$23",
      "keeper_price_note": null,
@@ -11737,6 +12495,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11748,6 +12509,9 @@
     {
      "draft_pick": 37,
      "drafted_by": "Kings Park Blogsmen",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11759,6 +12523,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11770,6 +12537,9 @@
     {
      "draft_pick": 54,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 24,
      "keeper_price_display": "$24",
      "keeper_price_note": null,
@@ -11781,6 +12551,9 @@
     {
      "draft_pick": 45,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 16,
      "keeper_price_display": "$16",
      "keeper_price_note": null,
@@ -11792,6 +12565,9 @@
     {
      "draft_pick": 70,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 20,
      "keeper_price_display": "$20",
      "keeper_price_note": null,
@@ -11803,6 +12579,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11814,6 +12593,9 @@
     {
      "draft_pick": 21,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11825,6 +12607,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11836,6 +12621,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11847,6 +12635,9 @@
     {
      "draft_pick": 95,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11858,6 +12649,9 @@
     {
      "draft_pick": 134,
      "drafted_by": "Vegas Mirotićs",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 69,
      "keeper_price_display": "$69",
      "keeper_price_note": null,
@@ -11869,6 +12663,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11880,6 +12677,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11891,6 +12691,9 @@
     {
      "draft_pick": 132,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -11902,6 +12705,9 @@
     {
      "draft_pick": 30,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 27,
      "keeper_price_display": "$27",
      "keeper_price_note": null,
@@ -11913,6 +12719,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11924,6 +12733,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11935,6 +12747,9 @@
     {
      "draft_pick": 135,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 29,
      "keeper_price_display": "$29",
      "keeper_price_note": null,
@@ -11946,6 +12761,9 @@
     {
      "draft_pick": 28,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 27,
      "keeper_price_display": "$27",
      "keeper_price_note": null,
@@ -11957,6 +12775,9 @@
     {
      "draft_pick": 5,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 40,
      "keeper_price_display": "$40",
      "keeper_price_note": null,
@@ -11968,6 +12789,9 @@
     {
      "draft_pick": 3,
      "drafted_by": "San Q'tin Stallions",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 53,
      "keeper_price_display": "$53",
      "keeper_price_note": null,
@@ -11979,6 +12803,9 @@
     {
      "draft_pick": null,
      "drafted_by": null,
+     "fee_key": "undrafted",
+     "fee_short": "Undrafted",
+     "fee_type": "Undrafted: $10 + $5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -11990,6 +12817,9 @@
     {
      "draft_pick": 131,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "repeat",
+     "fee_short": "Repeat",
+     "fee_type": "Repeat keeper: +$7 or 10%",
      "keeper_price": 22,
      "keeper_price_display": "$22",
      "keeper_price_note": null,
@@ -12001,6 +12831,9 @@
     {
      "draft_pick": 74,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -12012,6 +12845,9 @@
     {
      "draft_pick": 90,
      "drafted_by": "Paulus Hookers",
+     "fee_key": "under10",
+     "fee_short": "Under $10",
+     "fee_type": "Under $10: raised to $10, +$5",
      "keeper_price": 15,
      "keeper_price_display": "$15",
      "keeper_price_note": null,
@@ -12023,6 +12859,9 @@
     {
      "draft_pick": 75,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 18,
      "keeper_price_display": "$18",
      "keeper_price_note": null,
@@ -12034,6 +12873,9 @@
     {
      "draft_pick": 14,
      "drafted_by": "Vlade’s Dance",
+     "fee_key": "first",
+     "fee_short": "1st-year",
+     "fee_type": "1st-year keeper: +$5 or 10%",
      "keeper_price": 29,
      "keeper_price_display": "$29",
      "keeper_price_note": null,

@@ -356,7 +356,21 @@ def read_fee_legend(sheet, config, stats, report):
                 stats.workbook, stats.sheet, coordinate))
         legend[rgb] = label
     legend.update(config.get("extra_fills", {}))
+    display = config.get("display")
+    if display is not None:
+        unmapped = sorted(set(legend.values()) - set(display))
+        if unmapped:
+            raise ImportError_("%s / %s: fee labels %s have no entry in fee_type.display" % (
+                stats.workbook, stats.sheet, unmapped))
     return legend
+
+
+def fee_display(config, source_label):
+    """(key, label, short) shown on the site for a legend label from the sheet."""
+    entry = (config.get("display") or {}).get(source_label)
+    if entry is None:
+        return None, source_label, source_label
+    return entry["key"], entry["label"], entry.get("short", entry["label"])
 
 
 def read_draft_sheet(sheet, config, stats, players, report):
@@ -436,8 +450,11 @@ def read_draft_sheet(sheet, config, stats, players, report):
                 record[field + suffix] = money.get(field + suffix)
         if fee_cfg:
             rgb = sheet.fill(row, cols[fee_cfg["column"]])
-            record["fee_type"] = legend.get(rgb) if rgb else None
-            if record["fee_type"] is None:
+            source_label = legend.get(rgb) if rgb else None
+            record["_fee_source"] = source_label
+            record["fee_key"], record["fee_type"], record["fee_short"] = (
+                fee_display(fee_cfg, source_label) if source_label else (None, None, None))
+            if source_label is None:
                 report.warn("%s: %s has no recognised keeper-fee colour." % (where, name))
         records.append(record)
         stats.imported += 1
@@ -667,7 +684,8 @@ def price_roster(snap, cfg, drafts, report):
             d = found[0]
             e.update({"keeper_price": d.get("next_price"), "keeper_price_display": d.get("next_price_display"),
                       "keeper_price_note": d.get("next_price_note"), "price_basis": "drafted",
-                      "drafted_by": d["team"], "draft_pick": d["pick"]})
+                      "drafted_by": d["team"], "draft_pick": d["pick"],
+                      "fee_key": d.get("fee_key"), "fee_type": d.get("fee_type"), "fee_short": d.get("fee_short")})
             if d.get("next_price_display") is None:
                 report.warn("Roster %s: %s was drafted in %s but has no recorded keeper price." % (
                     snap["season"], e["source_name"], season))
@@ -675,10 +693,13 @@ def price_roster(snap, cfg, drafts, report):
             amount = undrafted["amount"]
             amount = int(amount) if float(amount).is_integer() else amount
             e.update({"keeper_price": amount, "keeper_price_display": "$%s" % amount,
-                      "keeper_price_note": None, "price_basis": "undrafted", "drafted_by": None, "draft_pick": None})
+                      "keeper_price_note": None, "price_basis": "undrafted", "drafted_by": None, "draft_pick": None,
+                      "fee_key": undrafted.get("fee_key"), "fee_type": undrafted.get("fee_label"),
+                      "fee_short": undrafted.get("fee_short")})
         else:
             e.update({"keeper_price": None, "keeper_price_display": None, "keeper_price_note": None,
-                      "price_basis": None, "drafted_by": None, "draft_pick": None})
+                      "price_basis": None, "drafted_by": None, "draft_pick": None,
+                      "fee_key": None, "fee_type": None, "fee_short": None})
 
 
 def check_accuracy(drafts, cfg, report):
@@ -693,14 +714,14 @@ def check_accuracy(drafts, cfg, report):
     for d in drafts:
         if d["season"] != season:
             continue
-        label = d.get("fee_type")
+        label = d.get("fee_key")
         if label in skip:
-            result["skipped"].append((d["pick"], d["source_name"], d.get("salary_display"), d.get("next_price_display"), label))
+            result["skipped"].append((d["pick"], d["source_name"], d.get("salary_display"), d.get("next_price_display"), d.get("fee_type")))
             continue
         rule = rules.get(label)
         if rule is None or d.get("salary") is None or d.get("next_price") is None:
             result["not_checked"].append((d["pick"], d["source_name"], d.get("salary_display"),
-                                          d.get("next_price_display"), label or "no fee colour"))
+                                          d.get("next_price_display"), d.get("_fee_source") or "no fee colour"))
             continue
         result["checked"] += 1
         price = d["salary"]
@@ -723,7 +744,7 @@ def check_accuracy(drafts, cfg, report):
             if not band_ok:
                 why = "fee colour does not fit a $%s draft price; %s" % (price, why)
             result["mismatches"].append((d["pick"], d["source_name"], d["salary_display"], d["next_price_display"],
-                                         label, why))
+                                         d.get("_fee_source") or label, why))
     return result
 
 
@@ -1041,7 +1062,9 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
                 if cfg.get("fee_type"):
                     fee_types[normalize_season(cfg["season"])] = {
                         "applies_to": normalize_season(cfg["fee_type"]["season"]),
-                        "labels": sorted(set(read_fee_legend(sheet, cfg["fee_type"], stats, report).values())),
+                        "labels": [dict(zip(("key", "label", "short", "source"),
+                                            fee_display(cfg["fee_type"], label) + (label,)))
+                                   for label in sorted(set(read_fee_legend(sheet, cfg["fee_type"], stats, report).values()))],
                     }
             elif kind == "draft_prices":
                 pending_prices.append((sheet, cfg, stats))

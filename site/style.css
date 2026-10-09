@@ -1,4 +1,9 @@
 :root {
+  /* Fee colours follow the league spreadsheet: cyan, yellow, green, red. */
+  --fee-first-bg: #d3f1f6; --fee-first-text: #0a4a56;
+  --fee-repeat-bg: #fff0b3; --fee-repeat-text: #5a4300;
+  --fee-under10-bg: #dbeed2; --fee-under10-text: #23501a;
+  --fee-cbk-bg: #fddcd9; --fee-cbk-text: #8a1c14;
   --bg: #f6f4ef;
   --surface: #ffffff;
   --text: #1d1f24;
@@ -19,6 +24,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --fee-first-bg: #0e3a42; --fee-first-text: #9fe6f0;
+    --fee-repeat-bg: #3d3210; --fee-repeat-text: #f6dd8a;
+    --fee-under10-bg: #1e3a18; --fee-under10-text: #b5e3a1;
+    --fee-cbk-bg: #4a1a18; --fee-cbk-text: #f7b4ae;
     --bg: #15161a;
     --surface: #1f2026;
     --text: #ecebe6;
@@ -267,6 +276,29 @@ ul.plain li { padding: 2px 0; }
 .card table { font-size: 0.92rem; }
 .card th, .card td { padding: 5px 4px; }
 .roster-note { color: var(--muted); font-size: 0.85rem; white-space: normal; }
+.roster-note .moved { display: block; margin-top: 2px; }
+
+/* Fee badges */
+.fee {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+td.col-fee { white-space: normal; min-width: 9.5em; }
+/* Long headings wrap so wide tables fit; the sort arrow stays with its word. */
+th { white-space: normal; vertical-align: bottom; }
+th button.sort { white-space: normal; text-align: inherit; }
+td.col-fee .fee { white-space: normal; border-radius: 8px; }
+.fee-first { background: var(--fee-first-bg); color: var(--fee-first-text); }
+.fee-repeat { background: var(--fee-repeat-bg); color: var(--fee-repeat-text); }
+.fee-under10, .fee-undrafted { background: var(--fee-under10-bg); color: var(--fee-under10-text); }
+.fee-undrafted { border-style: dashed; border-color: var(--fee-under10-text); }
+.fee-cbk { background: var(--fee-cbk-bg); color: var(--fee-cbk-text); }
 .card td.left:first-child { width: 55%; }
 
 .back { display: inline-block; margin-bottom: 8px; }

@@ -21,7 +21,7 @@
           },
           "player_name_format": "name_nba_team_positions",
           "fee_type": {
-            "_comment": "Owner, 2026-10-09: the salary cell colour shows each player's keeper fee type for the coming 2026-27 season. Labels come from the legend cells in the sheet; red has no legend cell and was confirmed by the owner as CBK.",
+            "_comment": "Owner, 2026-10-09: the salary cell colour shows each player's keeper fee type for the coming 2026-27 season. Labels come from the legend cells in the sheet; red has no legend cell and was confirmed by the owner as CBK. `display` maps each legend label to the wording and colour key shown on the site (owner approved 2026-10-09); the workbook is unchanged.",
             "season": "2026-27",
             "column": "next_price",
             "legend_cells": [
@@ -31,6 +31,28 @@
             ],
             "extra_fills": {
               "FFFF0000": "Can't Be Kept (CBK)"
+            },
+            "display": {
+              "First time keeper fee": {
+                "key": "first",
+                "label": "1st-year keeper: +$5 or 10%",
+                "short": "1st-year"
+              },
+              "Consecutive Year Keeper Fee": {
+                "key": "repeat",
+                "label": "Repeat keeper: +$7 or 10%",
+                "short": "Repeat"
+              },
+              "Drafted for Sub $10 fee": {
+                "key": "under10",
+                "label": "Under $10: raised to $10, +$5",
+                "short": "Under $10"
+              },
+              "Can't Be Kept (CBK)": {
+                "key": "cbk",
+                "label": "Can't be kept",
+                "short": "Can't keep"
+              }
             }
           },
           "ignore_cells": [
@@ -72,7 +94,10 @@
           "keeper_prices_from_draft": "2025-26",
           "undrafted_price": {
             "amount": 15,
-            "basis": "Rule 1.c rounds undrafted players up to $10, plus the $5 first-time keeper fee (owner's rule, 2026-10-09)."
+            "basis": "Rule 1.c rounds undrafted players up to $10, plus the $5 first-time keeper fee (owner's rule, 2026-10-09).",
+            "fee_key": "undrafted",
+            "fee_label": "Undrafted: $10 + $5",
+            "fee_short": "Undrafted"
           },
           "_comment": "Owner, 2026-10-09: active rosters heading into the 2026-27 draft (rosters frozen at the end of 2025-26). Snapshot dated the day the workbook was saved, confirmed by the owner. Each player shows his recorded 2026-27 keeper price from the 2025-26 draft sheet; undrafted players get the owner's $15 rule."
         }
@@ -133,25 +158,25 @@
     }
   },
   "accuracy_check": {
-    "_comment": "Report-only check of the recorded 2026-27 keeper prices (Rules 1.b and 1.c). Fees are whole dollars: 10% is rounded to the nearest dollar, with 50 cents rounding up (owner, 2026-10-09; e.g. $55 -> $5.50 -> $6). Not published.",
+    "_comment": "Report-only check of the recorded 2026-27 keeper prices (Rules 1.b and 1.c). Fees are whole dollars: 10% is rounded to the nearest dollar, with 50 cents rounding up (owner, 2026-10-09; e.g. $55 -> $5.50 -> $6). Not published. Rules are keyed by the fee colour key from fee_type.display.",
     "season": "2025-26",
     "skip": [
-      "Can't Be Kept (CBK)"
+      "cbk"
     ],
     "rules": {
-      "First time keeper fee": {
+      "first": {
         "salary_at_least": 10,
         "min_price": 10,
         "pct": 10,
         "min_fee": 5
       },
-      "Drafted for Sub $10 fee": {
+      "under10": {
         "salary_below": 10,
         "min_price": 10,
         "pct": 10,
         "min_fee": 5
       },
-      "Consecutive Year Keeper Fee": {
+      "repeat": {
         "min_price": 10,
         "pct": 10,
         "min_fee": 7

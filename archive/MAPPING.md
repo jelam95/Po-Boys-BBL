@@ -36,7 +36,7 @@ Matching order: (1) Yahoo player id from the cell's hyperlink; (2) an explicit a
 | `team` | `Team`, kept exactly as written (for example `Vlade’s Dance` with a curly apostrophe) |
 | `salary`, `salary_display`, `salary_note` | The draft price, from `Accuracy.xlsx` `Salary`. A row is attached by season and pick, and must link to the same Yahoo player; otherwise it is rejected. A conflicting price is also rejected. Numbers are whole dollars, with `$0` kept as 0; a blank cell becomes null and is shown as "—". |
 | `next_price`, `next_price_display`, `next_price_note` | The draft sheet's `Salary`: the owner's pre-adjusted 2026-27 keeper price. `CBK` gives `next_price: null`, `next_price_display: "CBK"` and `next_price_note: "Can't Be Kept"`. |
-| `fee_type` | Fill colour of the draft sheet's Salary cell, looked up in the legend cells: F2 yellow = "Consecutive Year Keeper Fee", F3 cyan = "First time keeper fee", F4 green = "Drafted for Sub $10 fee". Red has no legend cell; the owner confirmed it means CBK, so it is labelled "Can't Be Kept (CBK)". The owner said these colours show what each player would cost for the coming 2026-27 season (`fee_types["2025-26"].applies_to`). The label is published as recorded, and no price is calculated. |
+| `fee_key`, `fee_type`, `fee_short` | Fill colour of the draft sheet's Salary cell, looked up in the legend cells (F2 yellow "Consecutive Year Keeper Fee", F3 cyan "First time keeper fee", F4 green "Drafted for Sub $10 fee"; red has no legend cell and the owner confirmed it means CBK). The owner said the colour shows which fee applies for 2026-27 (`fee_types["2025-26"].applies_to`). `fee_type.display` in the manifest maps each legend label to the wording and colour key shown on the site (owner approved 2026-10-09): `first` "1st-year keeper: +$5 or 10%", `repeat` "Repeat keeper: +$7 or 10%", `under10` "Under $10: raised to $10, +$5", `cbk` "Can't be kept". `fee_short` is the compact roster-card version. If a legend label has no display entry, the import stops. The site colours follow the spreadsheet (cyan, yellow, green, red). No price is calculated. |
 | `kept` | `true` when the Keepers sheet has the same player in the same season |
 
 ## Keeper record (`keepers`)
@@ -56,11 +56,11 @@ Matching order: (1) Yahoo player id from the cell's hyperlink; (2) an explicit a
 Each entry is `{team, player_id, source_name, keeper_price, keeper_price_display, keeper_price_note, price_basis, drafted_by, draft_pick}`:
 
 - **Drafted in `price_from_draft` (2025-26):** the price is that draft record's recorded 2026-27 keeper price (`price_basis: "drafted"`). `drafted_by` shows the drafting team, which can differ from the current roster team.
-- **Not drafted:** the price is the manifest's `undrafted_price` ($15) with its stated basis (`price_basis: "undrafted"`). This is the owner's rule from 2026-10-09: Rule 1.c rounds undrafted players up to $10, plus the $5 first-time fee. The importer does not derive it.
+- **Not drafted:** the price is the manifest's `undrafted_price` ($15) with its stated basis (`price_basis: "undrafted"`, `fee_key: "undrafted"`, shown as a green dashed "Undrafted" badge). This is the owner's rule from 2026-10-09: Rule 1.c rounds undrafted players up to $10, plus the $5 first-time fee. The importer does not derive it.
 
 ## Accuracy check (report only)
 
-`accuracy_check` in the manifest lists, for each fee-colour label, the price band and fee rule from Rules 1.b and 1.c:
+`accuracy_check` in the manifest lists, for each fee colour key, the price band and fee rule from Rules 1.b and 1.c:
 
 - **First time keeper fee:** draft price $10 or more; plus the larger of 10% or $5.
 - **Drafted for Sub $10 fee:** draft price under $10, raised to $10; plus $5.

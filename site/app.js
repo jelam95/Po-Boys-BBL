@@ -221,6 +221,12 @@ function moneyCell(amount, display, note) {
   };
 }
 
+// Colour-coded fee badge; colours match the league spreadsheet (see style.css .fee-*).
+function feeBadge(key, label) {
+  if (!label) return null;
+  return h("span", { class: "fee" + (key ? " fee-" + key : "") }, label);
+}
+
 function nextSeason(season) {
   const ft = (state.data.fee_types || {})[season];
   return ft && ft.applies_to ? ft.applies_to : null;
@@ -245,7 +251,7 @@ function draftView() {
     columns(season) {
       const ft = feeTypes[season];
       const next = season !== "all" && ft && ft.applies_to ? ft.applies_to : null;
-      const feeLabel = next ? `Keeper fee type (${next})` : "Next-season fee type";
+      const feeLabel = next ? `${next} fee` : "Next-season fee";
       const priceLabel = next ? `Keeper price (${next})` : "Next-season keeper price";
       return [
         { key: "season", label: "Season", type: "num", value: (r) => seasonYear(r.season), render: (r, td) => textOrDash(td, r.season) },
@@ -257,7 +263,8 @@ function draftView() {
         { key: "next", label: priceLabel, type: "num", cls: "num", value: (r) => r.next_price,
           render: moneyCell((r) => r.next_price, (r) => r.next_price_display, (r) => r.next_price_note) },
         { key: "nba", label: "NBA team/pos (workbook)", type: "text", cls: "left col-nba", value: nbaText, render: (r, td) => textOrDash(td, nbaText(r)) },
-        { key: "fee", label: feeLabel, type: "text", cls: "left", value: (r) => r.fee_type, render: (r, td) => textOrDash(td, r.fee_type) },
+        { key: "fee", label: feeLabel, type: "text", cls: "left col-fee", value: (r) => r.fee_type,
+          render: (r, td) => { if (r.fee_type) td.append(feeBadge(r.fee_key, r.fee_type)); else td.textContent = DASH; } },
         { key: "kept", label: "Kept", type: "num", cls: "left", value: (r) => (r.kept ? 1 : 0), render: (r, td) => { if (r.kept) td.append(h("span", { class: "badge badge-kept" }, "Kept")); } },
       ];
     },
@@ -467,10 +474,10 @@ function rostersView() {
         if (priced) {
           const td = h("td", { class: "num" });
           price(e, td);
-          let note = "";
-          if (e.price_basis === "undrafted") note = "Undrafted";
-          else if (e.price_basis === "drafted" && e.drafted_by && e.drafted_by !== team) note = "Drafted by " + e.drafted_by;
-          tr.append(td, h("td", { class: "left roster-note" }, note));
+          const moved = e.price_basis === "drafted" && e.drafted_by && e.drafted_by !== team;
+          tr.append(td, h("td", { class: "left roster-note" },
+            feeBadge(e.fee_key, e.fee_short || (e.price_basis === "undrafted" ? "Undrafted" : null)),
+            moved ? h("span", { class: "moved" }, "Drafted by " + e.drafted_by) : null));
         }
         tbody.append(tr);
       }
@@ -542,10 +549,10 @@ function playerView(id) {
   view.append(h("h3", null, "Draft records"));
   view.append(drafts.length ? simpleTable("Draft records", [
     { label: "Season" }, { label: "Pick", cls: "num" }, { label: "Team" }, { label: "Draft price", cls: "num" },
-    { label: "Next-season keeper price", cls: "num" }, { label: "Fee type" }, { label: "Kept" },
+    { label: "Next-season keeper price", cls: "num" }, { label: "Next-season fee" }, { label: "Kept" },
   ], drafts.map((d) => [d.season, d.pick, d.team, moneyText(d.salary, d.salary_display),
     moneyText(d.next_price, d.next_price_display) + (nextSeason(d.season) ? ` (${nextSeason(d.season)})` : ""),
-    d.fee_type, d.kept ? "Kept" : ""])) : none());
+    feeBadge(d.fee_key, d.fee_type), d.kept ? "Kept" : ""])) : none());
 
   const keepers = state.data.keepers.filter((k) => k.player_id === id);
   view.append(h("h3", null, "Keeper records"));
@@ -560,7 +567,8 @@ function playerView(id) {
   for (const s of state.data.rosters.slice().sort(compareSnapshots)) {
     for (const e of s.entries || []) {
       if (e.player_id !== id) continue;
-      const basis = e.price_basis === "undrafted" ? "Undrafted" : e.drafted_by ? `Drafted by ${e.drafted_by}, pick ${e.draft_pick}` : "";
+      const basis = h("span", null, feeBadge(e.fee_key, e.fee_short),
+        e.drafted_by ? ` Drafted by ${e.drafted_by}, pick ${e.draft_pick}` : "");
       memberships.push([[s.season, s.label].filter(Boolean).join(" "), formatDate(s.snapshot_date), e.team,
         e.price_basis ? moneyText(e.keeper_price, e.keeper_price_display) : "", basis]);
     }

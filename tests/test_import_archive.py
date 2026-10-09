@@ -344,14 +344,17 @@ class ImporterTest(unittest.TestCase):
             {"sheet": "Draft", "kind": "draft", "season": "2025-26",
              "columns": {"pick": "Pick", "player": "Player", "next_price": "Salary", "team": "Team"},
              "player_name_format": "name_nba_team_positions",
-             "fee_type": {"season": "2026-27", "column": "next_price", "legend_cells": ["F2", "F3", "F4"]},
+             "fee_type": {"season": "2026-27", "column": "next_price", "legend_cells": ["F2", "F3", "F4"],
+                          "display": {"First time keeper fee": {"key": "first", "label": "1st-year keeper", "short": "1st"},
+                                      "Consecutive Year Keeper Fee": {"key": "repeat", "label": "Repeat keeper"},
+                                      "Drafted for Sub $10 fee": {"key": "under10", "label": "Under $10"}}},
              "ignore_cells": ["F2", "F3", "F4"]},
             {"sheet": "Keepers", "kind": "keeper", "season": "2025-26",
              "columns": {"player": "Name", "next_cost": "Price to Keep"},
              "team_from_draft": "2025-26", "from_draft": ["cost"]},
             ({"sheet": "Rosters", "kind": "roster", "layout": "team_blocks", "season": "2026-27",
               "label": "Pre-draft", "snapshot_date": "2026-10-09", "keeper_prices_from_draft": "2025-26",
-              "undrafted_price": {"amount": 15, "basis": "rule 1.c"}}
+              "undrafted_price": {"amount": 15, "basis": "rule 1.c", "fee_key": "undrafted", "fee_short": "Undrafted"}}
              if roster else {"sheet": "Rosters", "kind": "ignore", "reason": "none"}),
         ]
         self.write_json(self.manifest_path, {
@@ -363,9 +366,9 @@ class ImporterTest(unittest.TestCase):
                                "player_name_format": "name_nba_team_positions", "ignore_cells": ["D1"]}]}],
             "rules": [],
             "accuracy_check": {"season": "2025-26", "rules": {
-                "First time keeper fee": {"salary_at_least": 10, "min_price": 10, "pct": 10, "min_fee": 5},
-                "Drafted for Sub $10 fee": {"salary_below": 10, "min_price": 10, "pct": 10, "min_fee": 5},
-                "Consecutive Year Keeper Fee": {"min_price": 10, "pct": 10, "min_fee": 7}}},
+                "first": {"salary_at_least": 10, "min_price": 10, "pct": 10, "min_fee": 5},
+                "under10": {"salary_below": 10, "min_price": 10, "pct": 10, "min_fee": 5},
+                "repeat": {"min_price": 10, "pct": 10, "min_fee": 7}}},
         })
 
     GOOD_PRICES = [(1, "Nikola Jokić (DEN - C)", 62, "100"), (2, "Tyrese Maxey (PHI - PG)", 54, "300"),
@@ -379,6 +382,8 @@ class ImporterTest(unittest.TestCase):
         d = {r["pick"]: r for r in data["drafts"]}
         self.assertEqual((d[1]["salary"], d[1]["next_price"]), (62, 69))
         self.assertEqual((d[3]["salary_display"], d[3]["next_price_display"]), ("$1", "$15"))
+        self.assertEqual((d[2]["fee_key"], d[2]["fee_type"], d[2]["fee_short"]), ("first", "1st-year keeper", "1st"))
+        self.assertEqual((d[1]["fee_short"]), "Repeat keeper")       # short falls back to the label
         k = data["keepers"][0]
         self.assertEqual((k["cost"], k["next_cost"], k["team"], k["draft_pick"]), (62, 69, "Team A", 1))
         report = self.report_text()
@@ -426,6 +431,17 @@ class ImporterTest(unittest.TestCase):
         self.assertEqual((e["Bobby Portis"]["keeper_price_display"], e["Bobby Portis"]["price_basis"]), ("$15", "undrafted"))
         self.assertEqual(e["Nobody Known"]["price_basis"], "undrafted")
         self.assertEqual(e["Jalen Williams"]["keeper_price"], 15)
+        self.assertEqual((e["Tyrese Maxey"]["fee_key"], e["Bobby Portis"]["fee_key"]), ("first", "undrafted"))
+
+    def test_unmapped_fee_label_stops_import(self):
+        self.priced_setup(self.GOOD_PRICES)
+        with open(self.manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
+        del manifest["workbooks"][0]["sheets"][0]["fee_type"]["display"]["Drafted for Sub $10 fee"]
+        self.write_json(self.manifest_path, manifest)
+        code, output = self.run_import()
+        self.assertEqual(code, 1)
+        self.assertIn("have no entry in fee_type.display", output)
 
 
 class FormulaHandlingTest(unittest.TestCase):
