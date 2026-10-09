@@ -93,6 +93,20 @@ The site is hosted on GitHub Pages from this repository (`jelam95/Po-Boys-BBL`) 
 
 Share the Pages URL that the run prints. The page carries `noindex`, so search engines are asked not to list it, but anyone with the link can view it.
 
+## Refreshing NBA teams in the vault
+
+`refresh_vault_players.py` updates the vault's player list (NBA team and positions) from Yahoo, using the credentials `auth_once.py` saved:
+
+```sh
+python3 refresh_vault_players.py --dry-run   # fetch and list the changes; writes nothing
+python3 refresh_vault_players.py             # update the vault's data/players.* and player notes
+.venv/bin/python import_archive.py           # republish
+```
+
+It only rewrites notes that still match the generated template, so hand-edited notes are left alone. It adds notes for new players and never deletes any. The Yahoo app needs **Fantasy Sports: Read** permission.
+
+The site always shows each player's vault name. Spreadsheet spellings such as "Jusuf NurkićO" appear only as "Also recorded as" on the player page.
+
 ## Yahoo snapshot (not part of the archive)
 
 `fetch.py` and `auth_once.py` are the earlier Yahoo standings tools. They still work locally: `python3 fetch.py --demo`, or `--live` after `auth_once.py`, writes the git-ignored `site/data.json`. The archive page does not read that file and the workflow does not deploy it. The two importers write different files, so neither overwrites the other. Credentials stay in the git-ignored `.secrets/`. Setup steps are in [`YAHOO.md`](YAHOO.md).

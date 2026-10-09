@@ -66,6 +66,13 @@ function anchor(href, children, className) {
   return a;
 }
 
+// The player's proper name (from the vault); spreadsheet spellings are only fallbacks
+// and appear on the player page as "Also recorded as".
+function displayName(playerId, fallback) {
+  const p = state.players.get(playerId);
+  return (p && p.name) || fallback || DASH;
+}
+
 function playerLink(playerId, label) {
   if (playerId != null && state.players.has(playerId)) {
     return h("a", { href: "#player/" + encodeURIComponent(playerId) }, label || state.players.get(playerId).name);
@@ -251,7 +258,7 @@ function homeView() {
       const season = nextSeason(snap.price_from_draft);
       view.append(h("h3", { class: "home-subhead" }, `Priciest keepers${season ? " for " + season : ""}`),
         h("ol", { class: "top-list" }, top.map((e) => h("li", null,
-          playerLink(e.player_id, e.source_name), h("span", { class: "top-team" }, e.team),
+          playerLink(e.player_id, displayName(e.player_id, e.source_name)), h("span", { class: "top-team" }, e.team),
           h("span", { class: "top-price" }, "$" + e.keeper_price)))));
     }
   }
@@ -312,7 +319,7 @@ function draftView() {
       return [
         { key: "season", label: "Season", type: "num", value: (r) => seasonYear(r.season), render: (r, td) => textOrDash(td, r.season) },
         { key: "pick", label: "Pick", type: "num", cls: "num", value: (r) => r.pick, render: (r, td) => textOrDash(td, r.pick) },
-        { key: "player", label: "Player", type: "text", cls: "left", value: (r) => r.source_name, render: (r, td) => td.append(playerLink(r.player_id, r.source_name)) },
+        { key: "player", label: "Player", type: "text", cls: "left", value: (r) => displayName(r.player_id, r.source_name), render: (r, td) => td.append(playerLink(r.player_id, displayName(r.player_id, r.source_name))) },
         { key: "team", label: "Team", type: "text", cls: "left", value: (r) => r.team, render: (r, td) => textOrDash(td, r.team) },
         { key: "salary", label: "Draft price", type: "num", cls: "num", value: (r) => r.salary,
           render: moneyCell((r) => r.salary, (r) => r.salary_display, (r) => r.salary_note) },
@@ -342,7 +349,7 @@ function keeperView() {
       const nextLabel = next ? `Price to keep (${next})` : "Next-season price to keep";
       return [
         { key: "season", label: "Season", type: "num", value: (r) => seasonYear(r.season), render: (r, td) => textOrDash(td, r.season) },
-        { key: "player", label: "Player", type: "text", cls: "left", value: (r) => r.source_name, render: (r, td) => td.append(playerLink(r.player_id, r.source_name)) },
+        { key: "player", label: "Player", type: "text", cls: "left", value: (r) => displayName(r.player_id, r.source_name), render: (r, td) => td.append(playerLink(r.player_id, displayName(r.player_id, r.source_name))) },
         { key: "team", label: "Team", type: "text", cls: "left", value: (r) => r.team, render: (r, td) => textOrDash(td, r.team) },
         { key: "cost", label: "Kept at", type: "num", cls: "num", value: (r) => r.cost,
           render: moneyCell((r) => r.cost, (r) => r.cost_display, (r) => r.cost_note) },
@@ -547,8 +554,9 @@ function rostersView() {
     for (const team of [...byTeam.keys()].sort((a, b) => String(a).localeCompare(String(b)))) {
       const entries = byTeam.get(team);
       const tbody = h("tbody");
+      entries.sort((a, b) => displayName(a.player_id, a.source_name).localeCompare(displayName(b.player_id, b.source_name)));
       for (const e of entries) {
-        const tr = h("tr", null, h("td", { class: "left" }, playerLink(e.player_id, e.source_name)));
+        const tr = h("tr", null, h("td", { class: "left" }, playerLink(e.player_id, displayName(e.player_id, e.source_name))));
         if (priced) {
           const td = h("td", { class: "num" });
           price(e, td);
