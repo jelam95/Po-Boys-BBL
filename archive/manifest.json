@@ -1,0 +1,161 @@
+{
+  "_comment": "Explicit source-to-field mapping for import_archive.py. Every sheet of every listed workbook must appear here, either mapped or ignored with a reason. Paths are relative to this repository. See archive/MAPPING.md.",
+  "vault": "../Po-Boys-BBL",
+  "vault_players_dir": "Silmaril/players",
+  "workbooks_dir": "archive/workbooks",
+  "workbooks": [
+    {
+      "file": "Keepers '26-'27 Season.xlsx",
+      "sheets": [
+        {
+          "sheet": "Last Years Draft",
+          "kind": "draft",
+          "layout": "table",
+          "season": "2025-26",
+          "header_row": 1,
+          "columns": {
+            "pick": "Pick",
+            "player": "Player",
+            "next_price": "Salary",
+            "team": "Team"
+          },
+          "player_name_format": "name_nba_team_positions",
+          "fee_type": {
+            "_comment": "Owner, 2026-10-09: the salary cell colour shows each player's keeper fee type for the coming 2026-27 season. Labels come from the legend cells in the sheet; red has no legend cell and was confirmed by the owner as CBK.",
+            "season": "2026-27",
+            "column": "next_price",
+            "legend_cells": [
+              "F2",
+              "F3",
+              "F4"
+            ],
+            "extra_fills": {
+              "FFFF0000": "Can't Be Kept (CBK)"
+            }
+          },
+          "ignore_cells": [
+            "F2",
+            "F3",
+            "F4"
+          ],
+          "text_values": {
+            "CBK": "Can't Be Kept"
+          },
+          "_comment": "Owner, 2026-10-09: the 2025-26 draft (every pick and the drafting team). The Salary column is NOT the draft price: the owner pre-adjusted it to the price to keep each player for 2026-27, and the cell colour shows which fee was applied (legend F2:F4). Draft prices come from Accuracy.xlsx."
+        },
+        {
+          "sheet": "Keepers",
+          "kind": "keeper",
+          "layout": "table",
+          "season": "2025-26",
+          "header_row": 1,
+          "columns": {
+            "player": "Name",
+            "next_cost": "Price to Keep"
+          },
+          "team_from_draft": "2025-26",
+          "text_values": {
+            "CBK": "Can't Be Kept"
+          },
+          "_comment": "Owner, 2026-10-09: players kept heading into 2025-26, with their updated price to keep them for 2026-27. The keeping team, the draft pick and the 2025-26 price they were kept at come from the matching 2025-26 draft row (picks 129-156).",
+          "from_draft": [
+            "cost"
+          ]
+        },
+        {
+          "sheet": "Sheet3",
+          "kind": "roster",
+          "layout": "team_blocks",
+          "season": "2026-27",
+          "label": "Pre-draft",
+          "snapshot_date": "2026-10-09",
+          "keeper_prices_from_draft": "2025-26",
+          "undrafted_price": {
+            "amount": 15,
+            "basis": "Rule 1.c rounds undrafted players up to $10, plus the $5 first-time keeper fee (owner's rule, 2026-10-09)."
+          },
+          "_comment": "Owner, 2026-10-09: active rosters heading into the 2026-27 draft (rosters frozen at the end of 2025-26). Snapshot dated the day the workbook was saved, confirmed by the owner. Each player shows his recorded 2026-27 keeper price from the 2025-26 draft sheet; undrafted players get the owner's $15 rule."
+        }
+      ]
+    },
+    {
+      "file": "Accuracy.xlsx",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "kind": "draft_prices",
+          "season": "2025-26",
+          "header_row": 1,
+          "columns": {
+            "pick": "Pick",
+            "player": "Player",
+            "salary": "Salary"
+          },
+          "player_name_format": "name_nba_team_positions",
+          "ignore_cells": [
+            "D1"
+          ],
+          "_comment": "Owner, 2026-10-09: the original 2025-26 draft prices, in the same pick order as the draft sheet. The Team column is empty (header D1 only); teams come from the draft sheet. Rows attach to draft records by pick and must name the same Yahoo player."
+        }
+      ]
+    }
+  ],
+  "rosters": [],
+  "rules": [
+    {
+      "id": "current",
+      "file": "Silmaril/Rules.md",
+      "title": "League Rules",
+      "status": "current"
+    },
+    {
+      "id": "amendments",
+      "file": "Silmaril/Rules Amendments.md",
+      "title": "Rules Amendments",
+      "status": "amendments"
+    },
+    {
+      "id": "pre-format",
+      "file": "Silmaril/Pre-Format Rules.md",
+      "title": "Pre-Format Rules",
+      "status": "historical"
+    }
+  ],
+  "rules_excluded": [
+    {
+      "file": "Silmaril/Rules Ammendments.md",
+      "reason": "Empty file (misspelled duplicate name)."
+    }
+  ],
+  "rules_links": {
+    "index": {
+      "unavailable": "vault home page, not part of this archive"
+    }
+  },
+  "accuracy_check": {
+    "_comment": "Report-only check of the recorded 2026-27 keeper prices (Rules 1.b and 1.c). Fees are whole dollars: 10% is rounded to the nearest dollar, with 50 cents rounding up (owner, 2026-10-09; e.g. $55 -> $5.50 -> $6). Not published.",
+    "season": "2025-26",
+    "skip": [
+      "Can't Be Kept (CBK)"
+    ],
+    "rules": {
+      "First time keeper fee": {
+        "salary_at_least": 10,
+        "min_price": 10,
+        "pct": 10,
+        "min_fee": 5
+      },
+      "Drafted for Sub $10 fee": {
+        "salary_below": 10,
+        "min_price": 10,
+        "pct": 10,
+        "min_fee": 5
+      },
+      "Consecutive Year Keeper Fee": {
+        "min_price": 10,
+        "pct": 10,
+        "min_fee": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Po Boys BBL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <h1 id="league-name">Po Boys BBL</h1>
+    <p class="meta"><span id="league-seasons"></span><span id="updated"></span></p>
+    <nav id="nav" aria-label="Archive sections">
+      <a href="#draft" data-view="draft">Draft History</a>
+      <a href="#keepers" data-view="keepers">Keeper History</a>
+      <a href="#rules" data-view="rules">Rules</a>
+      <a href="#rosters" data-view="rosters">Rosters</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <p id="status" class="status" role="status">Loading archive…</p>
+    <div id="view"></div>
+  </main>
+
+  <footer class="foot">
+    <p>Read-only league archive. Data from league records and the league vault.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

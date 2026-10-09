@@ -1,1 +1,25 @@
+# Credentials and tokens (auth_once.py / fetch.py)
+.secrets/
+secrets.json
+*.token
+*refresh_token*
+.env
+.env.*
 
+# Generated league data (never committed)
+site/data.json
+site/*.tmp
+
+# Python / local tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache_ggshield
+.DS_Store
+
+# League archive: source workbooks and local import records stay private
+archive/workbooks/
+archive/build/
+*.xlsx
+site/.archive-*.tmp

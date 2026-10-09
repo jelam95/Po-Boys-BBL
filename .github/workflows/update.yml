@@ -1,0 +1,71 @@
+name: Publish league archive
+
+# Manual only. Deploys the committed archive in site/ to GitHub Pages. It never
+# calls Yahoo and needs no secrets: site/archive.json is built locally with
+# import_archive.py (the source workbooks never leave the owner's computer) and
+# committed. fetch.py and its Yahoo snapshot (site/data.json) are not deployed.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: league-site-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install test dependency
+        run: python3 -m pip install -r requirements-archive.txt
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Check archive data
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          data = json.load(open("site/archive.json", encoding="utf-8"))
+          if data.get("schema") != "po-boys-archive/1":
+              sys.exit("::error::site/archive.json has an unexpected schema")
+          text = json.dumps(data)
+          for marker in ("/Users/", "_source", "\\\\Users\\\\"):
+              if marker in text:
+                  sys.exit("::error::site/archive.json contains private import metadata (%s)" % marker)
+          print("archive.json: %d draft, %d keeper records, %d roster snapshots" % (
+              len(data["drafts"]), len(data["keepers"]), len(data["rosters"])))
+          PY
+
+      - name: Check artifact contents
+        run: |
+          expected=$'app.js\narchive.json\nindex.html\nstyle.css'
+          actual=$(cd site && find . -type f | sed 's|^\./||' | sort)
+          if [ "$actual" != "$expected" ]; then
+            echo "::error::Unexpected files in site/:"; echo "$actual"; exit 1
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,10 @@
+{
+  "_comment": "Explicit name aliases for source cells that have no Yahoo player link and do not match a vault name after normalisation. Each entry needs a reason. Never add an alias only because two names look alike.",
+  "aliases": [
+    {
+      "source_name": "Jalen Wiliams",
+      "player_id": "6702",
+      "reason": "Typo in the Keepers sheet (row 16). The same player is draft pick 143 (Jalen Williams, OKC, linked to Yahoo player 6702) with the same 'CBK' value."
+    }
+  ]
+}
