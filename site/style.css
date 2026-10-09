@@ -328,3 +328,23 @@ dd { margin: 0; }
 @media (max-width: 480px) {
   th.col-nba, td.col-nba { display: none; }
 }
+
+/* Home */
+.eyebrow { margin: 0 0 2px; color: var(--muted); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.eyebrow[hidden] { display: none; }
+.home-intro { margin: 0 0 14px; font-size: 1.05rem; }
+.stat-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 10px; margin-bottom: 18px; }
+.stat-tile { display: flex; flex-direction: column; gap: 2px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+.stat-label { color: var(--muted); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.stat-value { font-size: 1.25rem; font-weight: 700; overflow-wrap: anywhere; }
+.link-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 10px; }
+.link-card { display: flex; flex-direction: column; gap: 4px; padding: 14px; border: 1px solid var(--line); border-radius: 8px; color: var(--text); text-decoration: none; }
+.link-card:hover { border-color: var(--accent); }
+.link-card-title { font-weight: 700; color: var(--accent); }
+.link-card-detail { color: var(--muted); font-size: 0.9rem; }
+.home-subhead { margin: 22px 0 8px; font-size: 1rem; }
+.top-list { margin: 0; padding-left: 1.6em; display: grid; gap: 4px; }
+.top-list li { display: grid; grid-template-columns: 1fr auto auto; gap: 4px 12px; align-items: baseline; }
+.top-team { color: var(--muted); font-size: 0.9rem; }
+.top-price { font-weight: 700; font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .top-list li { grid-template-columns: 1fr auto; } .top-team { grid-column: 1; grid-row: 2; } }

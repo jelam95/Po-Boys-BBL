@@ -3591,7 +3591,7 @@
    ]
   }
  },
- "imported_at": "2026-10-09T23:35:30Z",
+ "imported_at": "2026-10-09T23:40:14Z",
  "keepers": [
   {
    "cost": 34,
@@ -3986,6 +3986,20 @@
    "team": "Vlade’s Dance"
   }
  ],
+ "league": {
+  "facts": [
+   {
+    "label": "Current Season",
+    "value": "2025-26"
+   },
+   {
+    "label": "Current Champion",
+    "value": "Jeremy Barbara"
+   }
+  ],
+  "name": "National Bastard Association",
+  "short_name": "Po Boys BBL"
+ },
  "players": [
   {
    "id": "5295",

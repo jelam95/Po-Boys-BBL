@@ -202,6 +202,62 @@ function listView(cfg) {
     h("h2", { id: "view-title", tabindex: "-1" }, cfg.title), form, count, tableHost, emptyMsg);
 }
 
+// ---------- Home ----------
+
+function latestSnapshot() {
+  return state.data.rosters.slice().sort(compareSnapshots).pop() || null;
+}
+
+function homeView() {
+  const d = state.data;
+  const view = h("section", { class: "panel home", "aria-labelledby": "view-title" },
+    h("h2", { id: "view-title", tabindex: "-1", class: "sr-only" }, "Home"));
+  const snap = latestSnapshot();
+  const newest = (list) => (list && list.length ? list[list.length - 1] : null);
+  const draftSeason = newest(d.seasons.draft);
+  const keeperSeason = newest(d.seasons.keeper);
+
+  // Stat tiles: league facts from the vault note, then what's next from the latest roster snapshot.
+  const tiles = h("div", { class: "stat-tiles" });
+  for (const f of (d.league && d.league.facts) || []) {
+    tiles.append(h("div", { class: "stat-tile" }, h("span", { class: "stat-label" }, f.label), h("span", { class: "stat-value" }, f.value)));
+  }
+  if (snap) {
+    tiles.append(h("div", { class: "stat-tile" }, h("span", { class: "stat-label" }, "Up next"),
+      h("span", { class: "stat-value" }, [snap.season, snap.label === "Pre-draft" ? "draft" : snap.label].filter(Boolean).join(" "))));
+  }
+  view.append(h("div", { class: "home-hero" },
+    h("p", { class: "home-intro" }, "The league archive: every draft pick, keeper price, roster and rule in one place."),
+    tiles));
+
+  // Section cards with live counts.
+  const card = (href, title, detail) => h("a", { href, class: "link-card" }, h("span", { class: "link-card-title" }, title),
+    h("span", { class: "link-card-detail" }, detail));
+  const teamCount = snap ? new Set(snap.entries.map((e) => e.team)).size : 0;
+  const ruleDoc = d.rules.find((r) => r.status === "current");
+  const ruleCount = ruleDoc ? topItemNumbers(ruleDoc).length : 0;
+  const cards = h("nav", { class: "link-cards", "aria-label": "Archive sections" },
+    card("#draft", "Draft History", draftSeason ? `${d.drafts.filter((x) => x.season === draftSeason).length} picks · ${draftSeason}` : "No drafts imported"),
+    card("#keepers", "Keeper History", keeperSeason ? `${d.keepers.filter((x) => x.season === keeperSeason).length} keepers · ${keeperSeason}` : "No keepers imported"),
+    card("#rosters", "Rosters", snap ? `${teamCount} teams · ${snap.entries.length} players · ${snapLabel(snap)}` : "Not imported yet"),
+    card("#rules", "Rules", ruleCount ? `${ruleCount} rules` : "League rules"),
+    d.suggestions && d.suggestions.form_url ? card("#rules/suggestions", "Suggest a rule change", d.suggestions.season ? "For " + d.suggestions.season : "Send an idea") : null);
+  view.append(cards);
+
+  // Highlight: priciest keeper prices on current rosters.
+  if (snap && snap.price_from_draft) {
+    const top = snap.entries.filter((e) => e.keeper_price != null).sort((a, b) => b.keeper_price - a.keeper_price).slice(0, 5);
+    if (top.length) {
+      const season = nextSeason(snap.price_from_draft);
+      view.append(h("h3", { class: "home-subhead" }, `Priciest keepers${season ? " for " + season : ""}`),
+        h("ol", { class: "top-list" }, top.map((e) => h("li", null,
+          playerLink(e.player_id, e.source_name), h("span", { class: "top-team" }, e.team),
+          h("span", { class: "top-price" }, "$" + e.keeper_price)))));
+    }
+  }
+  return view;
+}
+
 // ---------- Draft History ----------
 
 // Money as recorded: a number, a text code such as CBK (with its meaning), or missing.
@@ -538,7 +594,7 @@ function simpleTable(caption, headers, rows) {
 }
 
 function backLink() {
-  const a = h("a", { href: "#draft", class: "back" }, "← Back");
+  const a = h("a", { href: "#home", class: "back" }, "← Back");
   a.addEventListener("click", (e) => {
     // Only step back within this page's own navigation, never off the site.
     if (state.navCount > 0) { e.preventDefault(); history.back(); }
@@ -611,12 +667,13 @@ function parseRoute() {
   const [name, ...rest] = raw.split("/");
   const arg = rest.join("/");
   switch (name) {
-    case "": case "draft": return { view: "draft" };
+    case "": case "home": return { view: "home" };
+    case "draft": return { view: "draft" };
     case "keepers": return { view: "keepers" };
     case "rules": return { view: "rules", scroll: arg ? "rules-" + arg : null };
     case "rosters": return { view: "rosters" };
     case "player": return { view: "player", id: arg };
-    default: return { view: "draft" };
+    default: return { view: "home" };
   }
 }
 
@@ -628,11 +685,12 @@ function route() {
   const key = r.view + ":" + (r.id || "");
   const same = key === renderedKey;
   if (!same) {
-    const builders = { draft: draftView, keepers: keeperView, rules: rulesView, rosters: rostersView, player: () => playerView(r.id) };
+    const builders = { home: homeView, draft: draftView, keepers: keeperView, rules: rulesView, rosters: rostersView, player: () => playerView(r.id) };
     const view = builders[r.view]();
     $("view").replaceChildren(view);
-    const labels = { draft: "Draft History", keepers: "Keeper History", rules: "Rules", rosters: "Rosters", player: "Player" };
-    document.title = `${labels[r.view]} · Po Boys BBL`;
+    const labels = { home: "Home", draft: "Draft History", keepers: "Keeper History", rules: "Rules", rosters: "Rosters", player: "Player" };
+    const site = (state.data.league && state.data.league.name) || "League archive";
+    document.title = r.view === "home" ? site : `${labels[r.view]} · ${site}`;
     for (const a of document.querySelectorAll("#nav a")) {
       if (a.dataset.view === r.view) a.setAttribute("aria-current", "page");
       else a.removeAttribute("aria-current");
@@ -656,6 +714,11 @@ function route() {
 
 function renderHeader() {
   const d = state.data;
+  if (d.league) {
+    if (d.league.name) $("league-name").textContent = d.league.name;
+    $("league-short").textContent = d.league.short_name || "";
+    $("league-short").hidden = !d.league.short_name;
+  }
   const all = new Set();
   for (const k of ["draft", "keeper", "roster"]) for (const s of (d.seasons && d.seasons[k]) || []) all.add(s);
   const list = [...all].sort(cmpSeason);

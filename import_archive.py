@@ -949,6 +949,36 @@ def build_rules(manifest, vault, report):
 # --------------------------------------------------------------------------
 # Assembly and validation
 
+WIKI_LINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]")
+
+
+def build_league(manifest, vault, report):
+    """League name and home-page facts. Facts are 'Label: value' lines read from a vault
+    note (only the labels listed in the manifest), so the vault stays the one source."""
+    cfg = manifest.get("league") or {}
+    league = {"name": cfg.get("name", "League archive"), "short_name": cfg.get("short_name"), "facts": []}
+    note = cfg.get("home_note")
+    if not note:
+        return league
+    path = os.path.join(vault, note)
+    if not os.path.isfile(path):
+        raise ImportError_("league home note not found in vault: %s" % note)
+    with open(path, encoding="utf-8") as handle:
+        lines = handle.read().splitlines()
+    found = {}
+    for line in lines:
+        key, sep, value = line.partition(":")
+        if sep and key.strip() in cfg.get("facts", []):
+            value = WIKI_LINK.sub(lambda m: (m.group(2) or m.group(1)).strip(), value).strip()
+            found[key.strip()] = value
+    for key in cfg.get("facts", []):
+        if found.get(key):
+            league["facts"].append({"label": key, "value": found[key]})
+        else:
+            report.warn("League note %s has no '%s:' line; not shown on the home page." % (note, key))
+    return league
+
+
 GOOGLE_FORM = re.compile(r"^https://(docs\.google\.com/forms/|forms\.gle/)[A-Za-z0-9_\-/?=&.]+$")
 
 
@@ -1175,6 +1205,7 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
                      "entries": [public(e) for e in s["entries"]]} for s in rosters],
         "rules": build_rules(manifest, vault, report),
         "suggestions": build_suggestions(manifest),
+        "league": build_league(manifest, vault, report),
     }
     check_integrity(data, report)
 

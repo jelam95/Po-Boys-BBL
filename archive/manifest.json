@@ -1,5 +1,15 @@
 {
   "_comment": "Explicit source-to-field mapping for import_archive.py. Every sheet of every listed workbook must appear here, either mapped or ignored with a reason. Paths are relative to this repository. See archive/MAPPING.md.",
+  "league": {
+    "_comment": "Site name (owner, 2026-10-09) and home-page facts. Facts are read from 'Label: value' lines in the vault note, with [[links]] reduced to their text.",
+    "name": "National Bastard Association",
+    "short_name": "Po Boys BBL",
+    "home_note": "Silmaril/National Bastard Association.md",
+    "facts": [
+      "Current Season",
+      "Current Champion"
+    ]
+  },
   "vault": "../Po-Boys-BBL",
   "vault_players_dir": "Silmaril/players",
   "workbooks_dir": "archive/workbooks",

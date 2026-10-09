@@ -1,6 +1,6 @@
-# Po Boys BBL league archive
+# National Bastard Association: league archive
 
-A read-only website for the Po Boys BBL fantasy basketball league. Visitors can browse draft history, keeper history, the league rules and roster snapshots, and open any player to see their vault details and records. There are no accounts or editing, and the site makes no Yahoo calls.
+A read-only website for the National Bastard Association (Po Boys BBL) fantasy basketball league. Visitors land on a home page (league facts from the vault note `Silmaril/National Bastard Association.md`, links to each section, and the priciest current keepers), and can browse draft history, keeper history, the league rules and roster snapshots, and open any player to see their vault details and records. There are no accounts or editing, and the site makes no Yahoo calls.
 
 - `site/`: the static site (`index.html`, `app.js`, `style.css`), which reads `site/archive.json`.
 - `import_archive.py`: builds `site/archive.json` from the league workbooks, the vault's player notes and the vault's rules.
