@@ -44,7 +44,20 @@ The importer reads the vault at `../Po-Boys-BBL` by default (use `--vault PATH` 
 
 Read the report's warnings after each run. The report also has a **Keeper price accuracy** section. It checks every recorded next-season keeper price against the draft price and the fee rules, and lists anything that doesn't add up. If nothing changed, the file and its import date are left as they were.
 
-Rules come straight from the vault (`Silmaril/Rules.md`, `Rules Amendments.md`, `Pre-Format Rules.md`). To change a rule, edit the vault note and rerun the import. Never edit the rules in this repository.
+Rules come straight from the vault's `Silmaril/Rules.md`. To change a rule, edit the vault note and rerun the import. Never edit the rules in this repository. `Pre-Format Rules.md` is hidden from the site at the owner's request.
+
+### Rule-change suggestions
+
+The Rules page ends with a "Suggest a rule change" section. Its "Rules Amendments" link points there. Members fill in a Google Form that the commissioner owns, and the responses stay private in the commissioner's Google account. The site only links to the form and never sees submissions.
+
+To open the form:
+
+1. Create the form at forms.google.com.
+2. Click Send → link, and copy the link.
+3. Paste it into `suggestions.form_url` in `archive/manifest.json`. Only `https://docs.google.com/forms/...` or `https://forms.gle/...` links are accepted.
+4. Rerun the import.
+
+To close the form again, set `form_url` back to `null`. Edit `season` and `intro` there each year.
 
 ## 4. Adding active roster data
 

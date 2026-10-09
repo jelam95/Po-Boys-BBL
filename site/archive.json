@@ -3591,7 +3591,7 @@
    ]
   }
  },
- "imported_at": "2026-10-09T23:13:25Z",
+ "imported_at": "2026-10-09T23:29:38Z",
  "keepers": [
   {
    "cost": 34,
@@ -13249,6 +13249,16 @@
         }
        ],
        "n": 10
+      },
+      {
+       "blocks": [],
+       "c": [
+        {
+         "t": "text",
+         "v": "League winners do NOT receive additional draft dollars."
+        }
+       ],
+       "n": 11
       }
      ],
      "ordered": true,
@@ -13263,7 +13273,7 @@
          "v": "Rules Amendments"
         }
        ],
-       "doc": "amendments",
+       "section": "suggestions",
        "t": "link"
       }
      ],
@@ -13274,429 +13284,6 @@
    "source": "Rules.md",
    "status": "current",
    "title": "League Rules"
-  },
-  {
-   "blocks": [
-    {
-     "c": [
-      {
-       "c": [
-        {
-         "t": "text",
-         "v": "Pre-Format Rules"
-        }
-       ],
-       "doc": "pre-format",
-       "t": "link"
-      }
-     ],
-     "t": "p"
-    }
-   ],
-   "id": "amendments",
-   "source": "Rules Amendments.md",
-   "status": "amendments",
-   "title": "Rules Amendments"
-  },
-  {
-   "blocks": [
-    {
-     "items": [
-      {
-       "blocks": [
-        {
-         "c": [
-          {
-           "t": "text",
-           "v": "An unlimited number of players are eligible to be kept for the following season so long as the the total salary is under an individual team's capital."
-          }
-         ],
-         "t": "p"
-        },
-        {
-         "items": [
-          {
-           "blocks": [
-            {
-             "items": [
-              {
-               "blocks": [],
-               "c": [
-                {
-                 "c": [
-                  {
-                   "t": "text",
-                   "v": "CLARIFICATION: A player can be considered \"kept\" for a maximum of four seasons."
-                  }
-                 ],
-                 "t": "strong"
-                }
-               ]
-              }
-             ],
-             "ordered": false,
-             "t": "list"
-            }
-           ],
-           "c": [
-            {
-             "t": "text",
-             "v": "A player’s MAX tenure on a team is limited to FOUR CONSECUTIVE seasons before they are entered back into the draft."
-            }
-           ]
-          },
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "Players “kept” can be retained for the original draft price PLUS an additional fee of the LARGER between 10% and $5. Ensuing years will be between 10% and $7"
-            }
-           ]
-          },
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "Players drafted for <$10 and undrafted players prices will be rounded UP to $10."
-            }
-           ]
-          }
-         ],
-         "ordered": false,
-         "t": "list"
-        }
-       ],
-       "c": [
-        {
-         "c": [
-          {
-           "t": "text",
-           "v": "TWO players from each team are eligible to be kept for the following season.*"
-          }
-         ],
-         "t": "del"
-        }
-       ],
-       "n": 1
-      },
-      {
-       "blocks": [
-        {
-         "items": [
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "Trades DO NOT reset the players YEAR 1 draft price."
-            }
-           ]
-          },
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "Cash considerations can be used in the following years draft"
-            }
-           ]
-          },
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "Cash considerations roll over to following years."
-            }
-           ]
-          },
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "Vetoed trades CANNOT be resubmitted."
-            }
-           ]
-          }
-         ],
-         "ordered": false,
-         "t": "list"
-        }
-       ],
-       "c": [
-        {
-         "t": "text",
-         "v": "Trades for ANY player CAN include cash considerations."
-        }
-       ],
-       "n": 2
-      },
-      {
-       "blocks": [
-        {
-         "items": [
-          {
-           "blocks": [],
-           "c": [
-            {
-             "c": [
-              {
-               "t": "text",
-               "v": "CLARIFICATION: There is NO player that CANNOT be traded due to their salary."
-              }
-             ],
-             "t": "strong"
-            }
-           ]
-          }
-         ],
-         "ordered": false,
-         "t": "list"
-        }
-       ],
-       "c": [
-        {
-         "t": "text",
-         "v": "There are NO price restrictions on trades."
-        }
-       ],
-       "n": 3
-      },
-      {
-       "blocks": [],
-       "c": [
-        {
-         "t": "text",
-         "v": "Any player traded CAN be kept."
-        }
-       ],
-       "n": 4
-      },
-      {
-       "blocks": [
-        {
-         "items": [
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "3a.) All money exceeding the $235 limit WILL be forfeited."
-            }
-           ]
-          }
-         ],
-         "ordered": false,
-         "t": "list"
-        }
-       ],
-       "c": [
-        {
-         "t": "text",
-         "v": "The MAX allowance an owner CAN draft with is "
-        },
-        {
-         "c": [
-          {
-           "t": "text",
-           "v": "$235"
-          }
-         ],
-         "t": "strong"
-        }
-       ],
-       "n": 5
-      },
-      {
-       "blocks": [
-        {
-         "items": [
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "If necessary, the Commissioner will manually move accepted trades to the respective teams."
-            }
-           ]
-          },
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "An accepted trade is defined as proposing and accepting a trade on the "
-            },
-            {
-             "c": [
-              {
-               "t": "text",
-               "v": "ESPN"
-              }
-             ],
-             "t": "del"
-            },
-            {
-             "t": "text",
-             "v": " Yahoo app OR visual proof of confirmation (text message, email, etc.) verified by both parties."
-            }
-           ]
-          }
-         ],
-         "ordered": false,
-         "t": "list"
-        }
-       ],
-       "c": [
-        {
-         "t": "text",
-         "v": "The Trade Deadline for ACCEPTED trades will be no later than the end of Week 12 (Sunday 6:00pm EST)"
-        }
-       ],
-       "n": 6
-      },
-      {
-       "blocks": [],
-       "c": [
-        {
-         "t": "text",
-         "v": "Transactions and pending fees will be kept on the books. A team of professionals will overlook past transactions at season’s end to ensure all is accounted for."
-        }
-       ],
-       "n": 7
-      },
-      {
-       "blocks": [],
-       "c": [
-        {
-         "t": "text",
-         "v": "KEEPERS ARE TO BE ANNOUNCED PUBLICLY TWO WEEKS BEFORE THE SCHEDULED DRAFT DATE(TBA)."
-        }
-       ],
-       "n": 8
-      },
-      {
-       "blocks": [
-        {
-         "items": [
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "ALL ROSTER WILL BE FROZEN AT THE END OF THE SEASON. NO ACQUISITIONS ARE ALLOWED DURING THE OFFSEASON."
-            }
-           ]
-          }
-         ],
-         "ordered": false,
-         "t": "list"
-        }
-       ],
-       "c": [
-        {
-         "c": [
-          {
-           "t": "text",
-           "v": "THE JEREMY BARBARA CLAUSE"
-          }
-         ],
-         "t": "strong"
-        },
-        {
-         "t": "text",
-         "v": ":"
-        }
-       ],
-       "n": 9
-      },
-      {
-       "blocks": [
-        {
-         "items": [
-          {
-           "blocks": [],
-           "c": [
-            {
-             "t": "text",
-             "v": "There are no longer and draft dollar incentives for winning the league."
-            }
-           ]
-          }
-         ],
-         "ordered": false,
-         "t": "list"
-        }
-       ],
-       "c": [
-        {
-         "c": [
-          {
-           "t": "text",
-           "v": "No draft dollars are to be awarded to those that make the playoffs."
-          }
-         ],
-         "t": "del"
-        }
-       ],
-       "n": 10
-      },
-      {
-       "blocks": [],
-       "c": [
-        {
-         "t": "text",
-         "v": "There is NO cap on the number of players in a given position."
-        }
-       ],
-       "n": 11
-      },
-      {
-       "blocks": [],
-       "c": [
-        {
-         "t": "text",
-         "v": "Movement between divisions will be based on the "
-        },
-        {
-         "c": [
-          {
-           "c": [
-            {
-             "t": "text",
-             "v": "regular season, intra-division record of teams."
-            }
-           ],
-           "t": "strong"
-          }
-         ],
-         "t": "em"
-        }
-       ],
-       "n": 12
-      },
-      {
-       "blocks": [],
-       "c": [
-        {
-         "t": "text",
-         "v": "There will be a free agency period leading up to the draft following the conclusion of the championship game that allows owners to trade draft dollars for a potential keeper. No give-backsies"
-        }
-       ],
-       "n": 13
-      }
-     ],
-     "ordered": true,
-     "t": "list"
-    }
-   ],
-   "id": "pre-format",
-   "source": "Pre-Format Rules.md",
-   "status": "historical",
-   "title": "Pre-Format Rules"
   }
  ],
  "schema": "po-boys-archive/1",
@@ -13727,6 +13314,12 @@
    ]
   }
  ],
+ "suggestions": {
+  "form_url": null,
+  "intro": "Have an idea for a rule change before the 2026-27 season? Send it to the commissioner. Suggestions are private and reviewed before the season.",
+  "season": "2026-27",
+  "title": "Suggest a rule change"
+ },
  "teams": [
   "Alec's Team",
   "Bayonne Dealers",

@@ -311,7 +311,11 @@ function renderInline(nodes, parent) {
         break;
       }
       case "link": {
-        if (state.rulesById.has(n.doc)) {
+        if (n.section) {
+          const a = anchor("#rules/" + encodeURIComponent(n.section), null);
+          renderInline(n.c, a);
+          parent.append(a);
+        } else if (state.rulesById.has(n.doc)) {
           const a = anchor("#rules/" + encodeURIComponent(n.doc), null);
           renderInline(n.c, a);
           parent.append(a);
@@ -376,6 +380,21 @@ function statusBadge(status) {
   return h("span", { class: "badge badge-" + status }, STATUS_LABELS[status] || status);
 }
 
+// Suggestions go to the commissioner's Google Form; the site only links to it.
+function suggestionsSection(sug) {
+  const sec = h("article", { class: "rules-doc suggestions", id: "rules-suggestions", "aria-labelledby": "rules-h-suggestions" },
+    h("div", { class: "doc-head" }, h("h3", { id: "rules-h-suggestions" }, sug.title),
+      sug.season ? h("span", { class: "badge badge-amendments" }, "For " + sug.season) : null));
+  if (sug.intro) sec.append(h("p", null, sug.intro));
+  if (sug.form_url) {
+    sec.append(h("p", null, h("a", { href: sug.form_url, class: "btn btn-primary", target: "_blank", rel: "noopener noreferrer" },
+      "Open the suggestion form"), h("span", { class: "note" }, " Opens Google Forms in a new tab.")));
+  } else {
+    sec.append(h("p", { class: "note" }, "The suggestion form isn't open yet. Check back soon."));
+  }
+  return sec;
+}
+
 function rulesView() {
   const docs = state.data.rules;
   const view = h("section", { class: "panel", "aria-labelledby": "view-title" },
@@ -399,6 +418,8 @@ function rulesView() {
     }
     tocList.append(li);
   }
+  const sug = state.data.suggestions;
+  if (sug) tocList.append(h("li", null, anchor("#rules/suggestions", sug.title)));
   toc.append(tocList);
   view.append(toc);
 
@@ -412,6 +433,7 @@ function rulesView() {
     renderBlocks(doc.blocks, sec, doc.id, true, new Set());
     view.append(sec);
   }
+  if (sug) view.append(suggestionsSection(sug));
   return view;
 }
 

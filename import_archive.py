@@ -920,6 +920,9 @@ def build_rules(manifest, vault, report):
         key = page.strip().lower()
         if key in by_stem:
             return {"t": "link", "doc": by_stem[key], "c": [{"t": "text", "v": label}]}
+        if (link_cfg.get(key) or {}).get("section"):
+            # A vault note replaced by a section of the site, e.g. Rules Amendments -> suggestion form.
+            return {"t": "link", "section": link_cfg[key]["section"], "c": [{"t": "text", "v": label}]}
         reason = (link_cfg.get(key) or {}).get("unavailable", "not part of this archive")
         unresolved.append((target, reason))
         return {"t": "missing", "v": label, "note": reason}
@@ -945,6 +948,23 @@ def build_rules(manifest, vault, report):
 
 # --------------------------------------------------------------------------
 # Assembly and validation
+
+GOOGLE_FORM = re.compile(r"^https://(docs\.google\.com/forms/|forms\.gle/)[A-Za-z0-9_\-/?=&.]+$")
+
+
+def build_suggestions(manifest):
+    """Rule-change suggestions are collected by an external form the owner runs (Google Forms);
+    the site only links to it, and never sees submissions."""
+    cfg = manifest.get("suggestions")
+    if not cfg:
+        return None
+    url = cfg.get("form_url") or None
+    if url and not GOOGLE_FORM.match(url):
+        raise ImportError_("suggestions.form_url must be a Google Forms link (https://docs.google.com/forms/... "
+                           "or https://forms.gle/...)")
+    return {"title": cfg.get("title", "Suggest a rule change"), "season": cfg.get("season"),
+            "intro": cfg.get("intro", ""), "form_url": url}
+
 
 def load_json(path, label):
     try:
@@ -1154,6 +1174,7 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
                      "undrafted_rule": s.get("undrafted_rule"), "undrafted_price": s.get("undrafted_price"),
                      "entries": [public(e) for e in s["entries"]]} for s in rosters],
         "rules": build_rules(manifest, vault, report),
+        "suggestions": build_suggestions(manifest),
     }
     check_integrity(data, report)
 

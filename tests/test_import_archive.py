@@ -443,6 +443,27 @@ class ImporterTest(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertIn("have no entry in fee_type.display", output)
 
+    def test_rules_link_to_site_section_and_suggestion_form(self):
+        self.workbook(self.STANDARD, [])
+        self.manifest()
+        with open(self.manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
+        manifest["rules_links"]["old rules"] = {"section": "suggestions"}
+        manifest["rules"] = manifest["rules"][:1]
+        manifest["suggestions"] = {"title": "Suggest", "season": "2026-27", "form_url": "https://forms.gle/abc123"}
+        self.write_json(self.manifest_path, manifest)
+        code, output = self.run_import()
+        self.assertEqual(code, 0, output)
+        data = self.load()
+        self.assertEqual(data["rules"][0]["blocks"][2]["c"][0],
+                         {"t": "link", "section": "suggestions", "c": [{"t": "text", "v": "Old Rules"}]})
+        self.assertEqual(data["suggestions"]["form_url"], "https://forms.gle/abc123")
+        manifest["suggestions"]["form_url"] = "javascript:alert(1)"
+        self.write_json(self.manifest_path, manifest)
+        code, output = self.run_import()
+        self.assertEqual(code, 1)
+        self.assertIn("must be a Google Forms link", output)
+
 
 class FormulaHandlingTest(unittest.TestCase):
     """The importer uses Excel's saved result and flags formulas without one."""

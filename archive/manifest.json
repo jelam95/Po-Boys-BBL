@@ -132,29 +132,24 @@
       "file": "Silmaril/Rules.md",
       "title": "League Rules",
       "status": "current"
-    },
-    {
-      "id": "amendments",
-      "file": "Silmaril/Rules Amendments.md",
-      "title": "Rules Amendments",
-      "status": "amendments"
-    },
-    {
-      "id": "pre-format",
-      "file": "Silmaril/Pre-Format Rules.md",
-      "title": "Pre-Format Rules",
-      "status": "historical"
     }
   ],
   "rules_excluded": [
     {
-      "file": "Silmaril/Rules Ammendments.md",
-      "reason": "Empty file (misspelled duplicate name)."
+      "file": "Silmaril/Pre-Format Rules.md",
+      "reason": "Hidden by the owner (2026-10-09): the earlier rule set, superseded by Rules.md."
+    },
+    {
+      "file": "Silmaril/Rules Amendments.md",
+      "reason": "Replaced on the site by the rule-change suggestion form (owner, 2026-10-09). The note only linked to Pre-Format Rules."
     }
   ],
   "rules_links": {
     "index": {
       "unavailable": "vault home page, not part of this archive"
+    },
+    "rules amendments": {
+      "section": "suggestions"
     }
   },
   "accuracy_check": {
@@ -182,5 +177,12 @@
         "min_fee": 7
       }
     }
+  },
+  "suggestions": {
+    "_comment": "Owner, 2026-10-09: members suggest rule changes for the coming season through a Google Form the owner owns; responses stay private in the owner's Google account. Paste the form's share link into form_url and rerun the import.",
+    "title": "Suggest a rule change",
+    "season": "2026-27",
+    "intro": "Have an idea for a rule change before the 2026-27 season? Send it to the commissioner. Suggestions are private and reviewed before the season.",
+    "form_url": null
   }
 }

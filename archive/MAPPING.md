@@ -11,8 +11,8 @@ How each source becomes a field in `site/archive.json` (schema `po-boys-archive/
 | Workbook `Accuracy.xlsx`, sheet `Sheet1` | Pick, Player, Salary, Team (empty); the same 156 picks in the same order, with the same Yahoo links. Salary is the original 2025-26 draft price. No formulas. | Draft price for each 2025-26 draft record, and the accuracy check |
 | `Keepers '26-'27 Season.xlsx`, sheet `Keepers` | Name, Price to Keep; 28 rows, no links, no team column. Four values are `CBK`. These are the players kept heading into 2025-26, with their updated price to keep them for 2026-27. No formulas. | Keeper records, 2025-26 |
 | `Keepers '26-'27 Season.xlsx`, sheet `Sheet3` | Twelve team-name blocks (team name linked to the Yahoo team page), each with a `Player` header and the players listed below. These are the active rosters heading into the 2026-27 draft. | Roster snapshot "2026-27 Pre-draft", dated 2026-10-09 (owner confirmed) |
-| Vault `Silmaril/Rules.md`, `Rules Amendments.md`, `Pre-Format Rules.md` | Current numbered rules; a one-line note linking to Pre-Format Rules; an older numbered rule set with struck-through text | Rules pages |
-| Vault `Silmaril/Rules Ammendments.md` | Empty | Not published |
+| Vault `Silmaril/Rules.md` | Current numbered rules 1-11 (rule 11 added 2026-10-09 at the owner's request) | Rules page |
+| Vault `Silmaril/Rules Amendments.md`, `Pre-Format Rules.md` | A one-line note linking to Pre-Format Rules; an older rule set | Not published (owner, 2026-10-09). The "Rules Amendments" link goes to the suggestion form instead. |
 
 ## Player
 
@@ -74,7 +74,14 @@ The importer checks each recorded 2026-27 price against its draft price and writ
 
 ## Rules
 
-Each vault note becomes `{id, title, status, source, blocks}`. Numbered and bulleted lists nest by indentation (a tab counts as 4 spaces), and the source numbers are kept. Bold, italic, strikethrough and `[[links]]` are preserved, and the text is never reworded. Links to another published rules note become in-site links. Other links, such as `[[index]]`, are shown with a visible "(unavailable: …)" note. `Pre-Format Rules` is labelled historical, because the current `Rules.md` links to it through `Rules Amendments` and it contains wording that has since been struck through or replaced.
+`Rules.md` becomes `{id, title, status, source, blocks}`. Numbered and bulleted lists nest by indentation (a tab counts as 4 spaces), and the source numbers are kept. Bold, italic, strikethrough and `[[links]]` are preserved, and the text is never reworded. `rules_links` decides what other links do:
+
+- `[[Rules Amendments]]` points to the site's suggestion section (`{"section": "suggestions"}`).
+- `[[index]]` is shown with a visible "(unavailable: …)" note.
+
+## Suggestions
+
+`suggestions` in the manifest becomes `{title, season, intro, form_url}`. `form_url` must be a Google Forms link, or null while the form is closed. Submissions go to the owner's Google Form and are never stored or published by the site.
 
 ## Not published
 
