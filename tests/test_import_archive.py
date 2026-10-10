@@ -487,6 +487,30 @@ class ImporterTest(unittest.TestCase):
         self.assertIn("Old Team.md (Old Team) matches no team", self.report_text())
         self.assertNotIn("hidden", json.dumps(data))
 
+    def test_people_names_shortened_before_publishing(self):
+        with open(os.path.join(self.vault, "Silmaril", "Team A.md"), "w", encoding="utf-8") as f:
+            f.write("---\nteam_id: T001\nname: Team A\nmanager: Pat Example, JJ Q Public\n---\n")
+        with open(os.path.join(self.vault, "Silmaril", "League.md"), "w", encoding="utf-8") as f:
+            f.write("Current Champion: [[Pat Example]]\n")
+        self.workbook(self.STANDARD, [])
+        self.manifest()
+        with open(self.manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
+        manifest["teams"] = {"vault_dir": "Silmaril", "fields": ["manager"]}
+        manifest["people"] = {"team_fields": ["manager"], "league_facts": ["Current Champion"]}
+        manifest["league"] = {"name": "L", "home_note": "Silmaril/League.md", "facts": ["Current Champion"]}
+        self.write_json(self.manifest_path, manifest)
+        self.assertEqual(self.run_import()[0], 0)
+        data = self.load()
+        self.assertEqual({t["id"]: t["info"].get("manager") for t in data["teams"]}["team-a"], "Pat E., JJ P.")
+        self.assertEqual(data["league"]["facts"], [{"label": "Current Champion", "value": "Pat E."}])
+        self.assertNotIn("Example", json.dumps(data))
+
+    def test_short_person(self):
+        self.assertEqual(ia.short_person("Pat Example"), "Pat E.")
+        self.assertEqual(ia.short_person("Cher"), "Cher")
+        self.assertEqual(ia.short_person("Ann Lee, Bo Diaz"), "Ann L., Bo D.")
+
     def test_team_slug(self):
         self.assertEqual(ia.team_slug("Vlade\u2019s Dance"), "vlades-dance")
         self.assertEqual(ia.team_slug("Bubba Gump Schrempf Co."), "bubba-gump-schrempf-co")

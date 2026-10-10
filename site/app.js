@@ -12,6 +12,7 @@ const state = {
   teams: new Map(),
   filters: {},
   navCount: 0,
+  tickTimer: null,
 };
 
 function $(id) { return document.getElementById(id); }
@@ -219,6 +220,112 @@ function listView(cfg) {
 
 // ---------- Home ----------
 
+// ---------- Countdowns and announcements ----------
+
+// Single source of "now"; a test can shift time with window.__clockOffsetMs.
+function now() { return Date.now() + (window.__clockOffsetMs || 0); }
+
+function stopTicker() {
+  if (state.tickTimer != null) { clearInterval(state.tickTimer); state.tickTimer = null; }
+}
+
+// "Sun, Oct 11 · 11:00 PM ET". ET events are always shown in New York time, whatever the viewer's zone.
+function formatEventTime(ev, at) {
+  const opts = { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" };
+  if (ev.zone === "ET") opts.timeZone = "America/New_York";
+  let parts;
+  try { parts = new Intl.DateTimeFormat("en-US", opts).formatToParts(at); } catch (e) { return String(ev.at); }
+  const get = (t) => (parts.find((p) => p.type === t) || { value: "" }).value;
+  const time = `${get("hour")}:${get("minute")} ${get("dayPeriod")}`;
+  return `${get("weekday")}, ${get("month")} ${get("day")} · ${time}${ev.zone ? " " + ev.zone : ""}`;
+}
+
+function pad2(n) { return n < 10 ? "0" + n : String(n); }
+
+function countdownView(events, announcements) {
+  const entries = [];
+  for (const ev of events || []) {
+    if (!ev || typeof ev !== "object" || !ev.id) continue;
+    const at = new Date(ev.at);
+    if (isNaN(at.getTime())) continue;
+    entries.push({ ev, at });
+  }
+  entries.sort((a, b) => a.at - b.at);
+  const byId = new Map(entries.map((e) => [e.ev.id, e]));
+
+  // Announcements stay until their referenced event passes; one naming an unknown event stays up.
+  const notes = [];
+  for (const a of announcements || []) {
+    if (!a || !a.text) continue;
+    const target = a.until_event ? byId.get(a.until_event) : null;
+    const el = h("p", { class: "notice" }, h("span", { class: "notice-tag" }, "Notice"), " ", String(a.text));
+    notes.push({ el, at: target ? target.at : null });
+  }
+  const banner = notes.length ? h("section", { class: "announcements", "aria-label": "Announcements" }, notes.map((n) => n.el)) : null;
+
+  const rows = entries.map(({ ev, at }) => {
+    const when = formatEventTime(ev, at);
+    const nums = {};
+    const box = (unit) => {
+      nums[unit] = h("span", { class: "cd-num" }, "00");
+      return h("span", { class: "cd-box" }, nums[unit], h("span", { class: "cd-unit" }, unit));
+    };
+    const clock = h("span", { class: "cd-clock", "aria-hidden": "true" }, box("d"), box("h"), box("m"), box("s"));
+    const passed = h("span", { class: "cd-passed" }, ev.passed_text || "This event has passed");
+    passed.hidden = true;
+    const root = h("div", { class: "countdown" },
+      h("span", { class: "cd-label" }, ev.label || ev.id),
+      h("span", { class: "sr-only" }, `${ev.label || ev.id}: ${when.replace(" ·", ",")}`),
+      clock, passed,
+      h("span", { class: "cd-when", "aria-hidden": "true" }, when));
+    return { at, root, nums, clock, passed };
+  });
+
+  let bannerGone = !banner;
+  function tick() {
+    const t = now();
+    for (const r of rows) {
+      const ms = r.at.getTime() - t;
+      if (ms <= 0) {
+        r.passed.hidden = false; r.clock.hidden = true;
+        r.root.classList.remove("urgent");
+        r.root.classList.add("past");
+        continue;
+      }
+      r.passed.hidden = true; r.clock.hidden = false;
+      r.root.classList.remove("past");
+      const secs = Math.floor(ms / 1000);
+      const vals = { d: Math.floor(secs / 86400), h: Math.floor(secs % 86400 / 3600), m: Math.floor(secs % 3600 / 60), s: secs % 60 };
+      r.nums.d.textContent = String(vals.d);
+      r.nums.h.textContent = pad2(vals.h);
+      r.nums.m.textContent = pad2(vals.m);
+      r.nums.s.textContent = pad2(vals.s);
+      r.root.classList.toggle("urgent", ms < 86400000);
+    }
+    if (!bannerGone) {
+      let left = 0;
+      for (const n of notes) {
+        if (n.at && n.at.getTime() <= t) n.el.hidden = true;
+        else { n.el.hidden = false; left += 1; }
+      }
+      banner.hidden = left === 0;
+    }
+  }
+  tick();
+
+  const list = rows.length ? h("div", { class: "countdowns" }, rows.map((r) => r.root)) : null;
+  const view = { banner, list };
+  if (rows.length || banner) {
+    stopTicker();
+    const probe = list || banner;
+    state.tickTimer = setInterval(() => {
+      if (!probe.isConnected) { stopTicker(); return; }
+      tick();
+    }, 1000);
+  }
+  return view;
+}
+
 function latestSnapshot() {
   return state.data.rosters.slice().sort(compareSnapshots).pop() || null;
 }
@@ -241,9 +348,11 @@ function homeView() {
     tiles.append(h("div", { class: "stat-tile" }, h("span", { class: "stat-label" }, "Up next"),
       h("span", { class: "stat-value" }, [snap.season, snap.label === "Pre-draft" ? "draft" : snap.label].filter(Boolean).join(" "))));
   }
+  const cd = countdownView(d.events, d.announcements);
+  if (cd.banner) view.append(cd.banner);
   view.append(h("div", { class: "home-hero" },
     h("p", { class: "home-intro" }, "The league archive: every draft pick, keeper price, roster and rule in one place."),
-    tiles));
+    cd.list, tiles));
 
   // Section cards with live counts.
   const card = (href, title, detail) => h("a", { href, class: "link-card" }, h("span", { class: "link-card-title" }, title),
@@ -337,6 +446,7 @@ function teamView(id) {
   const labels = { manager: "Manager", founded: "Founded", championships: "Championships", active: "Status" };
   const order = Object.keys(labels).filter((k) => k in info).concat(Object.keys(info).filter((k) => !(k in labels)));
   const shown = (k) => (k === "active" ? (isInactive(team) ? "Inactive" : "Active") : info[k]);
+  if (String(info.manager || "").includes(",")) labels.manager = "Managers";
   const facts = order.map((k) => [h("dt", null, labels[k] || k), h("dd", null, shown(k))]);
   // Takeovers: the new team inherits the roster; the old team keeps its history.
   if (team.took_over) {
@@ -829,6 +939,7 @@ function route() {
   const key = r.view + ":" + (r.id || "");
   const same = key === renderedKey;
   if (!same) {
+    stopTicker();
     const builders = { home: homeView, draft: draftView, keepers: keeperView, rules: rulesView, rosters: rostersView, player: () => playerView(r.id),
       teams: teamsView, team: () => teamView(r.id) };
     const view = builders[r.view]();

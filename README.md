@@ -93,6 +93,23 @@ The site is hosted on GitHub Pages from this repository (`jelam95/Po-Boys-BBL`) 
 
 Share the Pages URL that the run prints. The page carries `noindex`, so search engines are asked not to list it, but anyone with the link can view it.
 
+## Countdowns and announcements
+
+The home page counts down to each entry in `events` in `archive/manifest.json`. Each entry needs `id`, `label`, and `at` as an ISO time with a UTC offset; Eastern time in October is `-04:00`. `zone: "ET"` shows the target time in Eastern for every visitor.
+
+`announcements` adds notices above the home page's hero. A notice with `until_event` disappears by itself once that event's time passes.
+
+Current settings:
+- **Keeper deadline:** Sun Oct 11, 2026, 11:00 PM ET.
+- **Draft:** Wed Oct 14, 2026, 7:00 PM ET.
+- **Notice:** "Keepers are live on Yahoo…", shown until the keeper deadline.
+
+To change a date: edit the manifest, rerun the import, push and run the publish workflow. The countdowns themselves tick in the visitor's browser, so they need no republishing while they run.
+
+## People's names
+
+The vault keeps full names. The import shortens managers and the current champion to first name plus last initial ("Pat E."), so full names never reach the published site (`people` in the manifest).
+
 ## Team takeovers
 
 When a new manager takes over a team's roster, add an entry to `team_successions` in the manifest (`from`, `to`, `from_season`, `note`), then rerun the import. From that season on, rosters listed under the old name belong to the new team. Earlier drafts and keepers keep the old name, and both team pages link to each other. Current entry: The Alaskan Huskies took over the Rockaway Rangers roster from 2026-27. Each team also needs a vault team note in `Silmaril/`.

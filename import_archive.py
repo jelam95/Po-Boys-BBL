@@ -191,6 +191,16 @@ def parse_list_field(value):
     return [str(item) for item in parsed] if isinstance(parsed, (list, tuple)) else [str(parsed)]
 
 
+def short_person(name):
+    """'Pat Example' -> 'Pat E.'; several people separated by commas are each shortened.
+    Applied at import so full names never reach the published file."""
+    out = []
+    for person in [p.strip() for p in name.split(",") if p.strip()]:
+        parts = person.split()
+        out.append(parts[0] if len(parts) == 1 else "%s %s." % (parts[0], parts[-1][0].upper()))
+    return ", ".join(out)
+
+
 def team_slug(name):
     """Stable team id from its name: "Vlade’s Dance" -> "vlades-dance"."""
     text = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii").lower()
@@ -217,6 +227,8 @@ def load_vault_teams(vault, cfg, report):
         for field in cfg.get("fields", []):
             value = lowered.get(field.lower(), "").strip().strip('"').strip("'")
             value = WIKI_LINK.sub(lambda m: (m.group(2) or m.group(1)).strip(), value)
+            if value and field in cfg.get("_people_fields", ()):
+                value = short_person(value)
             if value:
                 info[field] = value
         teams[normalize_name(fm["name"])] = {"note": filename, "name": fm["name"].strip(), "info": info}
@@ -1003,12 +1015,37 @@ def build_league(manifest, vault, report):
         if sep and key.strip() in cfg.get("facts", []):
             value = WIKI_LINK.sub(lambda m: (m.group(2) or m.group(1)).strip(), value).strip()
             found[key.strip()] = value
+    people = set((manifest.get("people") or {}).get("league_facts", []))
     for key in cfg.get("facts", []):
         if found.get(key):
-            league["facts"].append({"label": key, "value": found[key]})
+            value = short_person(found[key]) if key in people else found[key]
+            league["facts"].append({"label": key, "value": value})
         else:
             report.warn("League note %s has no '%s:' line; not shown on the home page." % (note, key))
     return league
+
+
+ISO_WITH_OFFSET = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:\d{2}|Z)$")
+
+
+def build_events(manifest):
+    """Dated league events (countdowns) and home-page announcements from the manifest.
+    Times must carry a UTC offset so every visitor counts down to the same moment."""
+    events = []
+    for e in manifest.get("events", []):
+        if not e.get("id") or not e.get("label") or not ISO_WITH_OFFSET.match(e.get("at", "")):
+            raise ImportError_("events need id, label and 'at' as ISO time with offset, e.g. 2026-10-14T19:00:00-04:00")
+        events.append({"id": e["id"], "label": e["label"], "at": e["at"], "zone": e.get("zone"),
+                       "passed_text": e.get("passed_text")})
+    ids = {e["id"] for e in events}
+    notes = []
+    for a in manifest.get("announcements", []):
+        if not a.get("text"):
+            raise ImportError_("announcements need text")
+        if a.get("until_event") and a["until_event"] not in ids:
+            raise ImportError_("announcement until_event %r is not an event id" % a["until_event"])
+        notes.append({"text": a["text"], "until_event": a.get("until_event")})
+    return events, notes
 
 
 GOOGLE_FORM = re.compile(r"^https://(docs\.google\.com/forms/|forms\.gle/)[A-Za-z0-9_\-/?=&.]+$")
@@ -1237,6 +1274,7 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
             report.warn("Team names %s differ only in punctuation or case; kept separate." % variants)
     # Team objects: one per distinct team name, linked to a vault team note when one matches.
     team_cfg = manifest.get("teams") or {}
+    team_cfg = dict(team_cfg, _people_fields=tuple((manifest.get("people") or {}).get("team_fields", [])))
     vault_teams = load_vault_teams(vault, team_cfg, report)
     teams, team_ids, used = [], {}, set()
     for name in team_names:
@@ -1297,6 +1335,8 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
         "rules": build_rules(manifest, vault, report),
         "suggestions": build_suggestions(manifest),
         "league": build_league(manifest, vault, report),
+        "events": build_events(manifest)[0],
+        "announcements": build_events(manifest)[1],
     }
     check_integrity(data, report)
 

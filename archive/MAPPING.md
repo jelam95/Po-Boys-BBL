@@ -90,8 +90,16 @@ The team page shows the current roster with recorded keeper prices and how each 
 
 `suggestions` in the manifest becomes `{title, season, intro, form_url}`. `form_url` must be a Google Forms link, or null while the form is closed. Submissions go to the owner's Google Form and are never stored or published by the site.
 
+## Events and announcements
+
+`events` (`{id, label, at, zone, passed_text}`) and `announcements` (`{text, until_event}`) are copied from the manifest. `at` must include a UTC offset. The site computes the countdowns live in the browser.
+
+## People
+
+Manager names (team notes) and the "Current Champion" fact are shortened at import to first name plus last initial ("Pat Example" becomes "Pat E."). Several managers separated by commas are each shortened. The vault keeps full names.
+
 ## Not published
 
 - Source file paths, sheet row numbers and import traceability. These go to `archive/build/records.json`, which is git-ignored.
-- Vault `fantasy_teams`, which is empty everywhere, and team-note manager names.
+- Vault `fantasy_teams`, which is empty everywhere, and people's full names (only first name plus last initial is published).
 - Workbooks.

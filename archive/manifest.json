@@ -10,6 +10,28 @@
       "Current Champion"
     ]
   },
+  "events": [
+    {
+      "id": "keeper-deadline",
+      "label": "Keeper deadline",
+      "at": "2026-10-11T23:00:00-04:00",
+      "zone": "ET",
+      "passed_text": "Keeper deadline has passed"
+    },
+    {
+      "id": "draft",
+      "label": "Draft",
+      "at": "2026-10-14T19:00:00-04:00",
+      "zone": "ET",
+      "passed_text": "The draft is under way"
+    }
+  ],
+  "announcements": [
+    {
+      "text": "Keepers are live on Yahoo. Submit your keepers before the deadline runs up.",
+      "until_event": "keeper-deadline"
+    }
+  ],
   "teams": {
     "_comment": "Team objects are built from the team names in the records. A vault note in vault_dir whose frontmatter has team_id and name (e.g. Silmaril/Bayonne Dealers.md) adds the listed fields to that team's page.",
     "vault_dir": "Silmaril",
@@ -28,6 +50,16 @@
       "note": "The Alaskan Huskies took over the Rockaway Rangers roster (owner, 2026-10-09)."
     }
   ],
+  "people": {
+    "_comment": "Owner, 2026-10-09: people's names on the site are shortened to first name plus last initial (e.g. Pat Example -> Pat E.). The vault keeps full names; the importer shortens them before publishing.",
+    "display": "first_last_initial",
+    "team_fields": [
+      "manager"
+    ],
+    "league_facts": [
+      "Current Champion"
+    ]
+  },
   "vault": "../Po-Boys-BBL/PBBL",
   "vault_players_dir": "Silmaril/players",
   "workbooks_dir": "archive/workbooks",

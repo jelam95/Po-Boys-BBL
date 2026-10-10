@@ -523,6 +523,81 @@ dd { margin: 0; font-weight: 600; }
 .card h3 .team-link { color: inherit; text-decoration: none; }
 .card h3 .team-link:hover { text-decoration: underline; }
 
+/* ---------- Announcements and countdowns ---------- */
+
+.announcements {                 /* bleeds to the panel edges, sits above the hero */
+  margin: -18px -18px 0;
+  padding: 10px 18px;
+  background: color-mix(in srgb, var(--gold) 22%, var(--surface));
+  border-left: 8px solid var(--gold);
+  border-bottom: 1px solid var(--line);
+}
+.announcements[hidden], .notice[hidden], .cd-passed[hidden], .cd-clock[hidden] { display: none; }
+.announcements + .home-hero { margin-top: 0; }
+.notice { margin: 4px 0; color: var(--text); font-weight: 600; }
+.notice-tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 10px 0 8px;
+  color: var(--ink-on-gold);
+  background: var(--gold);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  vertical-align: 1px;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+}
+
+.countdowns { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 10px; margin: 0 0 14px; }
+.countdown {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  padding: 0 0 10px;
+  background: #15151a;
+  border: 1px solid #3a3a42;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%);
+}
+.cd-label {
+  padding: 3px 12px;
+  color: #15151a;
+  background: linear-gradient(180deg, #ffd35c, #f5b82e 55%, #c98d0a);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.cd-clock { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 12px; }
+.cd-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 3.4em;
+  padding: 4px 8px 2px;
+  background: #0a0a0c;
+  border: 1px solid #3a3a42;
+}
+.cd-num {
+  color: #f2f2f2;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.cd-unit { color: #c9ccd4; font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.cd-when { padding: 0 24px 0 12px; color: #d9dce3; font-size: 0.92rem; }
+.cd-passed { padding: 4px 24px 0 12px; color: #f2f2f2; font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; letter-spacing: 0.03em; }
+.countdown.urgent { border-color: #ff6b6b; }
+.countdown.urgent .cd-box { background: #b3121f; border-color: #ff9a9a; }
+.countdown.urgent .cd-num, .countdown.urgent .cd-unit { color: #ffffff; }
+.countdown.past { opacity: 0.9; }
+
 /* ---------- Footer ---------- */
 
 .foot {
@@ -536,6 +611,9 @@ dd { margin: 0; font-weight: 600; }
 
 @media (max-width: 600px) {
   .panel { padding: 14px; }
+  .announcements { margin: -14px -14px 0; padding-left: 14px; padding-right: 14px; }
+  .cd-box { min-width: 3em; padding: 4px 6px 2px; }
+  .cd-num { font-size: 1.45rem; }
   .home-hero { margin: -14px -14px 18px; padding-left: 14px; padding-right: 14px; }
   .filters { flex-direction: column; align-items: stretch; gap: 10px; }
   .field-grow { flex: none; }

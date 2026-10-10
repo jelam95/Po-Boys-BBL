@@ -1,4 +1,10 @@
 {
+ "announcements": [
+  {
+   "text": "Keepers are live on Yahoo. Submit your keepers before the deadline runs up.",
+   "until_event": "keeper-deadline"
+  }
+ ],
  "drafts": [
   {
    "fee_key": "first",
@@ -3716,6 +3722,22 @@
    "team_id": "bayonne-dealers"
   }
  ],
+ "events": [
+  {
+   "at": "2026-10-11T23:00:00-04:00",
+   "id": "keeper-deadline",
+   "label": "Keeper deadline",
+   "passed_text": "Keeper deadline has passed",
+   "zone": "ET"
+  },
+  {
+   "at": "2026-10-14T19:00:00-04:00",
+   "id": "draft",
+   "label": "Draft",
+   "passed_text": "The draft is under way",
+   "zone": "ET"
+  }
+ ],
  "fee_types": {
   "2025-26": {
    "applies_to": "2026-27",
@@ -3747,7 +3769,7 @@
    ]
   }
  },
- "imported_at": "2026-10-10T00:28:10Z",
+ "imported_at": "2026-10-10T00:34:48Z",
  "keepers": [
   {
    "cost": 34,
@@ -4178,7 +4200,7 @@
    },
    {
     "label": "Current Champion",
-    "value": "Jordan Elam"
+    "value": "Jordan E."
    }
   ],
   "name": "National Bastard Association",
@@ -13820,7 +13842,7 @@
     "active": "true",
     "championships": "0",
     "founded": "2017",
-    "manager": "Alec Weissman"
+    "manager": "Alec W."
    },
    "name": "Alec's Team"
   },
@@ -13831,7 +13853,7 @@
     "active": "true",
     "championships": "2",
     "founded": "2017",
-    "manager": "Jordan Elam"
+    "manager": "Jordan E."
    },
    "name": "Bayonne Dealers"
   },
@@ -13842,7 +13864,7 @@
     "active": "true",
     "championships": "2",
     "founded": "2017",
-    "manager": "Nick Tarta"
+    "manager": "Nick T."
    },
    "name": "Branchburg Bedwetters"
   },
@@ -13853,7 +13875,7 @@
     "active": "true",
     "championships": "0",
     "founded": "2017",
-    "manager": "Zach Rodriguez"
+    "manager": "Zach R."
    },
    "name": "Bubba Gump Schrempf Co."
   },
@@ -13864,7 +13886,7 @@
     "active": "true",
     "championships": "1",
     "founded": "2017",
-    "manager": "Jeremy Barbara"
+    "manager": "Jeremy B."
    },
    "name": "Jersey City Jreamers"
   },
@@ -13875,7 +13897,7 @@
     "active": "true",
     "championships": "0",
     "founded": "2017",
-    "manager": "JJ Fritsch"
+    "manager": "JJ F."
    },
    "name": "Jesus Shuttlesworth"
   },
@@ -13886,7 +13908,7 @@
     "active": "true",
     "championships": "0",
     "founded": "2017",
-    "manager": "Alexander Cardazzi"
+    "manager": "Alexander C., Will S."
    },
    "name": "Kings Park Blogsmen"
   },
@@ -13897,7 +13919,7 @@
     "active": "true",
     "championships": "0",
     "founded": "2017",
-    "manager": "Mike Danenberg"
+    "manager": "Mike D."
    },
    "name": "Paulus Hookers"
   },
@@ -13908,7 +13930,7 @@
     "active": "false",
     "championships": "0",
     "founded": "2018",
-    "manager": "Zack Bronstein"
+    "manager": "Zack B., Erik H."
    },
    "name": "Rockaway Rangers",
    "succeeded_by": {
@@ -13924,7 +13946,7 @@
     "active": "true",
     "championships": "2",
     "founded": "2017",
-    "manager": "Michael Thum"
+    "manager": "Michael T."
    },
    "name": "San Q'tin Stallions"
   },
@@ -13935,7 +13957,7 @@
     "active": "true",
     "championships": "0",
     "founded": "2026",
-    "manager": "Alex Kashmann"
+    "manager": "Alex K."
    },
    "name": "The Alaskan Huskies",
    "took_over": {
@@ -13951,7 +13973,7 @@
     "active": "true",
     "championships": "2",
     "founded": "2017",
-    "manager": "David Schuckman"
+    "manager": "David S."
    },
    "name": "Vegas Mirotićs"
   },
@@ -13962,7 +13984,7 @@
     "active": "true",
     "championships": "0",
     "founded": "2017",
-    "manager": "Jared Hayden"
+    "manager": "Jared H."
    },
    "name": "Vlade’s Dance"
   }
