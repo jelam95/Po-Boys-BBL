@@ -9,6 +9,7 @@ const state = {
   data: null,
   players: new Map(),
   rulesById: new Map(),
+  teams: new Map(),
   filters: {},
   navCount: 0,
 };
@@ -71,6 +72,13 @@ function anchor(href, children, className) {
 function displayName(playerId, fallback) {
   const p = state.players.get(playerId);
   return (p && p.name) || fallback || DASH;
+}
+
+function teamLink(teamId, label) {
+  if (teamId && state.teams.has(teamId)) {
+    return h("a", { href: "#team/" + encodeURIComponent(teamId), class: "team-link" }, label || state.teams.get(teamId).name);
+  }
+  return document.createTextNode(label || DASH);
 }
 
 function playerLink(playerId, label) {
@@ -251,6 +259,20 @@ function homeView() {
     d.suggestions && d.suggestions.form_url ? card("#rules/suggestions", "Suggest a rule change", d.suggestions.season ? "For " + d.suggestions.season : "Send an idea") : null);
   view.append(cards);
 
+  // Players marked Can't Be Kept in the newest draft go back into this year's draft pool.
+  const returning = draftSeason ? d.drafts.filter((x) => x.season === draftSeason && x.fee_key === "cbk") : [];
+  if (returning.length) {
+    const onRoster = new Map(((snap && snap.entries) || []).map((e) => [e.player_id, e]));
+    view.append(h("h3", { class: "home-subhead" }, "Players returning to the draft this year"),
+      h("ul", { class: "returning-list" }, returning.map((x) => {
+        const now = onRoster.get(x.player_id);
+        return h("li", null, feeBadge(x.fee_key, x.fee_short || "Can't keep"), " ",
+          playerLink(x.player_id, displayName(x.player_id, x.source_name)),
+          h("span", { class: "top-team" }, now ? teamLink(now.team_id, now.team) : teamLink(x.team_id, x.team)),
+          h("span", { class: "returning-note" }, `${draftSeason} draft price ${moneyText(x.salary, x.salary_display)}`));
+      })));
+  }
+
   // Highlight: priciest keeper prices on current rosters.
   if (snap && snap.price_from_draft) {
     const top = snap.entries.filter((e) => e.keeper_price != null).sort((a, b) => b.keeper_price - a.keeper_price).slice(0, 5);
@@ -258,10 +280,105 @@ function homeView() {
       const season = nextSeason(snap.price_from_draft);
       view.append(h("h3", { class: "home-subhead" }, `Priciest keepers${season ? " for " + season : ""}`),
         h("ol", { class: "top-list" }, top.map((e) => h("li", null,
-          playerLink(e.player_id, displayName(e.player_id, e.source_name)), h("span", { class: "top-team" }, e.team),
+          playerLink(e.player_id, displayName(e.player_id, e.source_name)), h("span", { class: "top-team" }, teamLink(e.team_id, e.team)),
           h("span", { class: "top-price" }, "$" + e.keeper_price)))));
     }
   }
+  return view;
+}
+
+// ---------- Teams ----------
+
+function teamSummary(team) {
+  const d = state.data;
+  const snap = latestSnapshot();
+  const roster = snap ? snap.entries.filter((e) => e.team_id === team.id) : [];
+  const newestDraft = d.seasons.draft.length ? d.seasons.draft[d.seasons.draft.length - 1] : null;
+  const picks = d.drafts.filter((x) => x.team_id === team.id && x.season === newestDraft);
+  return { roster, picks, newestDraft, spent: picks.reduce((sum, x) => sum + (x.salary || 0), 0) };
+}
+
+function teamsView() {
+  const view = h("section", { class: "panel", "aria-labelledby": "view-title" },
+    h("h2", { id: "view-title", tabindex: "-1" }, "Teams"));
+  const grid = h("div", { class: "link-cards" });
+  for (const team of state.data.teams) {
+    const s = teamSummary(team);
+    const bits = [];
+    if (team.info && team.info.manager) bits.push(team.info.manager);
+    if (s.roster.length) bits.push(`${s.roster.length} rostered`);
+    if (s.newestDraft) bits.push(`${s.picks.length} picks in ${s.newestDraft}`);
+    grid.append(h("a", { href: "#team/" + encodeURIComponent(team.id), class: "link-card" },
+      h("span", { class: "link-card-title" }, team.name), h("span", { class: "link-card-detail" }, bits.join(" · "))));
+  }
+  view.append(grid);
+  return view;
+}
+
+function teamView(id) {
+  const d = state.data;
+  const team = state.teams.get(id);
+  const view = h("section", { class: "panel", "aria-labelledby": "view-title" }, backLink());
+  if (!team) {
+    view.append(h("h2", { id: "view-title", tabindex: "-1" }, "Team"), h("p", { class: "note" }, "Team not found."));
+    return view;
+  }
+  view.append(h("h2", { id: "view-title", tabindex: "-1" }, team.name));
+  const none = () => h("p", { class: "note" }, "None recorded");
+
+  const info = team.info || {};
+  const labels = { manager: "Manager", founded: "Founded", championships: "Championships" };
+  const order = Object.keys(labels).filter((k) => k in info).concat(Object.keys(info).filter((k) => !(k in labels)));
+  const facts = order.map((k) => [h("dt", null, labels[k] || k), h("dd", null, info[k])]);
+  view.append(h("div", { class: "vault" }, h("h3", null, "From the league vault"),
+    facts.length ? h("dl", null, facts) : h("p", { class: "note" }, "No vault team note yet.")));
+
+  // Current roster with recorded keeper prices.
+  const snap = latestSnapshot();
+  const roster = snap ? snap.entries.filter((e) => e.team_id === id) : [];
+  roster.sort((a, b) => (b.keeper_price ?? -1) - (a.keeper_price ?? -1));
+  const priceSeason = snap && snap.price_from_draft ? nextSeason(snap.price_from_draft) : null;
+  view.append(h("h3", null, snap ? `Current roster · ${snapLabel(snap)}` : "Current roster"));
+  view.append(roster.length ? simpleTable("Current roster", [
+    { label: "Player" }, { label: priceSeason ? `Keeper price (${priceSeason})` : "Keeper price", cls: "num" },
+    { label: "Fee" }, { label: "How acquired" },
+  ], roster.map((e) => [
+    playerLink(e.player_id, displayName(e.player_id, e.source_name)),
+    e.price_basis ? moneyText(e.keeper_price, e.keeper_price_display) : "",
+    feeBadge(e.fee_key, e.fee_short),
+    e.price_basis === "undrafted" ? `Not drafted in ${snap.price_from_draft}`
+      : e.drafted_by_id === id ? `Drafted, pick ${e.draft_pick}`
+      : e.drafted_by ? h("span", null, "Drafted by ", teamLink(e.drafted_by_id, e.drafted_by), `, pick ${e.draft_pick}`) : "",
+  ])) : h("p", { class: "note" }, snap ? "No players on this roster." : "No roster imported yet."));
+
+  // Draft history, newest season first.
+  const onRoster = new Map(((snap && snap.entries) || []).map((e) => [e.player_id, e]));
+  const draftSeasons = [...new Set(d.drafts.filter((x) => x.team_id === id).map((x) => x.season))].sort(cmpSeason).reverse();
+  view.append(h("h3", null, "Draft history"));
+  if (!draftSeasons.length) view.append(none());
+  for (const season of draftSeasons) {
+    const picks = d.drafts.filter((x) => x.team_id === id && x.season === season).sort((a, b) => (a.pick ?? 1e9) - (b.pick ?? 1e9));
+    const spent = picks.reduce((sum, x) => sum + (x.salary || 0), 0);
+    const next = nextSeason(season);
+    view.append(h("p", { class: "count" }, `${season}: ${picks.length} picks · $${spent} in draft prices`),
+      simpleTable(`${season} draft picks`, [
+        { label: "Pick", cls: "num" }, { label: "Player" }, { label: "Draft price", cls: "num" },
+        { label: next ? `Keeper price (${next})` : "Next keeper price", cls: "num" }, { label: "Fee" }, { label: "Now on" },
+      ], picks.map((x) => {
+        const now = onRoster.get(x.player_id);
+        return [x.pick, playerLink(x.player_id, displayName(x.player_id, x.source_name)),
+          moneyText(x.salary, x.salary_display), moneyText(x.next_price, x.next_price_display),
+          feeBadge(x.fee_key, x.fee_short), now ? (now.team_id === id ? "This team" : teamLink(now.team_id, now.team)) : "Not rostered"];
+      })));
+  }
+
+  // Keepers.
+  const kept = d.keepers.filter((k) => k.team_id === id).sort((a, b) => cmpSeason(b.season, a.season));
+  view.append(h("h3", null, "Keepers"));
+  view.append(kept.length ? simpleTable("Keepers", [
+    { label: "Season" }, { label: "Player" }, { label: "Kept at", cls: "num" }, { label: "Next-season price to keep", cls: "num" },
+  ], kept.map((k) => [k.season, playerLink(k.player_id, displayName(k.player_id, k.source_name)),
+    moneyText(k.cost, k.cost_display), moneyText(k.next_cost, k.next_cost_display)])) : none());
   return view;
 }
 
@@ -320,7 +437,7 @@ function draftView() {
         { key: "season", label: "Season", type: "num", value: (r) => seasonYear(r.season), render: (r, td) => textOrDash(td, r.season) },
         { key: "pick", label: "Pick", type: "num", cls: "num", value: (r) => r.pick, render: (r, td) => textOrDash(td, r.pick) },
         { key: "player", label: "Player", type: "text", cls: "left", value: (r) => displayName(r.player_id, r.source_name), render: (r, td) => td.append(playerLink(r.player_id, displayName(r.player_id, r.source_name))) },
-        { key: "team", label: "Team", type: "text", cls: "left", value: (r) => r.team, render: (r, td) => textOrDash(td, r.team) },
+        { key: "team", label: "Team", type: "text", cls: "left", value: (r) => r.team, render: (r, td) => td.append(teamLink(r.team_id, r.team)) },
         { key: "salary", label: "Draft price", type: "num", cls: "num", value: (r) => r.salary,
           render: moneyCell((r) => r.salary, (r) => r.salary_display, (r) => r.salary_note) },
         { key: "next", label: priceLabel, type: "num", cls: "num", value: (r) => r.next_price,
@@ -350,7 +467,7 @@ function keeperView() {
       return [
         { key: "season", label: "Season", type: "num", value: (r) => seasonYear(r.season), render: (r, td) => textOrDash(td, r.season) },
         { key: "player", label: "Player", type: "text", cls: "left", value: (r) => displayName(r.player_id, r.source_name), render: (r, td) => td.append(playerLink(r.player_id, displayName(r.player_id, r.source_name))) },
-        { key: "team", label: "Team", type: "text", cls: "left", value: (r) => r.team, render: (r, td) => textOrDash(td, r.team) },
+        { key: "team", label: "Team", type: "text", cls: "left", value: (r) => r.team, render: (r, td) => td.append(teamLink(r.team_id, r.team)) },
         { key: "cost", label: "Kept at", type: "num", cls: "num", value: (r) => r.cost,
           render: moneyCell((r) => r.cost, (r) => r.cost_display, (r) => r.cost_note) },
         { key: "next", label: nextLabel, type: "num", cls: "num", value: (r) => r.next_cost,
@@ -563,7 +680,7 @@ function rostersView() {
           const moved = e.price_basis === "drafted" && e.drafted_by && e.drafted_by !== team;
           tr.append(td, h("td", { class: "left roster-note" },
             feeBadge(e.fee_key, e.fee_short || (e.price_basis === "undrafted" ? "Undrafted" : null)),
-            moved ? h("span", { class: "moved" }, "Drafted by " + e.drafted_by) : null));
+            moved ? h("span", { class: "moved" }, "Drafted by ", teamLink(e.drafted_by_id, e.drafted_by)) : null));
         }
         tbody.append(tr);
       }
@@ -571,7 +688,7 @@ function rostersView() {
         priced ? [h("th", { scope: "col", class: "num", title: priceSeason ? `Keeper price for ${priceSeason}` : "Keeper price" }, "Price"),
                   h("th", { scope: "col", class: "left" }, "Note")] : null);
       grid.append(h("div", { class: "card" },
-        h("h3", null, team, h("span", { class: "card-count" }, ` · ${entries.length} players`)),
+        h("h3", null, teamLink(entries[0].team_id, team), h("span", { class: "card-count" }, ` · ${entries.length} players`)),
         h("div", { class: "table-wrap" }, h("table", null, h("caption", { class: "sr-only" }, team + " roster"),
           h("thead", null, head), tbody))));
     }
@@ -636,7 +753,7 @@ function playerView(id) {
   view.append(drafts.length ? simpleTable("Draft records", [
     { label: "Season" }, { label: "Pick", cls: "num" }, { label: "Team" }, { label: "Draft price", cls: "num" },
     { label: "Next-season keeper price", cls: "num" }, { label: "Next-season fee" }, { label: "Kept" },
-  ], drafts.map((d) => [d.season, d.pick, d.team, moneyText(d.salary, d.salary_display),
+  ], drafts.map((d) => [d.season, d.pick, teamLink(d.team_id, d.team), moneyText(d.salary, d.salary_display),
     moneyText(d.next_price, d.next_price_display) + (nextSeason(d.season) ? ` (${nextSeason(d.season)})` : ""),
     feeBadge(d.fee_key, d.fee_type), d.kept ? "Kept" : ""])) : none());
 
@@ -645,7 +762,7 @@ function playerView(id) {
   view.append(keepers.length ? simpleTable("Keeper records", [
     { label: "Season" }, { label: "Team" }, { label: "Kept at", cls: "num" }, { label: "Next-season price to keep", cls: "num" },
     { label: "Draft pick", cls: "num" },
-  ], keepers.map((k) => [k.season, k.team, moneyText(k.cost, k.cost_display),
+  ], keepers.map((k) => [k.season, teamLink(k.team_id, k.team), moneyText(k.cost, k.cost_display),
     moneyText(k.next_cost, k.next_cost_display) + (nextSeason(k.season) ? ` (${nextSeason(k.season)})` : ""),
     k.draft_pick])) : none());
 
@@ -654,8 +771,8 @@ function playerView(id) {
     for (const e of s.entries || []) {
       if (e.player_id !== id) continue;
       const basis = h("span", null, feeBadge(e.fee_key, e.fee_short),
-        e.drafted_by ? ` Drafted by ${e.drafted_by}, pick ${e.draft_pick}` : "");
-      memberships.push([[s.season, s.label].filter(Boolean).join(" "), formatDate(s.snapshot_date), e.team,
+        e.drafted_by ? [" Drafted by ", teamLink(e.drafted_by_id, e.drafted_by), `, pick ${e.draft_pick}`] : "");
+      memberships.push([[s.season, s.label].filter(Boolean).join(" "), formatDate(s.snapshot_date), teamLink(e.team_id, e.team),
         e.price_basis ? moneyText(e.keeper_price, e.keeper_price_display) : "", basis]);
     }
   }
@@ -681,6 +798,8 @@ function parseRoute() {
     case "rules": return { view: "rules", scroll: arg ? "rules-" + arg : null };
     case "rosters": return { view: "rosters" };
     case "player": return { view: "player", id: arg };
+    case "teams": return { view: "teams" };
+    case "team": return { view: "team", id: arg };
     default: return { view: "home" };
   }
 }
@@ -693,14 +812,16 @@ function route() {
   const key = r.view + ":" + (r.id || "");
   const same = key === renderedKey;
   if (!same) {
-    const builders = { home: homeView, draft: draftView, keepers: keeperView, rules: rulesView, rosters: rostersView, player: () => playerView(r.id) };
+    const builders = { home: homeView, draft: draftView, keepers: keeperView, rules: rulesView, rosters: rostersView, player: () => playerView(r.id),
+      teams: teamsView, team: () => teamView(r.id) };
     const view = builders[r.view]();
     $("view").replaceChildren(view);
-    const labels = { home: "Home", draft: "Draft History", keepers: "Keeper History", rules: "Rules", rosters: "Rosters", player: "Player" };
+    const labels = { home: "Home", draft: "Draft History", keepers: "Keeper History", rules: "Rules", rosters: "Rosters", player: "Player", teams: "Teams", team: "Team" };
     const site = (state.data.league && state.data.league.name) || "League archive";
     document.title = r.view === "home" ? site : `${labels[r.view]} · ${site}`;
+    const navView = r.view === "team" ? "teams" : r.view;
     for (const a of document.querySelectorAll("#nav a")) {
-      if (a.dataset.view === r.view) a.setAttribute("aria-current", "page");
+      if (a.dataset.view === navView) a.setAttribute("aria-current", "page");
       else a.removeAttribute("aria-current");
     }
     renderedKey = key;
@@ -773,6 +894,7 @@ async function load() {
   state.data = data;
   for (const p of data.players) state.players.set(p.id, p);
   for (const r of data.rules) state.rulesById.set(r.id, r);
+  for (const t of data.teams || []) if (t && t.id) state.teams.set(t.id, t);
   renderHeader();
   setStatus("");
   route();

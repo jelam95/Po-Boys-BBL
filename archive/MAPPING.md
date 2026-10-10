@@ -70,7 +70,13 @@ The importer checks each recorded 2026-27 price against its draft price and writ
 
 ## Teams
 
-`teams` lists the fantasy team names that appear in the records, exactly as written. The sources contain no renames, so no team mapping exists. Names that differ only in punctuation or capitals are reported, not merged.
+`teams` holds one object per distinct fantasy team name in the records: `{id, name, in_vault, info}`.
+
+- **`id`** comes from the name, with accents and apostrophes removed (`Vlade’s Dance` becomes `vlades-dance`). Every draft, keeper and roster record carries a matching `team_id`, and the import checks that each one resolves.
+- **`info`** is filled from a vault team note: a Markdown file in `Silmaril/` whose frontmatter has `team_id` and `name`. Only the fields listed under `teams.fields` in the manifest are published (manager, founded, championships). Right now only `Bayonne Dealers.md` exists. A note for another team appears on that team's page after the next import.
+- **Names are kept exactly as written.** The sources contain no renames, so no mapping exists. Names that differ only in punctuation or capitals are reported, not merged.
+
+The team page shows the current roster with recorded keeper prices and how each player was acquired, every draft pick with its draft price and where the player is now, and the team's keepers.
 
 ## Rules
 

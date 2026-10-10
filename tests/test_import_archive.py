@@ -464,6 +464,34 @@ class ImporterTest(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertIn("must be a Google Forms link", output)
 
+    def test_team_objects_link_records_and_vault_notes(self):
+        with open(os.path.join(self.vault, "Silmaril", "Team A.md"), "w", encoding="utf-8") as f:
+            f.write('---\nteam_id: T001\nname: Team A\nmanager: [[Some Manager]]\nfounded: 2017\n'
+                    'Championships: "1"\nsecret: hidden\n---\n# Team A\n')
+        with open(os.path.join(self.vault, "Silmaril", "Old Team.md"), "w", encoding="utf-8") as f:
+            f.write("---\nteam_id: T009\nname: Old Team\n---\n")
+        self.workbook(self.STANDARD, [("Nikola Jokic", 69)])
+        self.manifest()
+        with open(self.manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
+        manifest["teams"] = {"vault_dir": "Silmaril", "fields": ["manager", "founded", "championships"]}
+        self.write_json(self.manifest_path, manifest)
+        code, output = self.run_import()
+        self.assertEqual(code, 0, output)
+        data = self.load()
+        teams = {t["id"]: t for t in data["teams"]}
+        self.assertEqual(set(teams), {"team-a", "team-b"})
+        self.assertEqual(teams["team-a"]["info"], {"manager": "Some Manager", "founded": "2017", "championships": "1"})
+        self.assertFalse(teams["team-b"]["in_vault"])
+        self.assertTrue(all(d["team_id"] in teams for d in data["drafts"] + data["keepers"]))
+        self.assertIn("Old Team.md (Old Team) matches no team", self.report_text())
+        self.assertNotIn("hidden", json.dumps(data))
+
+    def test_team_slug(self):
+        self.assertEqual(ia.team_slug("Vlade\u2019s Dance"), "vlades-dance")
+        self.assertEqual(ia.team_slug("Bubba Gump Schrempf Co."), "bubba-gump-schrempf-co")
+        self.assertEqual(ia.team_slug("Vegas Miroti\u0107s"), "vegas-mirotics")
+
 
 class FormulaHandlingTest(unittest.TestCase):
     """The importer uses Excel's saved result and flags formulas without one."""

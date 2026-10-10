@@ -191,6 +191,38 @@ def parse_list_field(value):
     return [str(item) for item in parsed] if isinstance(parsed, (list, tuple)) else [str(parsed)]
 
 
+def team_slug(name):
+    """Stable team id from its name: "Vlade’s Dance" -> "vlades-dance"."""
+    text = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii").lower()
+    text = re.sub(r"['’`]", "", text)
+    return re.sub(r"[^a-z0-9]+", "-", text).strip("-") or "team"
+
+
+def load_vault_teams(vault, cfg, report):
+    """Team notes: Markdown files in the configured vault folder whose frontmatter has
+    team_id and name. Only the fields listed in the manifest are published."""
+    folder = os.path.join(vault, cfg.get("vault_dir", "Silmaril"))
+    teams = {}
+    if not os.path.isdir(folder):
+        return teams
+    for filename in sorted(os.listdir(folder)):
+        if not filename.endswith(".md"):
+            continue
+        with open(os.path.join(folder, filename), encoding="utf-8") as handle:
+            fm = parse_frontmatter(handle.read())
+        if not fm or not fm.get("team_id") or not fm.get("name"):
+            continue
+        lowered = {k.lower(): v for k, v in fm.items()}
+        info = {}
+        for field in cfg.get("fields", []):
+            value = lowered.get(field.lower(), "").strip().strip('"').strip("'")
+            value = WIKI_LINK.sub(lambda m: (m.group(2) or m.group(1)).strip(), value)
+            if value:
+                info[field] = value
+        teams[normalize_name(fm["name"])] = {"note": filename, "name": fm["name"].strip(), "info": info}
+    return teams
+
+
 def load_vault_players(players_dir, report):
     if not os.path.isdir(players_dir):
         raise ImportError_("vault players folder not found: %s" % os.path.basename(players_dir))
@@ -1062,6 +1094,11 @@ def check_integrity(data, report):
             if entry["player_id"] not in ids:
                 problems += 1
                 report.error("Roster %s points to missing player %s." % (snap["id"], entry["player_id"]))
+    team_ids = {t["id"] for t in data["teams"]}
+    for record in data["drafts"] + data["keepers"] + [e for s in data["rosters"] for e in s["entries"]]:
+        if record.get("team_id") not in team_ids:
+            problems += 1
+            report.error("Record for %s points to missing team %s." % (record.get("source_name"), record.get("team_id")))
     record_ids = [r["id"] for r in data["drafts"] + data["keepers"]] + [s["id"] for s in data["rosters"]]
     if len(record_ids) != len(set(record_ids)):
         problems += 1
@@ -1172,14 +1209,42 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
     if any(vp["_fantasy_teams"] for vp in vault_players.values()):
         report.notes.append("Some vault notes list fantasy_teams; that field is not published (rosters come from imports).")
 
-    teams = sorted({r["team"] for r in drafts + keepers} | {e["team"] for s in rosters for e in s["entries"]},
-                   key=str.lower)
+    team_names = sorted({r["team"] for r in drafts + keepers} | {e["team"] for s in rosters for e in s["entries"]},
+                        key=str.lower)
     by_norm = {}
-    for team in teams:
+    for team in team_names:
         by_norm.setdefault(normalize_name(team), []).append(team)
     for variants in by_norm.values():
         if len(variants) > 1:
             report.warn("Team names %s differ only in punctuation or case; kept separate." % variants)
+    # Team objects: one per distinct team name, linked to a vault team note when one matches.
+    team_cfg = manifest.get("teams") or {}
+    vault_teams = load_vault_teams(vault, team_cfg, report)
+    teams, team_ids, used = [], {}, set()
+    for name in team_names:
+        tid = base = team_slug(name)
+        n = 2
+        while tid in used:
+            tid = "%s-%d" % (base, n)
+            n += 1
+        used.add(tid)
+        team_ids[name] = tid
+        note = vault_teams.get(normalize_name(name))
+        teams.append({"id": tid, "name": name, "in_vault": bool(note), "info": note["info"] if note else {}})
+    matched = {normalize_name(t) for t in team_names}
+    for key, note in sorted(vault_teams.items()):
+        if key not in matched:
+            report.warn("Vault team note %s (%s) matches no team in the records." % (note["note"], note["name"]))
+    missing_notes = [t["name"] for t in teams if not t["in_vault"]]
+    if missing_notes:
+        report.notes.append("Teams without a vault team note (%d): %s." % (len(missing_notes), ", ".join(missing_notes)))
+    for record in drafts + keepers:
+        record["team_id"] = team_ids[record["team"]]
+    for snap in rosters:
+        for entry in snap["entries"]:
+            entry["team_id"] = team_ids[entry["team"]]
+            if entry.get("drafted_by"):
+                entry["drafted_by_id"] = team_ids.get(entry["drafted_by"])
 
     def public(record):
         return {k: v for k, v in record.items() if not k.startswith("_")}

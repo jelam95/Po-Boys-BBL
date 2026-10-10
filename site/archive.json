@@ -20,7 +20,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Julius Randle",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "first",
@@ -43,7 +44,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Luka Dončić",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "first",
@@ -66,7 +68,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Giannis Antetokounmpo",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "first",
@@ -89,7 +92,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Anthony Edwards",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "first",
@@ -112,7 +116,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Devin Booker",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "first",
@@ -135,7 +140,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Anthony Davis",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "first",
@@ -158,7 +164,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Zion Williamson",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "first",
@@ -180,7 +187,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Stephen Curry",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "first",
@@ -202,7 +210,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Tyrese Maxey",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "first",
@@ -226,7 +235,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Cooper Flagg",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "first",
@@ -248,7 +258,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Trae Young",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "first",
@@ -271,7 +282,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jaren Jackson Jr.",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "first",
@@ -295,7 +307,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Austin Reaves",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "first",
@@ -319,7 +332,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Scottie Barnes",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "first",
@@ -342,7 +356,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Pascal Siakam",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "first",
@@ -365,7 +380,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Donovan Mitchell",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "first",
@@ -389,7 +405,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jaylen Brown",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "under10",
@@ -411,7 +428,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Yang Hansen",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "first",
@@ -433,7 +451,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Joel Embiid",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "first",
@@ -456,7 +475,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Karl-Anthony Towns",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "first",
@@ -479,7 +499,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "LeBron James",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "under10",
@@ -501,7 +522,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "De'Aaron Fox",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "first",
@@ -523,7 +545,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "LaMelo Ball",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "first",
@@ -545,7 +568,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Isaiah Hartenstein",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "under10",
@@ -568,7 +592,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Dylan Harper",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "first",
@@ -591,7 +616,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Toumani Camara",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "first",
@@ -615,7 +641,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Deni Avdija",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "first",
@@ -638,7 +665,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Desmond Bane",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "first",
@@ -661,7 +689,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Domantas Sabonis",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "first",
@@ -684,7 +713,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Bam Adebayo",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "first",
@@ -707,7 +737,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Franz Wagner",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "first",
@@ -729,7 +760,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Myles Turner",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "first",
@@ -751,7 +783,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Nikola Vučević",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "first",
@@ -773,7 +806,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jarrett Allen",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "first",
@@ -796,7 +830,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jimmy Butler III",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "first",
@@ -820,7 +855,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kawhi Leonard",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -843,7 +879,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Ace Bailey",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "first",
@@ -866,7 +903,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Brandon Miller",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "first",
@@ -888,7 +926,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Donovan Clingan",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "first",
@@ -912,7 +951,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Brandon Ingram",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "first",
@@ -935,7 +975,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Lauri Markkanen",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "first",
@@ -957,7 +998,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Miles Bridges",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "first",
@@ -980,7 +1022,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "DeMar DeRozan",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "first",
@@ -1002,7 +1045,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Deandre Ayton",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "first",
@@ -1025,7 +1069,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Immanuel Quickley",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "first",
@@ -1047,7 +1092,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jalen Duren",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "under10",
@@ -1070,7 +1116,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Coby White",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "first",
@@ -1092,7 +1139,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Walker Kessler",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "first",
@@ -1114,7 +1162,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Rudy Gobert",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -1136,7 +1185,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Dereck Lively II",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "first",
@@ -1159,7 +1209,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Michael Porter Jr.",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "under10",
@@ -1182,7 +1233,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Cam Thomas",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "under10",
@@ -1206,7 +1258,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Ausar Thompson",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "first",
@@ -1228,7 +1281,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Darius Garland",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "first",
@@ -1251,7 +1305,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Tyler Herro",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "first",
@@ -1274,7 +1329,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Mikal Bridges",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "first",
@@ -1297,7 +1353,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "OG Anunoby",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "under10",
@@ -1320,7 +1377,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Paul George",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "first",
@@ -1344,7 +1402,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Christian Braun",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -1367,7 +1426,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Bradley Beal",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "under10",
@@ -1389,7 +1449,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jakob Poeltl",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "first",
@@ -1412,7 +1473,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Cameron Johnson",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "under10",
@@ -1434,7 +1496,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Santi Aldama",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "first",
@@ -1457,7 +1520,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Andrew Nembhard",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "under10",
@@ -1480,7 +1544,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jayson Tatum",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "first",
@@ -1503,7 +1568,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Matas Buzelis",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "first",
@@ -1525,7 +1591,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Mark Williams",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "first",
@@ -1548,7 +1615,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Bennedict Mathurin",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "first",
@@ -1571,7 +1639,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jalen Green",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "first",
@@ -1594,7 +1663,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "John Collins",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "first",
@@ -1617,7 +1687,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Josh Hart",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "under10",
@@ -1640,7 +1711,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "D'Angelo Russell",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "first",
@@ -1662,7 +1734,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Alex Sarr",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "under10",
@@ -1684,7 +1757,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jaden McDaniels",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "first",
@@ -1707,7 +1781,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Norman Powell",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "under10",
@@ -1730,7 +1805,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "CJ McCollum",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "first",
@@ -1753,7 +1829,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Anfernee Simons",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "first",
@@ -1776,7 +1853,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Devin Vassell",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "under10",
@@ -1798,7 +1876,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kyrie Irving",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "under10",
@@ -1821,7 +1900,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Draymond Green",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "under10",
@@ -1845,7 +1925,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Andrew Wiggins",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "under10",
@@ -1867,7 +1948,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kel'el Ware",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "under10",
@@ -1890,7 +1972,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jalen Suggs",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "first",
@@ -1913,7 +1996,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Reed Sheppard",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "first",
@@ -1937,7 +2021,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Tari Eason",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "under10",
@@ -1961,7 +2046,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Cason Wallace",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -1984,7 +2070,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Malik Monk",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "first",
@@ -2006,7 +2093,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Onyeka Okongwu",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "under10",
@@ -2029,7 +2117,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Stephon Castle",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "under10",
@@ -2052,7 +2141,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kevin Porter Jr.",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "first",
@@ -2074,7 +2164,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Zach Edey",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "under10",
@@ -2096,7 +2187,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Tobias Harris",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "first",
@@ -2120,7 +2212,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "RJ Barrett",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "under10",
@@ -2143,7 +2236,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jrue Holiday",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "under10",
@@ -2165,7 +2259,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Nic Claxton",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "under10",
@@ -2188,7 +2283,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Herbert Jones",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "under10",
@@ -2210,7 +2306,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Mitchell Robinson",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "under10",
@@ -2233,7 +2330,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Keyonte George",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "under10",
@@ -2256,7 +2354,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Keon Ellis",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "under10",
@@ -2279,7 +2378,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Lonzo Ball",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "under10",
@@ -2302,7 +2402,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Nikola Jović",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -2325,7 +2426,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jeremy Sochan",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "under10",
@@ -2348,7 +2450,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Bobby Portis Jr.",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "under10",
@@ -2371,7 +2474,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Donte DiVincenzo",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "first",
@@ -2394,7 +2498,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Aaron Gordon",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "under10",
@@ -2418,7 +2523,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kyshawn George",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -2441,7 +2547,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Nickeil Alexander-Walker",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "first",
@@ -2464,7 +2571,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kon Knueppel",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "under10",
@@ -2487,7 +2595,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Dennis Schröder",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "under10",
@@ -2510,7 +2619,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Sam Hauser",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "under10",
@@ -2533,7 +2643,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Collin Sexton",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "under10",
@@ -2556,7 +2667,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Khris Middleton",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "under10",
@@ -2579,7 +2691,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jabari Smith Jr.",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "under10",
@@ -2602,7 +2715,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jaylen Wells",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -2625,7 +2739,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Brandin Podziemski",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "under10",
@@ -2647,7 +2762,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Tyus Jones",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "under10",
@@ -2670,7 +2786,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "P.J. Washington",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "under10",
@@ -2693,7 +2810,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Aaron Nesmith",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "under10",
@@ -2716,7 +2834,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Zaccharie Risacher",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "under10",
@@ -2739,7 +2858,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Isaiah Collier",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "first",
@@ -2762,7 +2882,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "VJ Edgecombe",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "under10",
@@ -2785,7 +2906,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Ayo Dosunmu",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "under10",
@@ -2807,7 +2929,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Neemias Queta",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "under10",
@@ -2830,7 +2953,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jared McCain",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "under10",
@@ -2853,7 +2977,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Alex Caruso",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "first",
@@ -2875,7 +3000,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Luke Kornet",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "fee_key": "under10",
@@ -2898,7 +3024,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jonathan Kuminga",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "under10",
@@ -2921,7 +3048,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "De'Andre Hunter",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "repeat",
@@ -2944,7 +3072,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Naz Reid",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "repeat",
@@ -2966,7 +3095,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jamal Murray",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "fee_key": "repeat",
@@ -2988,7 +3118,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Ivica Zubac",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "repeat",
@@ -3011,7 +3142,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Amen Thompson",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "fee_key": "repeat",
@@ -3033,7 +3165,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kristaps Porziņģis",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "repeat",
@@ -3055,7 +3188,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Nikola Jokić",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "fee_key": "repeat",
@@ -3078,7 +3212,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Derrick White",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "repeat",
@@ -3101,7 +3236,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Josh Giddey",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "repeat",
@@ -3124,7 +3260,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Cade Cunningham",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "fee_key": "repeat",
@@ -3147,7 +3284,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Keegan Murray",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "repeat",
@@ -3170,7 +3308,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jordan Poole",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "cbk",
@@ -3192,7 +3331,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jalen Brunson",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "fee_key": "repeat",
@@ -3214,7 +3354,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Ja Morant",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "fee_key": "repeat",
@@ -3237,7 +3378,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Dyson Daniels",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "cbk",
@@ -3260,7 +3402,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jalen Williams",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "repeat",
@@ -3283,7 +3426,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "James Harden",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "fee_key": "repeat",
@@ -3306,7 +3450,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Shaedon Sharpe",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "repeat",
@@ -3329,7 +3474,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Trey Murphy III",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "repeat",
@@ -3352,7 +3498,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Chet Holmgren",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "cbk",
@@ -3375,7 +3522,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Alperen Şengün",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "repeat",
@@ -3399,7 +3547,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Kevin Durant",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "fee_key": "repeat",
@@ -3422,7 +3571,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Jalen Johnson",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "fee_key": "repeat",
@@ -3444,7 +3594,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Payton Pritchard",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "repeat",
@@ -3468,7 +3619,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Zach LaVine",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "fee_key": "repeat",
@@ -3490,7 +3642,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Paolo Banchero",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "repeat",
@@ -3513,7 +3666,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Evan Mobley",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "cbk",
@@ -3535,7 +3689,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Shai Gilgeous-Alexander",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "fee_key": "repeat",
@@ -3557,7 +3712,8 @@
    "salary_note": null,
    "season": "2025-26",
    "source_name": "Victor Wembanyama",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   }
  ],
  "fee_types": {
@@ -3591,7 +3747,7 @@
    ]
   }
  },
- "imported_at": "2026-10-09T23:40:14Z",
+ "imported_at": "2026-10-10T00:04:15Z",
  "keepers": [
   {
    "cost": 34,
@@ -3605,7 +3761,8 @@
    "player_id": "6514",
    "season": "2025-26",
    "source_name": "Evan Mobley",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "cost": 26,
@@ -3619,7 +3776,8 @@
    "player_id": "6691",
    "season": "2025-26",
    "source_name": "Paolo Banchero",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "cost": 46,
@@ -3633,7 +3791,8 @@
    "player_id": "6022",
    "season": "2025-26",
    "source_name": "Shai Gilgeous-Alexander",
-   "team": "Alec's Team"
+   "team": "Alec's Team",
+   "team_id": "alecs-team"
   },
   {
    "cost": 57,
@@ -3647,7 +3806,8 @@
    "player_id": "10094",
    "season": "2025-26",
    "source_name": "Victor Wembanyama",
-   "team": "Bayonne Dealers"
+   "team": "Bayonne Dealers",
+   "team_id": "bayonne-dealers"
   },
   {
    "cost": 15,
@@ -3661,7 +3821,8 @@
    "player_id": "6418",
    "season": "2025-26",
    "source_name": "Payton Pritchard",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "cost": 18,
@@ -3675,7 +3836,8 @@
    "player_id": "5324",
    "season": "2025-26",
    "source_name": "Zach LaVine",
-   "team": "Branchburg Bedwetters"
+   "team": "Branchburg Bedwetters",
+   "team_id": "branchburg-bedwetters"
   },
   {
    "cost": 28,
@@ -3689,7 +3851,8 @@
    "player_id": "5638",
    "season": "2025-26",
    "source_name": "Jamal Murray",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "cost": 16,
@@ -3703,7 +3866,8 @@
    "player_id": "6253",
    "season": "2025-26",
    "source_name": "Naz Reid",
-   "team": "Bubba Gump Schrempf Co."
+   "team": "Bubba Gump Schrempf Co.",
+   "team_id": "bubba-gump-schrempf-co"
   },
   {
    "cost": 15,
@@ -3717,7 +3881,8 @@
    "player_id": "6698",
    "season": "2025-26",
    "source_name": "Dyson Daniels",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "cost": 29,
@@ -3731,7 +3896,8 @@
    "player_id": "6702",
    "season": "2025-26",
    "source_name": "Jalen Wiliams",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "cost": 31,
@@ -3745,7 +3911,8 @@
    "player_id": "4563",
    "season": "2025-26",
    "source_name": "James Harden",
-   "team": "Jersey City Jreamers"
+   "team": "Jersey City Jreamers",
+   "team_id": "jersey-city-jreamers"
   },
   {
    "cost": 22,
@@ -3759,7 +3926,8 @@
    "player_id": "6164",
    "season": "2025-26",
    "source_name": "Ja Morant",
-   "team": "Jesus Shuttlesworth"
+   "team": "Jesus Shuttlesworth",
+   "team_id": "jesus-shuttlesworth"
   },
   {
    "cost": 22,
@@ -3773,7 +3941,8 @@
    "player_id": "6562",
    "season": "2025-26",
    "source_name": "Jalen Johnson",
-   "team": "Kings Park Blogsmen"
+   "team": "Kings Park Blogsmen",
+   "team_id": "kings-park-blogsmen"
   },
   {
    "cost": 30,
@@ -3787,7 +3956,8 @@
    "player_id": "6558",
    "season": "2025-26",
    "source_name": "Alperen Sengun",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "cost": 36,
@@ -3801,7 +3971,8 @@
    "player_id": "6692",
    "season": "2025-26",
    "source_name": "Chet Holmgren",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "cost": 41,
@@ -3815,7 +3986,8 @@
    "player_id": "4244",
    "season": "2025-26",
    "source_name": "Kevin Durant",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "cost": 15,
@@ -3829,7 +4001,8 @@
    "player_id": "6697",
    "season": "2025-26",
    "source_name": "Shaedon Sharpe",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "cost": 20,
@@ -3843,7 +4016,8 @@
    "player_id": "6559",
    "season": "2025-26",
    "source_name": "Trey Murphy III",
-   "team": "Paulus Hookers"
+   "team": "Paulus Hookers",
+   "team_id": "paulus-hookers"
   },
   {
    "cost": 33,
@@ -3857,7 +4031,8 @@
    "player_id": "6044",
    "season": "2025-26",
    "source_name": "Jalen Brunson",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "cost": 15,
@@ -3871,7 +4046,8 @@
    "player_id": "6216",
    "season": "2025-26",
    "source_name": "Jordan Poole",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "cost": 17,
@@ -3885,7 +4061,8 @@
    "player_id": "6694",
    "season": "2025-26",
    "source_name": "Keegan Murray",
-   "team": "Rockaway Rangers"
+   "team": "Rockaway Rangers",
+   "team_id": "rockaway-rangers"
   },
   {
    "cost": 25,
@@ -3899,7 +4076,8 @@
    "player_id": "6512",
    "season": "2025-26",
    "source_name": "Cade Cunningham",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "cost": 22,
@@ -3913,7 +4091,8 @@
    "player_id": "5842",
    "season": "2025-26",
    "source_name": "Derrick White",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "cost": 15,
@@ -3927,7 +4106,8 @@
    "player_id": "6548",
    "season": "2025-26",
    "source_name": "Josh Giddey",
-   "team": "San Q'tin Stallions"
+   "team": "San Q'tin Stallions",
+   "team_id": "san-qtin-stallions"
   },
   {
    "cost": 15,
@@ -3941,7 +4121,8 @@
    "player_id": "5464",
    "season": "2025-26",
    "source_name": "Kristaps Porzingis",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "cost": 62,
@@ -3955,7 +4136,8 @@
    "player_id": "5352",
    "season": "2025-26",
    "source_name": "Nikola Jokic",
-   "team": "Vegas Mirotićs"
+   "team": "Vegas Mirotićs",
+   "team_id": "vegas-mirotics"
   },
   {
    "cost": 15,
@@ -3969,7 +4151,8 @@
    "player_id": "10108",
    "season": "2025-26",
    "source_name": "Amen Thompson",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   },
   {
    "cost": 15,
@@ -3983,7 +4166,8 @@
    "player_id": "5663",
    "season": "2025-26",
    "source_name": "Ivica Zubac",
-   "team": "Vlade’s Dance"
+   "team": "Vlade’s Dance",
+   "team_id": "vlades-dance"
   }
  ],
  "league": {
@@ -3994,7 +4178,7 @@
    },
    {
     "label": "Current Champion",
-    "value": "Jeremy Barbara"
+    "value": "Jordan Elam"
    }
   ],
   "name": "National Bastard Association",
@@ -10521,6 +10705,7 @@
     {
      "draft_pick": 73,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10530,7 +10715,8 @@
      "player_id": "10294",
      "price_basis": "drafted",
      "source_name": "Alex Sarr",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": null,
@@ -10544,11 +10730,13 @@
      "player_id": "10456",
      "price_basis": "undrafted",
      "source_name": "Danny Wolf",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": 78,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10558,11 +10746,13 @@
      "player_id": "6403",
      "price_basis": "drafted",
      "source_name": "Devin Vassell",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": 39,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10572,7 +10762,8 @@
      "player_id": "10285",
      "price_basis": "drafted",
      "source_name": "Donovan Clingan",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": null,
@@ -10586,7 +10777,8 @@
      "player_id": "10278",
      "price_basis": "undrafted",
      "source_name": "Ja'Kobe Walter",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": null,
@@ -10600,11 +10792,13 @@
      "player_id": "10092",
      "price_basis": "undrafted",
      "source_name": "Jaime Jaquez Jr.",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": 61,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -10614,11 +10808,13 @@
      "player_id": "5640",
      "price_basis": "drafted",
      "source_name": "Jakob Poeltl",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": 107,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -10628,7 +10824,8 @@
      "player_id": "6205",
      "price_basis": "drafted",
      "source_name": "N. Alexander-Walker",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": null,
@@ -10642,11 +10839,13 @@
      "player_id": "10455",
      "price_basis": "undrafted",
      "source_name": "Nolan Traore",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": 153,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -10656,11 +10855,13 @@
      "player_id": "6691",
      "price_basis": "drafted",
      "source_name": "Paolo Banchero",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": 15,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10670,11 +10871,13 @@
      "player_id": "5658",
      "price_basis": "drafted",
      "source_name": "Pascal Siakam",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": 155,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "cbk",
      "fee_short": "Can't keep",
      "fee_type": "Can't be kept",
@@ -10684,7 +10887,8 @@
      "player_id": "6022",
      "price_basis": "drafted",
      "source_name": "Shai Gilgeous-Alexander",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": null,
@@ -10698,7 +10902,8 @@
      "player_id": "6552",
      "price_basis": "undrafted",
      "source_name": "Ziaire Williams",
-     "team": "Alec's Team"
+     "team": "Alec's Team",
+     "team_id": "alecs-team"
     },
     {
      "draft_pick": null,
@@ -10712,11 +10917,13 @@
      "player_id": "10304",
      "price_basis": "undrafted",
      "source_name": "Ajay Mitchell",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 64,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10726,11 +10933,13 @@
      "player_id": "6721",
      "price_basis": "drafted",
      "source_name": "Andrew Nembhard",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 59,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10740,11 +10949,13 @@
      "player_id": "6711",
      "price_basis": "drafted",
      "source_name": "Christian Braun",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 16,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10754,11 +10965,13 @@
      "player_id": "5826",
      "price_basis": "drafted",
      "source_name": "Donovan Mitchell",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 96,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -10768,7 +10981,8 @@
      "player_id": "6577",
      "price_basis": "drafted",
      "source_name": "Herbert Jones",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": null,
@@ -10782,11 +10996,13 @@
      "player_id": "6617",
      "price_basis": "undrafted",
      "source_name": "Jay Huff",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 36,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10796,11 +11012,13 @@
      "player_id": "4896",
      "price_basis": "drafted",
      "source_name": "Kawhi Leonard",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 106,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -10810,7 +11028,8 @@
      "player_id": "10272",
      "price_basis": "drafted",
      "source_name": "Kyshawn George",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": null,
@@ -10824,7 +11043,8 @@
      "player_id": "6733",
      "price_basis": "undrafted",
      "source_name": "Moussa Diabaté",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": null,
@@ -10838,7 +11058,8 @@
      "player_id": "6701",
      "price_basis": "undrafted",
      "source_name": "Ousmane Dieng",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": null,
@@ -10852,11 +11073,13 @@
      "player_id": "6720",
      "price_basis": "undrafted",
      "source_name": "Peyton Watson",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 26,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10866,11 +11089,13 @@
      "player_id": "10065",
      "price_basis": "drafted",
      "source_name": "Toumani Camara",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 9,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10880,11 +11105,13 @@
      "player_id": "6413",
      "price_basis": "drafted",
      "source_name": "Tyrese Maxey",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": 156,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -10894,7 +11121,8 @@
      "player_id": "10094",
      "price_basis": "drafted",
      "source_name": "Victor Wembanyama",
-     "team": "Bayonne Dealers"
+     "team": "Bayonne Dealers",
+     "team_id": "bayonne-dealers"
     },
     {
      "draft_pick": null,
@@ -10908,11 +11136,13 @@
      "player_id": "10273",
      "price_basis": "undrafted",
      "source_name": "Bub Carrington",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 76,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -10922,11 +11152,13 @@
      "player_id": "5161",
      "price_basis": "drafted",
      "source_name": "CJ McCollum",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 10,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10936,11 +11168,13 @@
      "player_id": "10468",
      "price_basis": "drafted",
      "source_name": "Cooper Flagg",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 43,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10950,7 +11184,8 @@
      "player_id": "4614",
      "price_basis": "drafted",
      "source_name": "DeMar DeRozan",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": null,
@@ -10964,11 +11199,13 @@
      "player_id": "10070",
      "price_basis": "undrafted",
      "source_name": "GG Jackson",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 34,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -10978,7 +11215,8 @@
      "player_id": "5835",
      "price_basis": "drafted",
      "source_name": "Jarrett Allen",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": null,
@@ -10992,11 +11230,13 @@
      "player_id": "10279",
      "price_basis": "undrafted",
      "source_name": "Jaylon Tyson",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 79,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11006,7 +11246,8 @@
      "player_id": "4840",
      "price_basis": "drafted",
      "source_name": "Kyrie Irving",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": null,
@@ -11020,11 +11261,13 @@
      "player_id": "10469",
      "price_basis": "undrafted",
      "source_name": "Nique Clifford",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 151,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11034,11 +11277,13 @@
      "player_id": "6418",
      "price_basis": "drafted",
      "source_name": "Payton Pritchard",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 8,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11048,7 +11293,8 @@
      "player_id": "4612",
      "price_basis": "drafted",
      "source_name": "Stephen Curry",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": null,
@@ -11062,11 +11308,13 @@
      "player_id": "10110",
      "price_basis": "undrafted",
      "source_name": "Taylor Hendricks",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 11,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11076,11 +11324,13 @@
      "player_id": "6016",
      "price_basis": "drafted",
      "source_name": "Trae Young",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 55,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11090,11 +11340,13 @@
      "player_id": "6175",
      "price_basis": "drafted",
      "source_name": "Tyler Herro",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 91,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11104,11 +11356,13 @@
      "player_id": "10287",
      "price_basis": "drafted",
      "source_name": "Zach Edey",
-     "team": "Branchburg Bedwetters"
+     "team": "Branchburg Bedwetters",
+     "team_id": "branchburg-bedwetters"
     },
     {
      "draft_pick": 105,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11118,11 +11372,13 @@
      "player_id": "5295",
      "price_basis": "drafted",
      "source_name": "Aaron Gordon",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 118,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11132,7 +11388,8 @@
      "player_id": "6406",
      "price_basis": "drafted",
      "source_name": "Aaron Nesmith",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": null,
@@ -11146,11 +11403,13 @@
      "player_id": "4472",
      "price_basis": "undrafted",
      "source_name": "Brook Lopez",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 44,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11160,11 +11419,13 @@
      "player_id": "5958",
      "price_basis": "drafted",
      "source_name": "Deandre Ayton",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 113,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11174,11 +11435,13 @@
      "player_id": "6693",
      "price_basis": "drafted",
      "source_name": "Jabari Smith Jr.",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 130,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11188,11 +11451,13 @@
      "player_id": "5638",
      "price_basis": "drafted",
      "source_name": "Jamal Murray",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 17,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11202,7 +11467,8 @@
      "player_id": "5602",
      "price_basis": "drafted",
      "source_name": "Jaylen Brown",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": null,
@@ -11216,11 +11482,13 @@
      "player_id": "5327",
      "price_basis": "undrafted",
      "source_name": "Jusuf NurkićO",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 98,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11230,11 +11498,13 @@
      "player_id": "10100",
      "price_basis": "drafted",
      "source_name": "Keyonte George",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 41,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11244,11 +11514,13 @@
      "player_id": "5769",
      "price_basis": "drafted",
      "source_name": "Lauri Markkanen",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 129,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11258,11 +11530,13 @@
      "player_id": "6253",
      "price_basis": "drafted",
      "source_name": "Naz Reid",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 89,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11272,7 +11546,8 @@
      "player_id": "10290",
      "price_basis": "drafted",
      "source_name": "Stephon Castle",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": null,
@@ -11286,11 +11561,13 @@
      "player_id": "6433",
      "price_basis": "undrafted",
      "source_name": "Tre Jones",
-     "team": "Bubba Gump Schrempf Co."
+     "team": "Bubba Gump Schrempf Co.",
+     "team_id": "bubba-gump-schrempf-co"
     },
     {
      "draft_pick": 81,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11300,11 +11577,13 @@
      "player_id": "5292",
      "price_basis": "drafted",
      "source_name": "Andrew Wiggins",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 38,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11314,7 +11593,8 @@
      "player_id": "10104",
      "price_basis": "drafted",
      "source_name": "Brandon Miller",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": null,
@@ -11328,11 +11608,13 @@
      "player_id": "10293",
      "price_basis": "undrafted",
      "source_name": "Devin Carter",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 154,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11342,11 +11624,13 @@
      "player_id": "6514",
      "price_basis": "drafted",
      "source_name": "Evan Mobley",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 143,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "cbk",
      "fee_short": "Can't keep",
      "fee_type": "Can't be kept",
@@ -11356,11 +11640,13 @@
      "player_id": "6702",
      "price_basis": "drafted",
      "source_name": "Jalen Williams",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 144,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11370,11 +11656,13 @@
      "player_id": "4563",
      "price_basis": "drafted",
      "source_name": "James Harden",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 19,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11384,11 +11672,13 @@
      "player_id": "5294",
      "price_basis": "drafted",
      "source_name": "Joel Embiid",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 2,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11398,11 +11688,13 @@
      "player_id": "6014",
      "price_basis": "drafted",
      "source_name": "Luka Dončić",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 87,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11412,11 +11704,13 @@
      "player_id": "5824",
      "price_basis": "drafted",
      "source_name": "Malik Monk",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 123,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11426,7 +11720,8 @@
      "player_id": "6581",
      "price_basis": "drafted",
      "source_name": "Neemias",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": null,
@@ -11440,11 +11735,13 @@
      "player_id": "6412",
      "price_basis": "undrafted",
      "source_name": "Precious Achiuwa",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 85,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11454,11 +11751,13 @@
      "player_id": "6707",
      "price_basis": "drafted",
      "source_name": "Tari Eason",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 7,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11468,11 +11767,13 @@
      "player_id": "6163",
      "price_basis": "drafted",
      "source_name": "Zion Williamson",
-     "team": "Jersey City Jreamers"
+     "team": "Jersey City Jreamers",
+     "team_id": "jersey-city-jreamers"
     },
     {
      "draft_pick": 115,
      "drafted_by": "Alec's Team",
+     "drafted_by_id": "alecs-team",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11482,11 +11783,13 @@
      "player_id": "10115",
      "price_basis": "drafted",
      "source_name": "Brandin Podziemski",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 40,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11496,11 +11799,13 @@
      "player_id": "5601",
      "price_basis": "drafted",
      "source_name": "Brandon Ingram",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 111,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11510,7 +11815,8 @@
      "player_id": "6019",
      "price_basis": "drafted",
      "source_name": "Collin Sexton",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": null,
@@ -11524,11 +11830,13 @@
      "player_id": "6786",
      "price_basis": "undrafted",
      "source_name": "Daeqwon Plowden",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 31,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11538,11 +11846,13 @@
      "player_id": "6550",
      "price_basis": "drafted",
      "source_name": "Franz Wagner",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 141,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11552,7 +11862,8 @@
      "player_id": "6164",
      "price_basis": "drafted",
      "source_name": "Ja Morant",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": null,
@@ -11566,11 +11877,13 @@
      "player_id": "6727",
      "price_basis": "undrafted",
      "source_name": "Jaden Hardy",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 20,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11580,7 +11893,8 @@
      "player_id": "5432",
      "price_basis": "drafted",
      "source_name": "Karl-Anthony Towns",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": null,
@@ -11594,11 +11908,13 @@
      "player_id": "6217",
      "price_basis": "undrafted",
      "source_name": "Keldon Johnson",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 23,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11608,11 +11924,13 @@
      "player_id": "6395",
      "price_basis": "drafted",
      "source_name": "LaMelo Ball",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 88,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11622,11 +11940,13 @@
      "player_id": "6398",
      "price_basis": "drafted",
      "source_name": "Onyeka Okongwu",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 58,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11636,11 +11956,13 @@
      "player_id": "4725",
      "price_basis": "drafted",
      "source_name": "Paul George",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 93,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11650,7 +11972,8 @@
      "player_id": "6165",
      "price_basis": "drafted",
      "source_name": "RJ Barrett",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": null,
@@ -11664,11 +11987,13 @@
      "player_id": "5194",
      "price_basis": "undrafted",
      "source_name": "Tim Hardaway Jr.",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 121,
      "drafted_by": "Jesus Shuttlesworth",
+     "drafted_by_id": "jesus-shuttlesworth",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11678,11 +12003,13 @@
      "player_id": "10454",
      "price_basis": "drafted",
      "source_name": "VJ Edgecombe",
-     "team": "Jesus Shuttlesworth"
+     "team": "Jesus Shuttlesworth",
+     "team_id": "jesus-shuttlesworth"
     },
     {
      "draft_pick": 53,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11692,11 +12019,13 @@
      "player_id": "10096",
      "price_basis": "drafted",
      "source_name": "Ausar Thompson",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 86,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11706,11 +12035,13 @@
      "player_id": "10107",
      "price_basis": "drafted",
      "source_name": "Cason Wallace",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 104,
      "drafted_by": "Bayonne Dealers",
+     "drafted_by_id": "bayonne-dealers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11720,11 +12051,13 @@
      "player_id": "6028",
      "price_basis": "drafted",
      "source_name": "Donte DiVincenzo",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 142,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11734,11 +12067,13 @@
      "player_id": "6698",
      "price_basis": "drafted",
      "source_name": "Dyson Daniels",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 24,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11748,11 +12083,13 @@
      "player_id": "5856",
      "price_basis": "drafted",
      "source_name": "Isaiah Hartenstein",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 140,
      "drafted_by": "Rockaway Rangers",
+     "drafted_by_id": "rockaway-rangers",
      "fee_key": "cbk",
      "fee_short": "Can't keep",
      "fee_type": "Can't be kept",
@@ -11762,11 +12099,13 @@
      "player_id": "6044",
      "price_basis": "drafted",
      "source_name": "Jalen Brunson",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 150,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11776,11 +12115,13 @@
      "player_id": "6562",
      "price_basis": "drafted",
      "source_name": "Jalen Johnson",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 71,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11790,11 +12131,13 @@
      "player_id": "5843",
      "price_basis": "drafted",
      "source_name": "Josh Hart",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 1,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11804,11 +12147,13 @@
      "player_id": "5318",
      "price_basis": "drafted",
      "source_name": "Julius Randle",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 51,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11818,11 +12163,13 @@
      "player_id": "6025",
      "price_basis": "drafted",
      "source_name": "Michael Porter Jr.",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 84,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11832,7 +12179,8 @@
      "player_id": "10288",
      "price_basis": "drafted",
      "source_name": "Reed Sheppard",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": null,
@@ -11846,7 +12194,8 @@
      "player_id": "6734",
      "price_basis": "undrafted",
      "source_name": "Ryan Rollins",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": null,
@@ -11860,7 +12209,8 @@
      "player_id": "10048",
      "price_basis": "undrafted",
      "source_name": "Scoot Henderson",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": null,
@@ -11874,11 +12224,13 @@
      "player_id": "6404",
      "price_basis": "undrafted",
      "source_name": "Tyrese Haliburton",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 48,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11888,11 +12240,13 @@
      "player_id": "6712",
      "price_basis": "drafted",
      "source_name": "Walker Kessler",
-     "team": "Kings Park Blogsmen"
+     "team": "Kings Park Blogsmen",
+     "team_id": "kings-park-blogsmen"
     },
     {
      "draft_pick": 148,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "cbk",
      "fee_short": "Can't keep",
      "fee_type": "Can't be kept",
@@ -11902,11 +12256,13 @@
      "player_id": "6558",
      "price_basis": "drafted",
      "source_name": "Alperen Şengün",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 4,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11916,11 +12272,13 @@
      "player_id": "6355",
      "price_basis": "drafted",
      "source_name": "Anthony Edwards",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 68,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -11930,7 +12288,8 @@
      "player_id": "6696",
      "price_basis": "drafted",
      "source_name": "Bennedict Mathurin",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": null,
@@ -11944,11 +12303,13 @@
      "player_id": "10465",
      "price_basis": "undrafted",
      "source_name": "Cedric Coward",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 147,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -11958,11 +12319,13 @@
      "player_id": "6692",
      "price_basis": "drafted",
      "source_name": "Chet Holmgren",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 47,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11972,11 +12335,13 @@
      "player_id": "6169",
      "price_basis": "drafted",
      "source_name": "Coby White",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 83,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -11986,7 +12351,8 @@
      "player_id": "6516",
      "price_basis": "drafted",
      "source_name": "Jalen Suggs",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": null,
@@ -12000,11 +12366,13 @@
      "player_id": "5350",
      "price_basis": "undrafted",
      "source_name": "Jerami Grant",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 149,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12014,11 +12382,13 @@
      "player_id": "4244",
      "price_basis": "drafted",
      "source_name": "Kevin Durant",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 32,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12028,11 +12398,13 @@
      "player_id": "5471",
      "price_basis": "drafted",
      "source_name": "Myles Turner",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 117,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12042,7 +12414,8 @@
      "player_id": "6174",
      "price_basis": "drafted",
      "source_name": "P.J. Washington",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": null,
@@ -12056,11 +12429,13 @@
      "player_id": "6411",
      "price_basis": "undrafted",
      "source_name": "Saddiq Bey",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 145,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12070,11 +12445,13 @@
      "player_id": "6697",
      "price_basis": "drafted",
      "source_name": "Shaedon Sharpe",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 92,
      "drafted_by": "Rockaway Rangers",
+     "drafted_by_id": "rockaway-rangers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12084,11 +12461,13 @@
      "player_id": "4901",
      "price_basis": "drafted",
      "source_name": "Tobias Harris",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": 146,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12098,7 +12477,8 @@
      "player_id": "6559",
      "price_basis": "drafted",
      "source_name": "Trey Murphy III",
-     "team": "Paulus Hookers"
+     "team": "Paulus Hookers",
+     "team_id": "paulus-hookers"
     },
     {
      "draft_pick": null,
@@ -12112,11 +12492,13 @@
      "player_id": "10095",
      "price_basis": "undrafted",
      "source_name": "Anthony Black",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 122,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12126,7 +12508,8 @@
      "player_id": "6580",
      "price_basis": "drafted",
      "source_name": "Ayo Dosunmu",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": null,
@@ -12140,7 +12523,8 @@
      "player_id": "6751",
      "price_basis": "undrafted",
      "source_name": "Collin Gillespie",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": null,
@@ -12154,11 +12538,13 @@
      "player_id": "5660",
      "price_basis": "undrafted",
      "source_name": "Dejounte Murray",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 27,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12168,7 +12554,8 @@
      "player_id": "6401",
      "price_basis": "drafted",
      "source_name": "Deni Avdija",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": null,
@@ -12182,11 +12569,13 @@
      "player_id": "10444",
      "price_basis": "undrafted",
      "source_name": "Derik Queen",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 29,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12196,11 +12585,13 @@
      "player_id": "5642",
      "price_basis": "drafted",
      "source_name": "Domantas Sabonis",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 80,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12210,11 +12601,13 @@
      "player_id": "5069",
      "price_basis": "drafted",
      "source_name": "Draymond Green",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 120,
      "drafted_by": "Rockaway Rangers",
+     "drafted_by_id": "rockaway-rangers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12224,11 +12617,13 @@
      "player_id": "10282",
      "price_basis": "drafted",
      "source_name": "Isaiah Collier",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 69,
      "drafted_by": "Rockaway Rangers",
+     "drafted_by_id": "rockaway-rangers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12238,11 +12633,13 @@
      "player_id": "6513",
      "price_basis": "drafted",
      "source_name": "Jalen Green",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 12,
      "drafted_by": "Rockaway Rangers",
+     "drafted_by_id": "rockaway-rangers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12252,11 +12649,13 @@
      "player_id": "6015",
      "price_basis": "drafted",
      "source_name": "Jaren Jackson Jr.",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 108,
      "drafted_by": "Rockaway Rangers",
+     "drafted_by_id": "rockaway-rangers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12266,11 +12665,13 @@
      "player_id": "10450",
      "price_basis": "drafted",
      "source_name": "Kon Knueppel",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 133,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12280,7 +12681,8 @@
      "player_id": "5464",
      "price_basis": "drafted",
      "source_name": "Kristaps Porziņģis",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": null,
@@ -12294,11 +12696,13 @@
      "player_id": "10315",
      "price_basis": "undrafted",
      "source_name": "Kyle Filipowski",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 66,
      "drafted_by": "Rockaway Rangers",
+     "drafted_by_id": "rockaway-rangers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12308,11 +12712,13 @@
      "player_id": "10265",
      "price_basis": "drafted",
      "source_name": "Matas Buzelis",
-     "team": "Rockaway Rangers"
+     "team": "Rockaway Rangers",
+     "team_id": "rockaway-rangers"
     },
     {
      "draft_pick": 13,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12322,11 +12728,13 @@
      "player_id": "6606",
      "price_basis": "drafted",
      "source_name": "Austin Reaves",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 137,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12336,11 +12744,13 @@
      "player_id": "6512",
      "price_basis": "drafted",
      "source_name": "Cade Cunningham",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 22,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12350,7 +12760,8 @@
      "player_id": "5767",
      "price_basis": "drafted",
      "source_name": "De'Aaron Fox",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": null,
@@ -12364,11 +12775,13 @@
      "player_id": "5727",
      "price_basis": "undrafted",
      "source_name": "Fred VanVleet",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 46,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12378,11 +12791,13 @@
      "player_id": "6703",
      "price_basis": "drafted",
      "source_name": "Jalen Duren",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 65,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12392,11 +12807,13 @@
      "player_id": "5765",
      "price_basis": "drafted",
      "source_name": "Jayson Tatum",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 35,
      "drafted_by": "Branchburg Bedwetters",
+     "drafted_by_id": "branchburg-bedwetters",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12406,11 +12823,13 @@
      "player_id": "4912",
      "price_basis": "drafted",
      "source_name": "Jimmy Butler III",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 136,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12420,11 +12839,13 @@
      "player_id": "6548",
      "price_basis": "drafted",
      "source_name": "Josh Giddey",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 94,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12434,11 +12855,13 @@
      "player_id": "4622",
      "price_basis": "drafted",
      "source_name": "Jrue Holiday",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 82,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12448,11 +12871,13 @@
      "player_id": "10274",
      "price_basis": "drafted",
      "source_name": "Kel'el Ware",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 56,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12462,11 +12887,13 @@
      "player_id": "6021",
      "price_basis": "drafted",
      "source_name": "Mikal Bridges",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 42,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12476,11 +12903,13 @@
      "player_id": "6023",
      "price_basis": "drafted",
      "source_name": "Miles Bridges",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 33,
      "drafted_by": "Jersey City Jreamers",
+     "drafted_by_id": "jersey-city-jreamers",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12490,11 +12919,13 @@
      "player_id": "4897",
      "price_basis": "drafted",
      "source_name": "Nikola Vučević",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 57,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12504,7 +12935,8 @@
      "player_id": "5836",
      "price_basis": "drafted",
      "source_name": "OG Anunoby",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": null,
@@ -12518,11 +12950,13 @@
      "player_id": "4390",
      "price_basis": "undrafted",
      "source_name": "Russell Westbrook",
-     "team": "San Q'tin Stallions"
+     "team": "San Q'tin Stallions",
+     "team_id": "san-qtin-stallions"
     },
     {
      "draft_pick": 37,
      "drafted_by": "Kings Park Blogsmen",
+     "drafted_by_id": "kings-park-blogsmen",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12532,7 +12966,8 @@
      "player_id": "10462",
      "price_basis": "drafted",
      "source_name": "Ace Bailey",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": null,
@@ -12546,11 +12981,13 @@
      "player_id": "10122",
      "price_basis": "undrafted",
      "source_name": "Brice Sensabaugh",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": 54,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12560,11 +12997,13 @@
      "player_id": "6167",
      "price_basis": "drafted",
      "source_name": "Darius Garland",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": 45,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12574,11 +13013,13 @@
      "player_id": "6417",
      "price_basis": "drafted",
      "source_name": "Immanuel Quickley",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": 70,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12588,7 +13029,8 @@
      "player_id": "5832",
      "price_basis": "drafted",
      "source_name": "John Collins",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": null,
@@ -12602,11 +13044,13 @@
      "player_id": "6754",
      "price_basis": "undrafted",
      "source_name": "Julian Champagnie",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": 21,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12616,7 +13060,8 @@
      "player_id": "3704",
      "price_basis": "drafted",
      "source_name": "LeBron James",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": null,
@@ -12630,7 +13075,8 @@
      "player_id": "5959",
      "price_basis": "undrafted",
      "source_name": "Marvin Bagley III",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": null,
@@ -12644,11 +13090,13 @@
      "player_id": "10496",
      "price_basis": "undrafted",
      "source_name": "Maxime Raynaud",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": 95,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12658,11 +13106,13 @@
      "player_id": "6219",
      "price_basis": "drafted",
      "source_name": "Nic Claxton",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": 134,
      "drafted_by": "Vegas Mirotićs",
+     "drafted_by_id": "vegas-mirotics",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12672,7 +13122,8 @@
      "player_id": "5352",
      "price_basis": "drafted",
      "source_name": "Nikola Jokić",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": null,
@@ -12686,7 +13137,8 @@
      "player_id": "10116",
      "price_basis": "undrafted",
      "source_name": "Olivier-Maxence Prosper",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": null,
@@ -12700,11 +13152,13 @@
      "player_id": "6212",
      "price_basis": "undrafted",
      "source_name": "Ty Jerome",
-     "team": "Vegas Mirotićs"
+     "team": "Vegas Mirotićs",
+     "team_id": "vegas-mirotics"
     },
     {
      "draft_pick": 132,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12714,11 +13168,13 @@
      "player_id": "10108",
      "price_basis": "drafted",
      "source_name": "Amen Thompson",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 30,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12728,7 +13184,8 @@
      "player_id": "5827",
      "price_basis": "drafted",
      "source_name": "Bam Adebayo",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": null,
@@ -12742,7 +13199,8 @@
      "player_id": "5012",
      "price_basis": "undrafted",
      "source_name": "Damian Lillard",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": null,
@@ -12756,11 +13214,13 @@
      "player_id": "5747",
      "price_basis": "undrafted",
      "source_name": "Derrick Jones Jr.",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 135,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12770,11 +13230,13 @@
      "player_id": "5842",
      "price_basis": "drafted",
      "source_name": "Derrick White",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 28,
      "drafted_by": "Bubba Gump Schrempf Co.",
+     "drafted_by_id": "bubba-gump-schrempf-co",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12784,11 +13246,13 @@
      "player_id": "6422",
      "price_basis": "drafted",
      "source_name": "Desmond Bane",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 5,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12798,11 +13262,13 @@
      "player_id": "5473",
      "price_basis": "drafted",
      "source_name": "Devin Booker",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 3,
      "drafted_by": "San Q'tin Stallions",
+     "drafted_by_id": "san-qtin-stallions",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12812,7 +13278,8 @@
      "player_id": "5185",
      "price_basis": "drafted",
      "source_name": "Giannis Antetokounmpo",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": null,
@@ -12826,11 +13293,13 @@
      "player_id": "6745",
      "price_basis": "undrafted",
      "source_name": "Gui Santos",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 131,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "repeat",
      "fee_short": "Repeat",
      "fee_type": "Repeat keeper: +$7 or 10%",
@@ -12840,11 +13309,13 @@
      "player_id": "5663",
      "price_basis": "drafted",
      "source_name": "Ivica Zubac",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 74,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12854,11 +13325,13 @@
      "player_id": "6420",
      "price_basis": "drafted",
      "source_name": "Jaden McDaniels",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 90,
      "drafted_by": "Paulus Hookers",
+     "drafted_by_id": "paulus-hookers",
      "fee_key": "under10",
      "fee_short": "Under $10",
      "fee_type": "Under $10: raised to $10, +$5",
@@ -12868,11 +13341,13 @@
      "player_id": "6218",
      "price_basis": "drafted",
      "source_name": "Kevin Porter Jr.",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 75,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12882,11 +13357,13 @@
      "player_id": "5506",
      "price_basis": "drafted",
      "source_name": "Norman Powell",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     },
     {
      "draft_pick": 14,
      "drafted_by": "Vlade’s Dance",
+     "drafted_by_id": "vlades-dance",
      "fee_key": "first",
      "fee_short": "1st-year",
      "fee_type": "1st-year keeper: +$5 or 10%",
@@ -12896,7 +13373,8 @@
      "player_id": "6515",
      "price_basis": "drafted",
      "source_name": "Scottie Barnes",
-     "team": "Vlade’s Dance"
+     "team": "Vlade’s Dance",
+     "team_id": "vlades-dance"
     }
    ],
    "id": "r-2026-27-2026-10-09",
@@ -13335,17 +13813,81 @@
   "title": "Suggest a rule change"
  },
  "teams": [
-  "Alec's Team",
-  "Bayonne Dealers",
-  "Branchburg Bedwetters",
-  "Bubba Gump Schrempf Co.",
-  "Jersey City Jreamers",
-  "Jesus Shuttlesworth",
-  "Kings Park Blogsmen",
-  "Paulus Hookers",
-  "Rockaway Rangers",
-  "San Q'tin Stallions",
-  "Vegas Mirotićs",
-  "Vlade’s Dance"
+  {
+   "id": "alecs-team",
+   "in_vault": false,
+   "info": {},
+   "name": "Alec's Team"
+  },
+  {
+   "id": "bayonne-dealers",
+   "in_vault": true,
+   "info": {
+    "championships": "1",
+    "founded": "2017",
+    "manager": "Jordan Elam"
+   },
+   "name": "Bayonne Dealers"
+  },
+  {
+   "id": "branchburg-bedwetters",
+   "in_vault": false,
+   "info": {},
+   "name": "Branchburg Bedwetters"
+  },
+  {
+   "id": "bubba-gump-schrempf-co",
+   "in_vault": false,
+   "info": {},
+   "name": "Bubba Gump Schrempf Co."
+  },
+  {
+   "id": "jersey-city-jreamers",
+   "in_vault": false,
+   "info": {},
+   "name": "Jersey City Jreamers"
+  },
+  {
+   "id": "jesus-shuttlesworth",
+   "in_vault": false,
+   "info": {},
+   "name": "Jesus Shuttlesworth"
+  },
+  {
+   "id": "kings-park-blogsmen",
+   "in_vault": false,
+   "info": {},
+   "name": "Kings Park Blogsmen"
+  },
+  {
+   "id": "paulus-hookers",
+   "in_vault": false,
+   "info": {},
+   "name": "Paulus Hookers"
+  },
+  {
+   "id": "rockaway-rangers",
+   "in_vault": false,
+   "info": {},
+   "name": "Rockaway Rangers"
+  },
+  {
+   "id": "san-qtin-stallions",
+   "in_vault": false,
+   "info": {},
+   "name": "San Q'tin Stallions"
+  },
+  {
+   "id": "vegas-mirotics",
+   "in_vault": false,
+   "info": {},
+   "name": "Vegas Mirotićs"
+  },
+  {
+   "id": "vlades-dance",
+   "in_vault": false,
+   "info": {},
+   "name": "Vlade’s Dance"
+  }
  ]
 }

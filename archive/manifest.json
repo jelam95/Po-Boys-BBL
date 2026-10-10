@@ -10,6 +10,15 @@
       "Current Champion"
     ]
   },
+  "teams": {
+    "_comment": "Team objects are built from the team names in the records. A vault note in vault_dir whose frontmatter has team_id and name (e.g. Silmaril/Bayonne Dealers.md) adds the listed fields to that team's page.",
+    "vault_dir": "Silmaril",
+    "fields": [
+      "manager",
+      "founded",
+      "championships"
+    ]
+  },
   "vault": "../Po-Boys-BBL",
   "vault_players_dir": "Silmaril/players",
   "workbooks_dir": "archive/workbooks",
