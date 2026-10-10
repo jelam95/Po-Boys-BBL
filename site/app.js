@@ -298,17 +298,24 @@ function teamSummary(team) {
   return { roster, picks, newestDraft, spent: picks.reduce((sum, x) => sum + (x.salary || 0), 0) };
 }
 
+function isInactive(team) {
+  return !!(team && team.info && String(team.info.active).toLowerCase() === "false");
+}
+
 function teamsView() {
   const view = h("section", { class: "panel", "aria-labelledby": "view-title" },
     h("h2", { id: "view-title", tabindex: "-1" }, "Teams"));
   const grid = h("div", { class: "link-cards" });
-  for (const team of state.data.teams) {
+  const ordered = state.data.teams.slice().sort((a, b) => isInactive(a) - isInactive(b) || a.name.localeCompare(b.name));
+  for (const team of ordered) {
     const s = teamSummary(team);
     const bits = [];
+    if (isInactive(team)) bits.push("Inactive");
+    if (team.succeeded_by) bits.push("roster now with " + (state.teams.get(team.succeeded_by.team_id) || {}).name);
     if (team.info && team.info.manager) bits.push(team.info.manager);
     if (s.roster.length) bits.push(`${s.roster.length} rostered`);
     if (s.newestDraft) bits.push(`${s.picks.length} picks in ${s.newestDraft}`);
-    grid.append(h("a", { href: "#team/" + encodeURIComponent(team.id), class: "link-card" },
+    grid.append(h("a", { href: "#team/" + encodeURIComponent(team.id), class: "link-card" + (isInactive(team) ? " inactive" : "") },
       h("span", { class: "link-card-title" }, team.name), h("span", { class: "link-card-detail" }, bits.join(" · "))));
   }
   view.append(grid);
@@ -327,9 +334,19 @@ function teamView(id) {
   const none = () => h("p", { class: "note" }, "None recorded");
 
   const info = team.info || {};
-  const labels = { manager: "Manager", founded: "Founded", championships: "Championships" };
+  const labels = { manager: "Manager", founded: "Founded", championships: "Championships", active: "Status" };
   const order = Object.keys(labels).filter((k) => k in info).concat(Object.keys(info).filter((k) => !(k in labels)));
-  const facts = order.map((k) => [h("dt", null, labels[k] || k), h("dd", null, info[k])]);
+  const shown = (k) => (k === "active" ? (isInactive(team) ? "Inactive" : "Active") : info[k]);
+  const facts = order.map((k) => [h("dt", null, labels[k] || k), h("dd", null, shown(k))]);
+  // Takeovers: the new team inherits the roster; the old team keeps its history.
+  if (team.took_over) {
+    view.append(h("p", { class: "succession" }, `From ${team.took_over.season}: took over the `,
+      teamLink(team.took_over.team_id), " roster. Earlier drafts and keepers stay with that team."));
+  }
+  if (team.succeeded_by) {
+    view.append(h("p", { class: "succession" }, `From ${team.succeeded_by.season}: its roster was taken over by `,
+      teamLink(team.succeeded_by.team_id), "."));
+  }
   view.append(h("div", { class: "vault" }, h("h3", null, "From the league vault"),
     facts.length ? h("dl", null, facts) : h("p", { class: "note" }, "No vault team note yet.")));
 

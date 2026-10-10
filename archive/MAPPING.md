@@ -6,7 +6,7 @@ How each source becomes a field in `site/archive.json` (schema `po-boys-archive/
 
 | Source | What it contains | Used for |
 | --- | --- | --- |
-| Vault `Silmaril/players/*.md` (681 notes) | Frontmatter `player_id` (Yahoo player id), `name`, `team` (NBA), `positions`, `fantasy_teams` (empty in every note). Generated from the vault's `data/players.json` by `scripts/generate_player_markdown.py`; all 681 notes match that file exactly. | Player objects |
+| Vault `PBBL/Silmaril/players/*.md` (681 notes; the vault moved into `PBBL/` on 2026-10-09) | Frontmatter `player_id` (Yahoo player id), `name`, `team` (NBA), `positions`, `fantasy_teams` (empty in every note). Generated from the vault's `data/players.json` by `scripts/generate_player_markdown.py`; all 681 notes match that file exactly. | Player objects |
 | Workbook `Keepers '26-'27 Season.xlsx`, sheet `Last Years Draft` | Excel table A1:D157. Columns Pick, Player, Salary, Team; 156 picks, 12 teams. Each Player cell links to `sports.yahoo.com/nba/players/<id>`. The owner pre-adjusted **Salary** to the price to keep each player for 2026-27; the cell colour shows which fee was applied (legend F2:F4). No formulas. | Draft records, 2025-26: pick, drafting team, 2026-27 keeper price, fee type |
 | Workbook `Accuracy.xlsx`, sheet `Sheet1` | Pick, Player, Salary, Team (empty); the same 156 picks in the same order, with the same Yahoo links. Salary is the original 2025-26 draft price. No formulas. | Draft price for each 2025-26 draft record, and the accuracy check |
 | `Keepers '26-'27 Season.xlsx`, sheet `Keepers` | Name, Price to Keep; 28 rows, no links, no team column. Four values are `CBK`. These are the players kept heading into 2025-26, with their updated price to keep them for 2026-27. No formulas. | Keeper records, 2025-26 |
@@ -73,7 +73,8 @@ The importer checks each recorded 2026-27 price against its draft price and writ
 `teams` holds one object per distinct fantasy team name in the records: `{id, name, in_vault, info}`.
 
 - **`id`** comes from the name, with accents and apostrophes removed (`Vlade’s Dance` becomes `vlades-dance`). Every draft, keeper and roster record carries a matching `team_id`, and the import checks that each one resolves.
-- **`info`** is filled from a vault team note: a Markdown file in `Silmaril/` whose frontmatter has `team_id` and `name`. Only the fields listed under `teams.fields` in the manifest are published (manager, founded, championships). Right now only `Bayonne Dealers.md` exists. A note for another team appears on that team's page after the next import.
+- **`info`** is filled from a vault team note: a Markdown file in `Silmaril/` whose frontmatter has `team_id` and `name`. Only the fields listed under `teams.fields` in the manifest are published (manager, founded, championships, active). All 13 teams have notes; if the frontmatter `manager` differs from the note body (Kings Park and Rockaway list a second manager only in the body), the frontmatter value is used.
+- **Takeovers:** `team_successions` moves a roster to its new team from a given season (The Alaskan Huskies took over Rockaway Rangers from 2026-27, owner 2026-10-09). Earlier records keep the old name, and both team objects carry `succeeded_by` / `took_over` links.
 - **Names are kept exactly as written.** The sources contain no renames, so no mapping exists. Names that differ only in punctuation or capitals are reported, not merged.
 
 The team page shows the current roster with recorded keeper prices and how each player was acquired, every draft pick with its draft price and where the player is now, and the team's keepers.

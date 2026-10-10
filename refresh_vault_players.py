@@ -5,7 +5,7 @@ Uses the credentials auth_once.py saved in .secrets/yahoo.json and the token
 code in fetch.py (a rotated refresh token is saved back first; tokens are
 never printed). Writes, in the vault's existing formats:
 
-  <vault>/data/players.json, data/players.csv   the full Yahoo player list
+  <data-dir>/players.json, players.csv          the full Yahoo player list
   <vault>/Silmaril/players/*.md                 one note per player
 
 A note is rewritten only if it still matches what the vault's
@@ -32,7 +32,8 @@ import fetch
 import import_archive
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_VAULT = os.path.normpath(os.path.join(ROOT, "..", "Po-Boys-BBL"))
+DEFAULT_VAULT = os.path.normpath(os.path.join(ROOT, "..", "Po-Boys-BBL", "PBBL"))
+DEFAULT_DATA = os.path.normpath(os.path.join(ROOT, "..", "Po-Boys-BBL", "data"))
 PAGE = 25
 
 
@@ -172,7 +173,8 @@ def write_text(path, text):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--dry-run", action="store_true", help="report only; write nothing to the vault")
-    parser.add_argument("--vault", default=DEFAULT_VAULT)
+    parser.add_argument("--vault", default=DEFAULT_VAULT, help="Obsidian vault holding Silmaril/players")
+    parser.add_argument("--data-dir", default=DEFAULT_DATA, help="folder for players.json and players.csv")
     parser.add_argument("--secrets", default=fetch.DEFAULT_SECRETS_FILE)
     parser.add_argument("--report", help="also write the summary to this file")
     args = parser.parse_args(argv)
@@ -215,7 +217,7 @@ def main(argv=None):
     if args.dry_run:
         print("Dry run: nothing written to the vault.")
         return 0
-    data_dir = os.path.join(args.vault, "data")
+    data_dir = args.data_dir
     os.makedirs(data_dir, exist_ok=True)
     write_text(os.path.join(data_dir, "players.json"), json.dumps(players, ensure_ascii=False, indent=2))
     write_text(os.path.join(data_dir, "players.csv"), players_csv(players))

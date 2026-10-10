@@ -1209,6 +1209,24 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
     if any(vp["_fantasy_teams"] for vp in vault_players.values()):
         report.notes.append("Some vault notes list fantasy_teams; that field is not published (rosters come from imports).")
 
+    # Takeovers: from a given season on, a roster listed under the old team name belongs to
+    # the new team. Earlier drafts and keepers keep the old (historical) name.
+    successions = []
+    for entry in manifest.get("team_successions", []):
+        old_name, new_name = clean_text(entry.get("from")), clean_text(entry.get("to"))
+        start = normalize_season(entry["from_season"])
+        if not old_name or not new_name or not entry.get("note"):
+            raise ImportError_("team_successions entries need from, to, from_season and note")
+        moved = 0
+        for snap in rosters:
+            if season_key(snap["season"]) >= season_key(start):
+                for e in snap["entries"]:
+                    if e["team"] == old_name:
+                        e["team"] = new_name
+                        moved += 1
+        successions.append({"from": old_name, "to": new_name, "season": start, "note": entry["note"]})
+        report.notes.append("%s took over %s from %s: %d roster entries moved to the new team." % (
+            new_name, old_name, start, moved))
     team_names = sorted({r["team"] for r in drafts + keepers} | {e["team"] for s in rosters for e in s["entries"]},
                         key=str.lower)
     by_norm = {}
@@ -1235,6 +1253,14 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
     for key, note in sorted(vault_teams.items()):
         if key not in matched:
             report.warn("Vault team note %s (%s) matches no team in the records." % (note["note"], note["name"]))
+    by_name = {t["name"]: t for t in teams}
+    for succ in successions:
+        old_team, new_team = by_name.get(succ["from"]), by_name.get(succ["to"])
+        if not old_team or not new_team:
+            report.warn("Takeover %s -> %s: one of the teams has no records; link not shown." % (succ["from"], succ["to"]))
+            continue
+        old_team["succeeded_by"] = {"team_id": new_team["id"], "season": succ["season"], "note": succ["note"]}
+        new_team["took_over"] = {"team_id": old_team["id"], "season": succ["season"], "note": succ["note"]}
     missing_notes = [t["name"] for t in teams if not t["in_vault"]]
     if missing_notes:
         report.notes.append("Teams without a vault team note (%d): %s." % (len(missing_notes), ", ".join(missing_notes)))

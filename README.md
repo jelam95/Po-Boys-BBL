@@ -9,7 +9,7 @@ A read-only website for the National Bastard Association (Po Boys BBL) fantasy b
 - `archive/REPORT.md`: the latest import and validation report.
 - `tests/`: offline tests for the importer (synthetic workbooks) and for `fetch.py`.
 
-The rest of the repository (`Silmaril/`, `scripts/`, `data/`, the loose notes) is older content and is not part of the site. The authoritative vault is the separate folder `../Po-Boys-BBL`.
+The rest of the repository (`Silmaril/`, `scripts/`, `data/`, the loose notes) is older content and is not part of the site. The authoritative vault is the Obsidian vault `../Po-Boys-BBL/PBBL` (its `data/` and `scripts/` sit one level up, in `../Po-Boys-BBL`).
 
 ## 1. Where source workbooks go
 
@@ -36,7 +36,7 @@ python3 -m venv .venv
 .venv/bin/python import_archive.py --check   # validate and write the report only
 ```
 
-The importer reads the vault at `../Po-Boys-BBL` by default (use `--vault PATH` to point elsewhere). It then:
+The importer reads the vault at `../Po-Boys-BBL/PBBL` by default (the `vault` setting in the manifest) (use `--vault PATH` to point elsewhere). It then:
 
 - Matches players by the Yahoo player link in the cell, then by an explicit alias, then by normalised name.
 - Validates every row and writes `archive/REPORT.md`.
@@ -92,6 +92,10 @@ The site is hosted on GitHub Pages from this repository (`jelam95/Po-Boys-BBL`) 
 3. Go to Actions → *Publish league archive* → *Run workflow*. The workflow runs the tests and checks that `archive.json` contains no private import metadata. It uploads exactly `index.html`, `app.js`, `style.css` and `archive.json`, and fails if `site/` holds anything else. It needs no secrets.
 
 Share the Pages URL that the run prints. The page carries `noindex`, so search engines are asked not to list it, but anyone with the link can view it.
+
+## Team takeovers
+
+When a new manager takes over a team's roster, add an entry to `team_successions` in the manifest (`from`, `to`, `from_season`, `note`), then rerun the import. From that season on, rosters listed under the old name belong to the new team. Earlier drafts and keepers keep the old name, and both team pages link to each other. Current entry: The Alaskan Huskies took over the Rockaway Rangers roster from 2026-27. Each team also needs a vault team note in `Silmaril/`.
 
 ## Refreshing NBA teams in the vault
 

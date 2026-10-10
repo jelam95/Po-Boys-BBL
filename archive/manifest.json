@@ -16,10 +16,19 @@
     "fields": [
       "manager",
       "founded",
-      "championships"
+      "championships",
+      "active"
     ]
   },
-  "vault": "../Po-Boys-BBL",
+  "team_successions": [
+    {
+      "from": "Rockaway Rangers",
+      "to": "The Alaskan Huskies",
+      "from_season": "2026-27",
+      "note": "The Alaskan Huskies took over the Rockaway Rangers roster (owner, 2026-10-09)."
+    }
+  ],
+  "vault": "../Po-Boys-BBL/PBBL",
   "vault_players_dir": "Silmaril/players",
   "workbooks_dir": "archive/workbooks",
   "workbooks": [
