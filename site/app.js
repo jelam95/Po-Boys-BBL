@@ -393,7 +393,7 @@ function homeView() {
         const cbk = x.fee_key === "cbk";
         return h("li", { class: cbk ? null : "not-kept" }, cbk ? feeBadge(x.fee_key, x.fee_short || "Can't keep") : feeBadge("notkept", "Not kept"), " ",
           playerLink(x.player_id, displayName(x.player_id, x.source_name)),
-          h("span", { class: "top-team" }, now ? teamLink(now.team_id, now.team) : teamLink(x.team_id, x.team)),
+          h("span", { class: "top-team" }, now ? teamLink(now.team_id, now.team) : teamLink(successorId(x.team_id, snap && snap.season))),
           h("span", { class: "returning-note" }, `${draftSeason} draft price ${moneyText(x.salary, x.salary_display)}`));
       })));
   }
@@ -427,6 +427,13 @@ function teamSummary(team) {
   const newestDraft = d.seasons.draft.length ? d.seasons.draft[d.seasons.draft.length - 1] : null;
   const picks = d.drafts.filter((x) => x.team_id === team.id && x.season === newestDraft);
   return { roster, picks, newestDraft, spent: picks.reduce((sum, x) => sum + (x.salary || 0), 0) };
+}
+
+// A team whose roster was taken over by the given season is shown as the team that took it over.
+function successorId(teamId, season) {
+  const team = state.teams.get(teamId);
+  const succ = team && team.succeeded_by;
+  return succ && season && seasonYear(succ.season) <= seasonYear(season) ? succ.team_id : teamId;
 }
 
 function isInactive(team) {
