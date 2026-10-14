@@ -28,8 +28,34 @@
   ],
   "announcements": [
     {
-      "text": "Keepers are live on Yahoo. Submit your keepers before the deadline runs up.",
-      "until_event": "keeper-deadline"
+      "text": "Keepers are in. Every team's 2026-27 keepers and their prices are posted.",
+      "until_event": "draft",
+      "link": {"href": "#keepers/2026-27", "text": "See this year's keepers"}
+    }
+  ],
+  "keeper_lists": [
+    {
+      "_comment": "Owner, 2026-10-13: keepers announced for 2026-27. Each price is the player's keeper price in the 2026-10-09 roster snapshot. Vegas Mirotićs kept no one. Team names match the snapshot's (punctuation-insensitive).",
+      "season": "2026-27",
+      "prices_from_roster": "2026-10-09",
+      "teams": {
+        "Bayonne Dealers": ["Victor Wembanyama", "Kawhi Leonard"],
+        "Alec's Team": ["Donovan Clingan", "Alex Sarr"],
+        "Branchburg Bedwetters": ["Cooper Flagg", "Kyrie Irving", "Zach Edey"],
+        "Kings Park Blogsmen": ["Tyrese Haliburton", "Jalen Johnson", "Michael Porter Jr."],
+        "Paulus Hookers": ["Anthony Edwards", "Trey Murphy III"],
+        "Jersey City Jreamers": ["Luka Doncic", "Bam Adebayo", "Brandon Miller", "Nickeil Alexander-Walker", "Neemias Queta"],
+        "Jesus Shuttlesworth": ["Onyeka Okongwu", "Franz Wagner"],
+        "The Alaskan Huskies": ["Domantas Sabonis", "Deni Avdija", "Dejounte Murray", "Kon Knueppel"],
+        "San Q'tin Stallions": ["Cade Cunningham", "Jayson Tatum", "Josh Giddey", "Austin Reaves", "Jalen Duren", "Kel'el Ware"],
+        "Vegas Mirotićs": [],
+        "Vlade’s Dance": ["Scottie Barnes", "Amen Thompson"],
+        "Bubba Gump Schrempf Co.": ["Keyonte George", "Stephon Castle"]
+      },
+      "trades": [
+        {"player": "Bam Adebayo", "from": "Vlade’s Dance", "to": "Jersey City Jreamers", "note": "pre-draft trade (owner, 2026-10-13)"},
+        {"player": "Nickeil Alexander-Walker", "from": "Alec's Team", "to": "Jersey City Jreamers", "note": "pre-draft trade (owner, 2026-10-13)"}
+      ]
     }
   ],
   "teams": {

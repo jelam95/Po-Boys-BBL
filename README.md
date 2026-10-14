@@ -97,14 +97,18 @@ Share the Pages URL that the run prints. The page carries `noindex`, so search e
 
 The home page counts down to each entry in `events` in `archive/manifest.json`. Each entry needs `id`, `label`, and `at` as an ISO time with a UTC offset; Eastern time in October is `-04:00`. `zone: "ET"` shows the target time in Eastern for every visitor.
 
-`announcements` adds notices above the home page's hero. A notice with `until_event` disappears by itself once that event's time passes.
+`announcements` adds notices above the home page's hero. A notice with `until_event` disappears by itself once that event's time passes. An optional `link` (`{"href": "#keepers/2026-27", "text": "..."}`) adds a link to a page on the site; only in-site `#` links are accepted. `#keepers/<season>` opens Keeper History on that season.
 
 Current settings:
 - **Keeper deadline:** Sun Oct 11, 2026, 11:00 PM ET.
 - **Draft:** Wed Oct 14, 2026, 7:00 PM ET.
-- **Notice:** "Keepers are live on Yahoo…", shown until the keeper deadline.
+- **Notice:** "Keepers are in…", linking to the 2026-27 keepers, shown until the draft starts.
 
 To change a date: edit the manifest, rerun the import, push and run the publish workflow. The countdowns themselves tick in the visitor's browser, so they need no republishing while they run.
+
+## Announcing keepers
+
+When the keepers are announced, add them to `keeper_lists` in `archive/manifest.json`: the `season`, the roster snapshot to price them from (`prices_from_roster`, its snapshot date), and each team's kept players. The import prices each keeper at his keeper price in that snapshot. A player listed under a team he isn't on in the snapshot stops the import unless `trades` records the move (`player`, `from`, `to`, `note`); trades don't reset a player's price (rule 2a). The next season's price to keep is left blank.
 
 ## People's names
 

@@ -746,6 +746,63 @@ def price_roster(snap, cfg, drafts, report):
                       "fee_key": None, "fee_type": None, "fee_short": None})
 
 
+def read_keeper_lists(manifest, rosters, players, report):
+    """Keepers announced in the manifest (`keeper_lists`), priced from a roster snapshot.
+
+    Each kept player must be on that team in the snapshot, unless a listed trade moved him
+    there. Trades don't reset a player's price (rule 2a), so the snapshot price still applies."""
+    records = []
+    for cfg in manifest.get("keeper_lists", []):
+        season = normalize_season(cfg["season"])
+        snap = next((s for s in rosters if s["season"] == season and s["snapshot_date"] == cfg.get("prices_from_roster")), None)
+        if snap is None:
+            raise ImportError_("keeper_lists %s: no %s roster snapshot dated %r to price keepers from" % (
+                season, season, cfg.get("prices_from_roster")))
+        teams = {normalize_name(e["team"]): e["team"] for e in snap["entries"]}
+        on_roster = {e["player_id"]: e for e in snap["entries"]}
+        trades = {}
+        for t in cfg.get("trades", []):
+            if not t.get("player") or not t.get("from") or not t.get("to") or not t.get("note"):
+                raise ImportError_("keeper_lists %s: trades need player, from, to and note" % season)
+            trades[normalize_name(t["player"])] = t
+        source = "keeper_lists %s" % season
+        n = 0
+        for team_label, names in cfg.get("teams", {}).items():
+            team = teams.get(normalize_name(team_label))
+            if team is None:
+                report.error("%s: team %r is not in the %s roster snapshot." % (source, team_label, snap["snapshot_date"]))
+                continue
+            for name in names:
+                n += 1
+                where = "%s #%d" % (source, n)
+                pid = players.match(clean_text(name), None, where)
+                entry = on_roster.get(pid)
+                if entry is None:
+                    report.error("%s: %s is not on any roster in the %s snapshot." % (where, name, snap["snapshot_date"]))
+                    continue
+                if entry["team"] != team:
+                    trade = trades.get(normalize_name(name))
+                    if not trade or normalize_name(trade["from"]) != normalize_name(entry["team"]) \
+                            or normalize_name(trade["to"]) != normalize_name(team):
+                        report.error("%s: %s is on %s in the %s snapshot, not %s; list the trade if he moved." % (
+                            where, name, entry["team"], snap["snapshot_date"], team))
+                        continue
+                    report.notes.append("%s: %s kept by %s after a trade from %s: %s." % (
+                        source, name, team, entry["team"], trade["note"]))
+                if entry.get("keeper_price") is None:
+                    report.error("%s: %s has no keeper price in the %s snapshot (%s)." % (
+                        where, name, snap["snapshot_date"], entry.get("keeper_price_display") or "none recorded"))
+                    continue
+                records.append({"season": season, "player_id": pid, "source_name": clean_text(name), "team": team,
+                                "draft_pick": None, "cost": entry["keeper_price"],
+                                "cost_display": entry["keeper_price_display"], "cost_note": entry.get("keeper_price_note"),
+                                "next_cost": None, "next_cost_display": None, "next_cost_note": None,
+                                "_source": {"file": "manifest.json", "sheet": source, "row": n}})
+    for k in records:
+        k["id"] = "k-%s-%s" % (k["season"], k["player_id"])
+    return records
+
+
 def check_accuracy(drafts, cfg, report):
     """Report-only check of recorded keeper prices against the configured fee rules.
     Nothing here is published; it tells the owner where the workbook disagrees."""
@@ -1044,7 +1101,12 @@ def build_events(manifest):
             raise ImportError_("announcements need text")
         if a.get("until_event") and a["until_event"] not in ids:
             raise ImportError_("announcement until_event %r is not an event id" % a["until_event"])
-        notes.append({"text": a["text"], "until_event": a.get("until_event")})
+        link = a.get("link")
+        if link is not None and (not isinstance(link, dict) or not link.get("text")
+                                 or not re.match(r"^#[A-Za-z0-9/_\-]*$", link.get("href", ""))):
+            raise ImportError_("announcement link needs text and an in-site href like #keepers/2026-27")
+        notes.append({"text": a["text"], "until_event": a.get("until_event"),
+                      "link": {"href": link["href"], "text": link["text"]} if link else None})
     return events, notes
 
 
@@ -1264,7 +1326,12 @@ def build(manifest_path, aliases_path, output_path, vault_override=None):
         successions.append({"from": old_name, "to": new_name, "season": start, "note": entry["note"]})
         report.notes.append("%s took over %s from %s: %d roster entries moved to the new team." % (
             new_name, old_name, start, moved))
-    team_names = sorted({r["team"] for r in drafts + keepers} | {e["team"] for s in rosters for e in s["entries"]},
+    # Announced keepers are read after takeovers, so they name the current teams.
+    announced = read_keeper_lists(manifest, rosters, players, report)
+    check_duplicates([], announced, report)
+    keepers.extend(announced)
+    keepers.sort(key=lambda k: (season_key(k["season"]), k["team"].lower(), k["source_name"]))
+    team_names =sorted({r["team"] for r in drafts + keepers} | {e["team"] for s in rosters for e in s["entries"]},
                         key=str.lower)
     by_norm = {}
     for team in team_names:

@@ -433,6 +433,63 @@ class ImporterTest(unittest.TestCase):
         self.assertEqual(e["Jalen Williams"]["keeper_price"], 15)
         self.assertEqual((e["Tyrese Maxey"]["fee_key"], e["Bobby Portis"]["fee_key"]), ("first", "undrafted"))
 
+    ROSTER = {"A1": "Team A", "A2": "Player", "A3": "Tyrese Maxey", "A4": "Bobby Portis",
+              "B1": "Team B", "B2": "Player", "B3": "Jalen Williams"}
+
+    def add_to_manifest(self, **fields):
+        with open(self.manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
+        manifest.update(fields)
+        self.write_json(self.manifest_path, manifest)
+
+    def keeper_list(self, teams, trades=()):
+        return [{"season": "2026-27", "prices_from_roster": "2026-10-09", "teams": teams, "trades": list(trades)}]
+
+    def test_keeper_list_priced_from_roster_with_trade(self):
+        self.priced_setup(self.GOOD_PRICES, roster=self.ROSTER)
+        self.add_to_manifest(keeper_lists=self.keeper_list(
+            {"team a": ["Tyrese Maxey", "Bobby Portis"], "Team B": ["Nikola Jokic"], "Team C": []},
+            trades=[{"player": "Nikola Jokic", "from": "Team A", "to": "Team B", "note": "test"}]))
+        code, output = self.run_import()
+        self.assertEqual(code, 1)                    # Jokić is on no roster; Team C doesn't exist
+        self.assertIn("Nikola Jokic is not on any roster", output)
+        self.assertIn("team 'Team C' is not in the 2026-10-09 roster snapshot", output)
+        self.add_to_manifest(keeper_lists=self.keeper_list({"Team A": ["Tyrese Maxey", "Bobby Portis"], "Team B": []}))
+        code, output = self.run_import()
+        self.assertEqual(code, 0, output)
+        data = self.load()
+        k = {r["source_name"]: r for r in data["keepers"] if r["season"] == "2026-27"}
+        self.assertEqual((k["Tyrese Maxey"]["cost"], k["Tyrese Maxey"]["team"], k["Tyrese Maxey"]["next_cost"]),
+                         (59, "Team A", None))
+        self.assertEqual((k["Bobby Portis"]["cost_display"], k["Bobby Portis"]["id"]), ("$15", "k-2026-27-500"))
+        self.assertIn("2026-27", data["seasons"]["keeper"])
+
+    def test_keeper_list_moved_player_needs_trade(self):
+        self.priced_setup(self.GOOD_PRICES, roster=self.ROSTER)
+        self.add_to_manifest(keeper_lists=self.keeper_list({"Team A": ["Jalen Williams"]}))
+        code, output = self.run_import()
+        self.assertEqual(code, 1)
+        self.assertIn("Jalen Williams is on Team B in the 2026-10-09 snapshot, not Team A", output)
+        self.add_to_manifest(keeper_lists=self.keeper_list(
+            {"Team A": ["Jalen Williams"]},
+            trades=[{"player": "Jalen Williams", "from": "Team B", "to": "Team A", "note": "pre-draft trade"}]))
+        code, output = self.run_import()
+        self.assertEqual(code, 0, output)
+        k = [r for r in self.load()["keepers"] if r["season"] == "2026-27"]
+        self.assertEqual([(r["team"], r["cost"]) for r in k], [("Team A", 15)])
+        self.assertIn("kept by Team A after a trade from Team B: pre-draft trade", self.report_text())
+
+    def test_announcement_link_must_stay_in_site(self):
+        self.priced_setup(self.GOOD_PRICES)
+        self.add_to_manifest(announcements=[{"text": "Keepers are in.",
+                                             "link": {"href": "#keepers/2026-27", "text": "See them"}}])
+        self.assertEqual(self.run_import()[0], 0)
+        self.assertEqual(self.load()["announcements"][0]["link"], {"href": "#keepers/2026-27", "text": "See them"})
+        self.add_to_manifest(announcements=[{"text": "x", "link": {"href": "https://example.com", "text": "y"}}])
+        code, output = self.run_import()
+        self.assertEqual(code, 1)
+        self.assertIn("in-site href", output)
+
     def test_unmapped_fee_label_stops_import(self):
         self.priced_setup(self.GOOD_PRICES)
         with open(self.manifest_path, encoding="utf-8") as f:

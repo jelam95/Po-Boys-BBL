@@ -49,6 +49,10 @@ Matching order: (1) Yahoo player id from the cell's hyperlink; (2) an explicit a
 | `cost`, `cost_display`, `cost_note` | The price the player was kept at for 2025-26, which is that draft record's draft price from `Accuracy.xlsx` (`from_draft: ["cost"]`). |
 | `next_cost`, `next_cost_display`, `next_cost_note` | `Price to Keep`: the updated price to keep the player for 2026-27. If it differs from the draft record's `next_price`, a warning is reported. |
 
+### Announced keepers (`keeper_lists` in the manifest)
+
+2026-27 keepers come from the owner's announcement (2026-10-13), entered in the manifest rather than a workbook. `team` is the listed team; `cost` is the player's `keeper_price` in the roster snapshot named by `prices_from_roster`; `next_cost` and `draft_pick` are empty. A player must be on that team in the snapshot unless a listed trade moved him there (Bam Adebayo and Nickeil Alexander-Walker to Jersey City Jreamers).
+
 ## Roster snapshot (`rosters`)
 
 `{id, season, label, snapshot_date, price_from_draft, undrafted_price, undrafted_rule, entries: [...]}`. The season, label and date come from the manifest entry. Rosters are never inferred from drafts or keepers.
@@ -92,7 +96,7 @@ The team page shows the current roster with recorded keeper prices and how each 
 
 ## Events and announcements
 
-`events` (`{id, label, at, zone, passed_text}`) and `announcements` (`{text, until_event}`) are copied from the manifest. `at` must include a UTC offset. The site computes the countdowns live in the browser.
+`events` (`{id, label, at, zone, passed_text}`) and `announcements` (`{text, until_event, link}`) are copied from the manifest. `at` must include a UTC offset. The site computes the countdowns live in the browser.
 
 ## People
 
